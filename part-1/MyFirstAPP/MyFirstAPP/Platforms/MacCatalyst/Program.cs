@@ -1,7 +1,7 @@
 ﻿using ObjCRuntime;
 using UIKit;
 
-namespace App_test;
+namespace MyFirstAPP;
 
 public class Program
 {

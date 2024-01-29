@@ -1,4 +1,4 @@
-﻿namespace App_test;
+﻿namespace MyFirstAPP;
 
 public partial class AppShell : Shell
 {
