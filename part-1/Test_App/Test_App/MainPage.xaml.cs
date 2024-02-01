@@ -7,7 +7,7 @@ using System.Drawing;
 namespace Test_App;
 
 
-// Define the ICanvas interface
+// Define the ICanvas interface -1
 public interface ICanvas
 {
     void DrawLine(int x1, int y1, int x2, int y2);
