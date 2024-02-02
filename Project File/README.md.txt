@@ -1,0 +1,4 @@
+Abstract:
+As, an intial step; this project is focussed to implement a Sparse Distributed Representation(SDR) representation in MAUI Application. In this project the SDR is used through NeocortexApi 
+framework and the corresponding SDR is represented in 2D Here, it is intented to use some popular SDR library and also the MAUI.Graphics to draw similar SDR produced by the Python script 
+"draw figure.py based on the input sapce.This is a script using a plotting library to generate figures or some kind of visualization. 
