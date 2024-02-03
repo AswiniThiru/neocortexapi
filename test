@@ -1,1 +1,9 @@
 hi i am starting my project
+I'll document all the steps here..
+
+1. forking the neocorteapi and creating my own branch and a group branch
+2. cloning the repo into local machine
+3. Using Visual studio create a MAUI app 
+4. Change the default output settings to a andriod or iphone and run the Main program
+5. now open the phone and check the created app
+6. make some changes to the app to see the difference and play around..
