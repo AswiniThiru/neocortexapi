@@ -1,13 +1,12 @@
 ﻿using Microsoft.Maui.Graphics;
 using System;
 using System.Drawing;
-
-
+using NeoCortexApi;
 
 namespace Test_App;
 
 
-// Define the ICanvas interface -1
+// Define the ICanvas interface
 public interface ICanvas
 {
     void DrawLine(int x1, int y1, int x2, int y2);
