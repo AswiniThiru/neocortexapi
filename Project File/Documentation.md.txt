@@ -1,0 +1,3 @@
+A cross-platform framework called .NET Multi-platform App UI (.NET MAUI) allows C# and XAML developers to create native mobile and desktop  applications. It is developed by Microsoft. It is 
+used to create apps with a single shared codebase that work on Windows, macOS, iOS, Android, and iOS by using.NET MAUI.The main goal is to simplify the process of developing and maintaining
+application across multiple platforms.  
