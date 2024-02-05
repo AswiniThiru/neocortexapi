@@ -1,3 +1,11 @@
 A cross-platform framework called .NET Multi-platform App UI (.NET MAUI) allows C# and XAML developers to create native mobile and desktop  applications. It is developed by Microsoft. It is 
 used to create apps with a single shared codebase that work on Windows, macOS, iOS, Android, and iOS by using.NET MAUI.The main goal is to simplify the process of developing and maintaining
 application across multiple platforms.  
+
+Introduction to SDR
+
+This idea is linked to theories regarding the representation and processing of information in the brain, namely in the neocortex.According to the theory known as Sparse Dispersed 
+Representation, the brain employs a dispersed and sparse coding technique as opposed to a one-to-one mapping between individual neurons and particular concepts or properties. With this 
+method, most neurons stay dormant while a tiny fraction becomes active, or "fires," to reflect a specific idea or information.It is believed that this sparse and scattered pattern of 
+activation has various benefits, such as fault tolerance, resilience, and generalizability to various inputs. It is a fundamental idea in certain theories of how neural networks work, 
+including those that deal with memory formation in the neocortex and hierarchical processing.
