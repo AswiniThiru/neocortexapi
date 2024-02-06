@@ -4,7 +4,7 @@ application across multiple platforms.
 
 Introduction to SDR
 
-This idea is linked to theories regarding the representation and processing of information in the brain, namely in the neocortex.According to the theory known as Sparse Dispersed 
+This idea is closely related to theories regarding the representation and processing of information in the brain, namely in the neocortex.According to the theory known as Sparse Dispersed 
 Representation, the brain employs a dispersed and sparse coding technique as opposed to a one-to-one mapping between individual neurons and particular concepts or properties. With this 
 method, most neurons stay dormant while a tiny fraction becomes active inorder to reflect a specific idea or information.It is believed that this sparse and scattered pattern of 
 activation has various benefits, such as fault tolerance, resilience, and generalizability to various inputs. It is a fundamental idea in certain theories of how neural networks work, 
