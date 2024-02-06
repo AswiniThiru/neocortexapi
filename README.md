@@ -64,3 +64,9 @@ On the Importance of the Newborn Stage When Learning Patterns with the Spatial P
 If your want to contribute on this project please contact us by opening an issue. 
 
 
+Application Scenario 1:
+
+Interface to get Input (SDR Values) and generate output based on that. There will Run, Stop buttons.
+
+
+
