@@ -13,4 +13,4 @@ including those that deal with memory formation in the neocortex and hierarchica
 Artificial neural networks struggle with continuous learning, an issue that biological neural networks can handle with ease. Expanding upon previous work that connected a powerful 
 Transformer model with a core neural circuit via Sparse Distributed Memory (SDM), we develop a modified Multi-Layered Perceptron (MLP) that demonstrates strong ongoing learning capabilities.
 Also discovered that each element of our MLP variation, which we translated from biology, is essential for lifelong learning. Additionally, our approach does not contain any task information or
-memory replay, and it presents new techniques for sparse network training that might be used in many different contexts.
+memory replay, and it presents new techniques for sparse network training that might be used in numerous different contexts.
