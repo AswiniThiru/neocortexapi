@@ -63,4 +63,15 @@ On the Importance of the Newborn Stage When Learning Patterns with the Spatial P
 # Contribute
 If your want to contribute on this project please contact us by opening an issue. 
 
+Project Overview:
+
+In this Project, our team will create an application where we can feed in the SDR values from Spatial pool or Multilearning, and the application will generate the SDR image.
+
+Our team is working on the Application development and scenarios to make it more user friendly.
+
+Application Scenario 1:
+
+Interface to get Input (SDR Values) and generate output based on that. There will Run, Stop buttons.
+
+
 
