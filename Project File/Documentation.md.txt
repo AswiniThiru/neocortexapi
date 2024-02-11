@@ -3,6 +3,10 @@ used to create apps with a single shared codebase that work on Windows, macOS, i
 application across multiple platforms.  
 
 Introduction to SDR
+Pentti Kanerva developed the mathematical model of human long-term memory known as sparse distributed memory (SDM) in 1988 while he was employed at NASA Ames Research Centre.
+Both in theory and in experiments, this memory demonstrates behaviours that are similar to those that have not yet been achieved by machines, such as quick identification of faces or smells,
+the ability to make new connections between seemingly unrelated concepts, etc. Large volumes of information can be stored and retrieved using sparse distributed memory, which prioritises
+similarity above precision. Robot navigation and experience-based robot manipulation have seen several recent applications.
 
 This idea is closely related to theories regarding the representation and processing of information in the brain, namely in the neocortex.According to the theory known as Sparse Dispersed 
 Representation, the brain employs a dispersed and sparse coding technique as opposed to a one-to-one mapping between individual neurons and particular concepts or properties. With this 
