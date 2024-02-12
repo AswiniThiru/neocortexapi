@@ -8,6 +8,11 @@ Both in theory and in experiments, this memory demonstrates behaviours that are 
 the ability to make new connections between seemingly unrelated concepts, etc. Large volumes of information can be stored and retrieved using sparse distributed memory, which prioritises
 similarity above precision. Robot navigation and experience-based robot manipulation have seen several recent applications.
 
+With the exception of the address and data word lengths, the memory is similar to standard computer memory. As we shall see in a moment, it is a generalised random-access memory for lengthy
+words, and its structure and behaviour are explicable in terms of a standard random-access memory. First, let's take a look at an average random-access memory.Similar to this, the internal
+structure of sparse distributed memory is an array of addressable storage places with a set capacity. It is not feasible to construct a hardware location, or hard location, for every one of
+the 2N addresses due to the length of the addresses. (In light of the immense capacity that such a memory would have, it is also not necessary.)
+
 This idea is closely related to theories regarding the representation and processing of information in the brain, namely in the neocortex.According to the theory known as Sparse Dispersed 
 Representation, the brain employs a dispersed and sparse coding technique as opposed to a one-to-one mapping between individual neurons and particular concepts or properties. With this 
 method, most neurons stay dormant while a tiny fraction becomes active inorder to reflect a specific idea or information.It is believed that this sparse and scattered pattern of 
