@@ -2,6 +2,10 @@ A cross-platform framework called .NET Multi-platform App UI (.NET MAUI) allows 
 used to create apps with a single shared codebase that work on Windows, macOS, iOS, Android, and iOS by using.NET MAUI.The main goal is to simplify the process of developing and maintaining
 application across multiple platforms.  
 
+Xamarin is evaluated by.NET MAUI.To increase performance, forms were expanded from mobile to desktop contexts and the basic user interface controls were rewritten. It shares a lot of 
+similarities with Xamarin Forms, another framework that lets you make cross-platform apps with only one codebase. Developing as much of your app's functionality and UI design as you can in 
+a single project is the main objective of.NET MAUI.Additionally, it supports.NET hot reload, which allows you to make changes to the source code while the programme is operating.
+
 Introduction to SDR
 Pentti Kanerva developed the mathematical model of human long-term memory known as sparse distributed memory (SDM) in 1988 while he was employed at NASA Ames Research Centre.
 Both in theory and in experiments, this memory demonstrates behaviours that are similar to those that have not yet been achieved by machines, such as quick identification of faces or smells,
