@@ -15,4 +15,13 @@ Features:
 	Allow users to import SDR data files easily, supporting various formats commonly used in remote sensing applications.
 
 3) Data Export:
-	Provide options for exporting processed SDR images in standard formats, enabling users to share results with colleagues or incorporate them into reports. 
+	Provide options for exporting processed SDR images in standard formats, enabling users to share results with colleagues or incorporate them into reports.
+
+
+Development Timeline:
+
+1) Design and Prototyping:
+	Develop a user interface design and create interactive prototypes for feedback and validation.
+
+2) Development:
+	Implement the core functionalities of the MAUI app, focusing on cross-platform compatibility and efficient SDR image visualization. 
