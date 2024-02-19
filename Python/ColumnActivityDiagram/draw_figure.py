@@ -70,7 +70,6 @@ filename = args.filename
 print (filename)
 # os.path.realpath(__file__)
 
-
 def plotActivityVertically(activeCellsColumn, highlightTouch):
     numTouches = min(maxcycles, len(activeCellsColumn))
     numColumns = len(activeCellsColumn[0])
