@@ -24,4 +24,13 @@ Development Timeline:
 	Develop a user interface design and create interactive prototypes for feedback and validation.
 
 2) Development:
-	Implement the core functionalities of the MAUI app, focusing on cross-platform compatibility and efficient SDR image visualization. 
+	Implement the core functionalities of the MAUI app, focusing on cross-platform compatibility and efficient SDR image visualization.
+
+3) Testing:
+	Conduct rigorous testing, including functional, performance, and security testing, to ensure the app meets high-quality standards.
+
+4) Deployment:
+	Release the MAUI app on relevant app stores and distribution platforms for different operating systems.
+
+5) Feedback Iteration:
+	Continuously gather user feedback and iterate on the app to address any issues or feature requests. 
