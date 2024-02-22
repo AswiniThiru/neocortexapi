@@ -79,6 +79,7 @@ def plotActivityVertically(activeCellsColumn, highlightTouch):
         #subplot_titles=('Column 1', 'Column 2', 'Column 3')[0:numColumns]
     )
 
+    
     data = go.Scatter(x=[], y=[])
 
     shapes = []
