@@ -5,7 +5,7 @@ managing applications for many platforms is the primary aim.
 Xamarin is evaluated by.NET MAUI.To increase performance, forms were expanded from mobile to desktop contexts and the basic user interface controls were rewritten. It shares a lot of 
 similarities with Xamarin Forms, another framework that allows you make cross-platform apps with only one codebase. Developing as much of your app's functionality and UI design as you can
  in a single project is the main objective of.NET MAUI.Additionally, it supports.NET hot reload, which allows you to make changes to the source code while the programme operating.This is 
-the main developer IDE. 
+the main developer Integrated Development Environment. 
 
 Introduction to SDR
 Pentti Kanerva developed the mathematical structure of human long-term memory known as sparse distributed memory (SDM) in 1988 while he was employed at NASA Ames Research Centre.
