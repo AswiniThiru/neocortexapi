@@ -120,6 +120,8 @@ def plotActivityVertically(activeCellsColumn, highlightTouch):
                         },
                     )
 
+
+    
     # Legend for x-axis and appropriate title
     
     # depending on the python version you might have to remove the list(..)
