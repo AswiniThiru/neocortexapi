@@ -31,3 +31,6 @@ Transformer model with a core neural circuit via Sparse Distributed Memory (SDM)
 Also discovered that each element of our MLP variation, which we translated from biology, is essential for lifelong learning. Additionally, our approach does not contain any task information or
 memory replay, and it presents new techniques for sparse network training that might be used in numerous different contexts.It offers an extensive feature set and tool set for developing
  cross-platform apps. You may use Visual Studio's extensive ecosystem to create and debug your MAUI applications for Windows, macOS, iOS, and Android.
+
+The potent cross-platform tool.NET MAUI, also called.NET Multi-platform App UI, can deliver desktop and mobile applications. Its main advantages include many page versions for creating rich 
+navigation types and an easy-to-use layout engine for designing pages. Innowise outsources the knowledge of its internal experts in addition to creating.NET MAUI programmes from scratch.
