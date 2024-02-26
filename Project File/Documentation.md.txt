@@ -20,7 +20,7 @@ words, and its structure and behaviour are explicable in terms of a standard ran
 structure of sparse distributed memory is an array of addressable storage places with a set capacity. It is not feasible to construct a hardware location, or hard location, for every one of
 the 2N addresses due to the length of the addresses. (In light of the immense capacity that such a memory would have, it is also not necessary.)
 
-This idea is closely related to theories regarding the representation and processing of information in the brain, namely in the neocortex.According to the theory known as Sparse Dispersed 
+This idea is closely related to theories regarding the representation and processing of information in the brain, especially in the neocortex.According to the theory known as Sparse Dispersed 
 Representation, the brain employs a dispersed and sparse coding technique as opposed to a one-to-one mapping between individual neurons and particular concepts or properties. With this 
 method, most neurons stay dormant while a tiny fraction becomes active inorder to reflect a specific idea or information.It is believed that this sparse and scattered pattern of 
 activation has various benefits, such as fault tolerance, resilience, and generalizability to various inputs. It is a fundamental idea in certain theories of how neural networks performs in a 
@@ -30,5 +30,4 @@ Artificial neural networks struggle with continuous learning, an issue that biol
 Transformer model with a core neural circuit via Sparse Distributed Memory (SDM), we develop a modified Multi-Layered Perceptron (MLP) that demonstrates strong ongoing learning capabilities.
 Also discovered that each element of our MLP variation, which we translated from biology, is essential for lifelong learning. Additionally, our approach does not contain any task information or
 memory replay, and it presents new techniques for sparse network training that might be used in numerous different contexts.It offers an extensive feature set and tool set for developing
- cross-platform apps. You may use Visual Studio's extensive ecosystem to create and debug your MAUI 
-apps for Windows, macOS, iOS, and Android.
+ cross-platform apps. You may use Visual Studio's extensive ecosystem to create and debug your MAUI applications for Windows, macOS, iOS, and Android.
