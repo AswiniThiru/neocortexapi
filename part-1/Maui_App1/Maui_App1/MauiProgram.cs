@@ -3,9 +3,11 @@ using System.Collections.Generic;
 using System.IO;
 using CsvHelper;
 using CsvHelper.Configuration;
+using CommandLine;
 using NeoCortexApi;
 using Plotly;
 using Microsoft.Extensions.Logging;
+using System.Globalization;
 
 namespace Maui_App1;
 
@@ -69,6 +71,65 @@ class MauiProgram
                     PlotActivityVertically(dataSets, highlightTouch, maxCycles, minCell, maxCell, yAxisTitle, xAxisTitle, subPlotTitle, figureName);
                 }
             });
+
+        static void PlotActivityVertically(List<HashSet<int>> activeCellsColumn, int highlightTouch, int maxCycles, int minCell, int maxCell, string yAxisTitle, string xAxisTitle, string subPlotTitle, string figureName)
+        {
+            var numTouches = Math.Min(maxCycles, activeCellsColumn.Count);
+            var numColumns = activeCellsColumn[0].Count;
+
+            var fig = new Plotly.subplots.Figure();
+
+            var data = new Graph.Scatter()
+            {
+                x = new List<object>(),
+                y = new List<object>()
+            };
+
+            var shapes = new List<object>();
+
+            for (int t = 0; t < numTouches; t++)
+            {
+                for (int c = 0; c < numColumns; c++)
+                {
+                    foreach (var cell in activeCellsColumn[t][c])
+                    {
+                        shapes.Add(new
+                        {
+                            type = "rect",
+                            xref = $"x{c + 1}",
+                            yref = "y1",
+                            x0 = t,
+                            x1 = t + 0.6,
+                            y0 = cell,
+                            y1 = cell + 1,
+                            line = new
+                            {
+                                width = 2
+                            }
+                        });
+                    }
+
+                    if (t == highlightTouch)
+                    {
+                        shapes.Add(new
+                        {
+                            type = "rect",
+                            xref = $"x{c + 1}",
+                            x0 = t,
+                            x1 = t + 0.6,
+                            y0 = -95,
+                            y1 = 4100,
+                            line = new
+                            {
+                                color = "rgba(255, 0, 0, 0.5)",
+                                width = 3
+                            }
+                        });
+                    }
+                }
+            }
+
+        }
     }
 }
    
