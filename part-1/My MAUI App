@@ -1,5 +1,0 @@
-Working on the app to create a line using MAUI graphics and ICANVAS
-
-canvas.StrokeColor = Colors.Red;
-canvas.StrokeSize = 6;
-canvas.DrawLine(10, 10, 90, 100);
