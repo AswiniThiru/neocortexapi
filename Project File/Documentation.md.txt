@@ -13,7 +13,7 @@ Pentti Kanerva developed the mathematical structure of human long-term memory kn
 Both in theory and in experiments, this memory demonstrates behaviours that are similar to those that have not yet been achieved by machines, such as quick identification of faces or smells,
 the ability to make new connections between seemingly unrelated concepts, etc. Large volumes of information can be stored and retrieved using sparse distributed memory, which prioritises
 similarity above precision. Robot navigation and experience-based robot manipulation have seen several recent applications.A mathematical model of human memory known as sparse distributed 
-memory makes use of high-dimensional space to simulate the vast amounts of memory seen in a typical human brain network.
+memory makes use of high-dimensional space to simulate the vast amounts of memory present in a typical human brain network.
 
 With the exception of the address and data word lengths, the memory is similar to standard computer memory. As we shall see in a moment, it is a generalised random-access memory for lengthy
 words, and its structure and behaviour are explicable in terms of a standard random-access memory. First, let's take a look at an average random-access memory.Similar to this, the internal
