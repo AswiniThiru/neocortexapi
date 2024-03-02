@@ -1,0 +1,16 @@
+﻿Step 1.
+
+From App.xaml.cs file
+
+1. "namespace MAUI_APP" : namespaces are used to organize code and prevent naming conflicts.
+
+2. https://en.wikipedia.org/wiki/Web_colors for colors of the page
+
+
+step 2.
+
+create a new content page
+
+1. right click > add > new file > .NET MAUI > new content page (XAML)
+
+2. 
