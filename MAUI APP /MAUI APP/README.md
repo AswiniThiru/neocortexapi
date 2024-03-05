@@ -1,3 +1,12 @@
+ML22/23-8 Implement the SDR representation in the MAUI application.
+The NeocortexApi framework provides a Python script draw_figure.py that renders an SDR. Any SDR can be represented in 2D using a script described in this document.
+Your Task is to implement a simple MAUI application that uses the library Maui.Graphics, to draw the same or similar SDR as produced by the Python script draw_figure.py.
+All command line arguments from the script should be entered in the MAU application by using the UI. In addition, the drawing functionality must be implemented in the ‘NeocortexApi.SdrDrawerLib’ library.
+
+
+
+
+
 To implement the SDR representation in the MAUI application using the Maui.Graphics library and integrate the drawing functionality into the 'NeocortexApi.SdrDrawerLib' library, you need to follow these steps:
 
 1. **Understand the Python Script**:
