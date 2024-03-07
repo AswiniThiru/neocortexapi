@@ -20,6 +20,11 @@ import os
 # python draw_figure.py -fn "C:\dev\git\NeoCortex\Results\Spatial Pooler Stability\SpStability Experiment 2 Boost 00 - digits 0 1 2 stable\ActiveColumns_Boost_0_0_plotly-input.csv" -gn "Digit 0" -mc 700 -ht 320 -yt "Column Index" -xt Cycle -st "MinvOverlapCycles=0.1, first 300 cycles" -fign CortialColumn
 # python draw_figure.py -fn sample.txt -gn test1 -mc 19 -ht 8 -yt yaxis -xt xaxis -min 50 -max 4000 -st 'single column' -fign CortialColumn
 # python draw_figure.py -fn sample.txt -gn test1 -mc 19 -ht 8 -yt yaxis -xt xaxis -min 50 -max 4000 -st 'single column' -fign CortialColumn -a
+
+
+
+# argparse is used to let the user know what input needs to be given
+
 parser = argparse.ArgumentParser(description='Draw convergence figure')
 parser.add_argument('--filename', '-fn',help='Filename from which data is supposed to be red', required=True)
 parser.add_argument(
@@ -51,7 +56,7 @@ plotlyAPIKey = os.environ.get('PLOTLY_API_KEY')
 if plotlyAPIKey is not None:
     plotly.plotly.sign_in(plotlyUser, plotlyAPIKey)
 
-#text = args.   # Neuron #
+#text = args.   # Neuron # argument variables 
 maxcycles = args.maxcycles
 highlight_touch = args.highlighttouch
 yAxisTitle = args.yaxistitle
@@ -65,7 +70,6 @@ filename = args.filename
 print (filename)
 # os.path.realpath(__file__)
 
-
 def plotActivityVertically(activeCellsColumn, highlightTouch):
     numTouches = min(maxcycles, len(activeCellsColumn))
     numColumns = len(activeCellsColumn[0])
@@ -75,6 +79,7 @@ def plotActivityVertically(activeCellsColumn, highlightTouch):
         #subplot_titles=('Column 1', 'Column 2', 'Column 3')[0:numColumns]
     )
 
+    
     data = go.Scatter(x=[], y=[])
 
     shapes = []
@@ -115,6 +120,8 @@ def plotActivityVertically(activeCellsColumn, highlightTouch):
                         },
                     )
 
+
+    
     # Legend for x-axis and appropriate title
     
     # depending on the python version you might have to remove the list(..)
