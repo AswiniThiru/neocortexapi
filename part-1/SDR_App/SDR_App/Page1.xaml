@@ -14,10 +14,6 @@
                HorizontalOptions="CenterAndExpand"
                VerticalOptions="CenterAndExpand" />
 
-        <Button Text="Attach CSV File"
-                Clicked="OnAttachFileButtonClick"
-                HorizontalOptions="CenterAndExpand"
-                VerticalOptions="CenterAndExpand" />
 
     </VerticalStackLayout>
 </ContentPage>
