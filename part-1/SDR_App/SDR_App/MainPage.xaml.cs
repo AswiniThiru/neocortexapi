@@ -1,4 +1,7 @@
-﻿namespace SDR_App;
+﻿using Csv;
+using CsvHelper;
+
+namespace SDR_App;
 
 public partial class MainPage : ContentPage
 {
@@ -14,4 +17,17 @@ public partial class MainPage : ContentPage
         Navigation.PushAsync(new Page1());
     }
 
+    // Handle button click for file attachment
+    private async void OnAttachFileButtonClick(object sender, EventArgs e)
+    {
+        // Prompt the user to pick a CSV file
+        var result = await FilePicker.PickAsync(new PickOptions { FileTypes = FilePickerFileType.Csv, PickerTitle = "Pick a CSV File" });
+
+        if (result != null)
+        {
+            // Handle the selected CSV file (result.FullPath)
+            // You can perform further processing or store the file path as needed
+            DisplayAlert("File Selected", $"File selected: {result.FileName}", "OK");
+        }
+    }
 }
