@@ -1,163 +1,11 @@
-﻿using System;
-using System.Collections.Generic;
-using System.IO;
-using SkiaSharp;
-
-namespace SDRDrawer
-{
-    class Program
-    {
-        static void Main(string[] args)
-        {
-            if (args.Length < 11)
-            {
-                Console.WriteLine("Insufficient command line arguments.");
-                return;
-            }
-
-            string filename = args[0];
-            string graphename = args[1];
-            int maxcycles = int.Parse(args[2]);
-            int highlighttouch = int.Parse(args[3]);
-            string axis = args[4];
-            string yaxistitle = args[5];
-            string xaxistitle = args[6];
-            int? mincellrange = args[7] != null ? int.Parse(args[7]) : (int?)null;
-            int? maxcellrange = args[8] != null ? int.Parse(args[8]) : (int?)null;
-            string subplottitle = args[9];
-            string figurename = args[10];
-
-            List<List<HashSet<int>>> dataSets = new List<List<HashSet<int>>>();
-            List<int> allCells = new List<int>();
-
-            using (StreamReader reader = new StreamReader(filename))
-            {
-                string line;
-                while ((line = reader.ReadLine()) != null)
-                {
-                    string[] values = line.Split(',');
-                    List<HashSet<int>> dataSet = new List<HashSet<int>>();
-
-                    foreach (string value in values)
-                    {
-                        int cell = int.Parse(value.Trim());
-                        allCells.Add(cell);
-                        dataSet.Add(new HashSet<int>() { cell });
-                    }
-
-                    dataSets.Add(dataSet);
-                }
-            }
-
-            int maxCell = allCells.Count > 0 ? allCells.Max() + 100 : 100;
-            int minCell = allCells.Count > 0 ? allCells.Min() - 100 : -100;
-
-            if (axis == "x")
-            {
-                PlotActivityHorizontally(dataSets, highlighttouch, maxcycles, graphename, xaxistitle, yaxistitle, figurename, minCell, maxCell);
-            }
-            else
-            {
-                PlotActivityVertically(dataSets, highlighttouch, maxcycles, graphename, xaxistitle, yaxistitle, figurename, minCell, maxCell);
-            }
-
-            Console.WriteLine("SDR image generated successfully!");
-        }
-
-        static void PlotActivityVertically(List<List<HashSet<int>>> activeCellsColumn, int highlightTouch, int maxcycles, string graphename, string xaxistitle, string yaxistitle, string figurename, int minCell, int maxCell)
-        {
-            int numTouches = Math.Min(maxcycles, activeCellsColumn.Count);
-            int numColumns = activeCellsColumn[0].Count;
-            int cellWidth = 6;
-            int cellHeight = 6;
-            int cellSpacing = 4;
-            int canvasWidth = 700;
-            int canvasHeight = 600;
-
-            using (SKBitmap bitmap = new SKBitmap(canvasWidth, canvasHeight))
-            using (SKCanvas canvas = new SKCanvas(bitmap))
-            {
-                canvas.Clear(SKColors.White);
-
-                for (int t = 0; t < activeCellsColumn.Count; t++)
-                {
-                    if (t < numTouches)
-                    {
-                        for (int c = 0; c < activeCellsColumn[t].Count; c++)
-                        {
-                            foreach (int cell in activeCellsColumn[t][c])
-                            {
-                                SKPaint paint = new SKPaint
-                                {
-                                    Color = SKColors.Black,
-                                    IsStroke = false,
-                                    Style = SKPaintStyle.Fill
-                                };
-                                SKRect rect = SKRect.Create(
-                                    c * (cellWidth + cellSpacing),
-                                    t * (cellHeight + cellSpacing),
-                                    cellWidth,
-                                    cellHeight);
-                                canvas.DrawRect(rect, paint);
-                            }
-
-                            if (t == highlightTouch)
-                            {
-                                SKPaint paint = new SKPaint
-                                {
-                                    Color = new SKColor(255, 0, 0, 128),
-                                    IsStroke = true,
-                                    StrokeWidth = 3
-                                };
-                                SKRect rect = SKRect.Create(
-                                    0,
-                                    c * (cellWidth + cellSpacing),
-                                    (numTouches + 1) * (cellHeight + cellSpacing),
-                                    cellHeight);
-                                canvas.DrawRect(rect, paint);
-                            }
-                        }
-                    }
-                }
-
-                using (SKPaint paint = new SKPaint())
-                {
-                    paint.TextSize = 20;
-                    paint.Color = SKColors.Black;
-                    canvas.DrawText(xaxistitle, 10, canvasHeight, paint);
-
-                    paint.TextSize = 24;
-                    canvas.DrawText(figurename, canvasWidth / 2, canvasHeight, paint);
-                }
-
-                // Save bitmap as PNG
-                using (SKImage img = SKImage.FromBitmap(bitmap))
-                using (SKData data = img.Encode(SKEncodedImageFormat.Png, 100))
-                using (FileStream fs = new FileStream($"{graphename}{numColumns}.png", FileMode.Create))
-                {
-                    data.SaveTo(fs);
-                }
-            }
-        }
-
-        static void PlotActivityHorizontally(List<List<HashSet<int>>> activeCellsColumn, int highlightTouch, int maxcycles, string graphename, string xaxistitle, string yaxistitle, string figurename, int minCell, int maxCell)
-        {
-            // Similar implementation as PlotActivityVertically but adjusted for horizontal plotting
-            // You can implement this if needed
-        }
-    }
-}
-
-
-
-//using System;
+﻿//using System;
 //using System.Collections.Generic;
 //using System.IO;
 //using SkiaSharp;
 
-//namespace NeocortexApi.SdrDrawerLib
+//namespace SDRDrawer
 //{
-//    class SdrDrawer
+//    class Program
 //    {
 //        static void Main(string[] args)
 //        {
@@ -201,41 +49,36 @@ namespace SDRDrawer
 //                }
 //            }
 
-//            int maxCell = allCells.Max() + 100;
-//            int minCell = allCells.Min() - 100;
+//            int maxCell = allCells.Count > 0 ? allCells.Max() + 100 : 100;
+//            int minCell = allCells.Count > 0 ? allCells.Min() - 100 : -100;
 
-//            PlotActivity(dataSets, highlighttouch, maxcycles, graphename, xaxistitle, yaxistitle, figurename, minCell, maxCell);
+//            if (axis == "x")
+//            {
+//                PlotActivityHorizontally(dataSets, highlighttouch, maxcycles, graphename, xaxistitle, yaxistitle, figurename, minCell, maxCell);
+//            }
+//            else
+//            {
+//                PlotActivityVertically(dataSets, highlighttouch, maxcycles, graphename, xaxistitle, yaxistitle, figurename, minCell, maxCell);
+//            }
 
 //            Console.WriteLine("SDR image generated successfully!");
 //        }
 
-//        static void PlotActivity(List<List<HashSet<int>>> activeCellsColumn, int highlightTouch, int maxcycles, string graphename, string xaxistitle, string yaxistitle, string figurename, int minCell, int maxCell)
+//        static void PlotActivityVertically(List<List<HashSet<int>>> activeCellsColumn, int highlightTouch, int maxcycles, string graphename, string xaxistitle, string yaxistitle, string figurename, int minCell, int maxCell)
 //        {
 //            int numTouches = Math.Min(maxcycles, activeCellsColumn.Count);
 //            int numColumns = activeCellsColumn[0].Count;
 //            int cellWidth = 6;
 //            int cellHeight = 6;
 //            int cellSpacing = 4;
-//            int canvasWidth = (numColumns + 1) * (cellWidth + cellSpacing);
-//            int canvasHeight = (numTouches + 1) * (cellHeight + cellSpacing);
-//            int borderWidth = 30;
+//            int canvasWidth = 700;
+//            int canvasHeight = 600;
 
-//            using (var surface = SKSurface.Create(new SKImageInfo(canvasWidth * 2 + borderWidth * 2, canvasHeight + borderWidth * 2)))
+//            using (SKBitmap bitmap = new SKBitmap(canvasWidth, canvasHeight))
+//            using (SKCanvas canvas = new SKCanvas(bitmap))
 //            {
-//                var canvas = surface.Canvas;
 //                canvas.Clear(SKColors.White);
 
-//                // Draw border
-//                var borderPaint = new SKPaint
-//                {
-//                    Color = SKColors.Black,
-//                    IsStroke = true,
-//                    StrokeWidth = 2
-//                };
-//                var borderRect = SKRect.Create(borderWidth, borderWidth, canvasWidth * 2, canvasHeight);
-//                canvas.DrawRect(borderRect, borderPaint);
-
-//                // Plot vertically
 //                for (int t = 0; t < activeCellsColumn.Count; t++)
 //                {
 //                    if (t < numTouches)
@@ -244,130 +87,71 @@ namespace SDRDrawer
 //                        {
 //                            foreach (int cell in activeCellsColumn[t][c])
 //                            {
-//                                var paint = new SKPaint
+//                                SKPaint paint = new SKPaint
 //                                {
-//                                    Color = SKColors.Blue, // Fill with blue color
+//                                    Color = SKColors.Black,
 //                                    IsStroke = false,
 //                                    Style = SKPaintStyle.Fill
 //                                };
-//                                var startX = (numColumns + 1) * (cellWidth + cellSpacing) + borderWidth + t * (cellWidth + cellSpacing);
-//                                var startY = borderWidth + c * (cellHeight + cellSpacing);
-//                                var endX = startX + cellWidth;
-//                                var endY = startY + cellHeight;
-//                                canvas.DrawRect(startX, startY, endX, endY, paint);
+//                                SKRect rect = SKRect.Create(
+//                                    c * (cellWidth + cellSpacing),
+//                                    t * (cellHeight + cellSpacing),
+//                                    cellWidth,
+//                                    cellHeight);
+//                                canvas.DrawRect(rect, paint);
 //                            }
 
 //                            if (t == highlightTouch)
 //                            {
-//                                var paint = new SKPaint
+//                                SKPaint paint = new SKPaint
 //                                {
 //                                    Color = new SKColor(255, 0, 0, 128),
 //                                    IsStroke = true,
 //                                    StrokeWidth = 3
 //                                };
-//                                var startX = (numColumns + 1) * (cellWidth + cellSpacing) + borderWidth;
-//                                var startY = borderWidth + c * (cellHeight + cellSpacing);
-//                                var endX = startX + canvasWidth; // Adjust width to cover all touches
-//                                var endY = startY + cellHeight;
-//                                canvas.DrawLine(startX, startY, endX, endY, paint);
+//                                SKRect rect = SKRect.Create(
+//                                    0,
+//                                    c * (cellWidth + cellSpacing),
+//                                    (numTouches + 1) * (cellHeight + cellSpacing),
+//                                    cellHeight);
+//                                canvas.DrawRect(rect, paint);
 //                            }
 //                        }
 //                    }
 //                }
 
-//                // Plot horizontally
-//                for (int t = 0; t < activeCellsColumn.Count; t++)
-//                {
-//                    if (t < numTouches)
-//                    {
-//                        for (int c = 0; c < activeCellsColumn[t].Count; c++)
-//                        {
-//                            foreach (int cell in activeCellsColumn[t][c])
-//                            {
-//                                var paint = new SKPaint
-//                                {
-//                                    Color = SKColors.Blue, // Fill with blue color
-//                                    IsStroke = false,
-//                                    Style = SKPaintStyle.Fill
-//                                };
-//                                var startX = borderWidth + c * (cellWidth + cellSpacing);
-//                                var startY = borderWidth + t * (cellHeight + cellSpacing);
-//                                var endX = startX + cellWidth;
-//                                var endY = startY + cellHeight;
-//                                canvas.DrawRect(startX, startY, endX, endY, paint);
-//                            }
-
-//                            if (t == highlightTouch)
-//                            {
-//                                var paint = new SKPaint
-//                                {
-//                                    Color = new SKColor(255, 0, 0, 128),
-//                                    IsStroke = true,
-//                                    StrokeWidth = 3
-//                                };
-//                                var startX = borderWidth + c * (cellWidth + cellSpacing);
-//                                var startY = borderWidth;
-//                                var endX = startX + cellWidth;
-//                                var endY = startY + canvasHeight; // Adjust height to cover all touches
-//                                canvas.DrawLine(startX, startY, endX, endY, paint);
-//                            }
-//                        }
-//                    }
-//                }
-
-//                // Draw x-axis scale values
-//                using (var xScalePaint = new SKPaint())
-//                {
-//                    xScalePaint.TextSize = 12;
-//                    xScalePaint.Color = SKColors.Black;
-//                    for (int i = 0; i <= numColumns; i += 2) // Adjusted to increment by 2
-//                    {
-//                        var xPos = borderWidth + i * (cellWidth + cellSpacing) + cellWidth / 2;
-//                        var yPos = canvasHeight + borderWidth + 20;
-//                        canvas.DrawText($"{i * 2}", xPos, yPos, xScalePaint); // Multiplied by 2 to match the scale values
-//                    }
-//                }
-
-//                // Draw y-axis scale values
-//                using (var yScalePaint = new SKPaint())
-//                {
-//                    yScalePaint.TextSize = 12;
-//                    yScalePaint.Color = SKColors.Black;
-//                    for (int i = 0; i <= numTouches; i += 2) // Adjusted to increment by 2
-//                    {
-//                        var xPos = borderWidth - 20;
-//                        var yPos = borderWidth + i * (cellHeight + cellSpacing) + cellHeight / 2;
-//                        canvas.DrawText($"{i * 2000}", xPos, yPos, yScalePaint); // Multiplied by 2000 to match the scale values
-//                    }
-//                }
-
-//                // Draw axis titles
-//                using (var paint = new SKPaint())
+//                using (SKPaint paint = new SKPaint())
 //                {
 //                    paint.TextSize = 20;
 //                    paint.Color = SKColors.Black;
-//                    canvas.DrawText(xaxistitle, borderWidth + canvasWidth + 50, canvasHeight + borderWidth + 20, paint);
-//                    canvas.DrawText(yaxistitle, borderWidth - 50, borderWidth + canvasHeight / 2, paint);
-//                }
+//                    canvas.DrawText(xaxistitle, 10, canvasHeight, paint);
 
-//                // Draw figure name
-//                using (var paint = new SKPaint())
-//                {
 //                    paint.TextSize = 24;
-//                    paint.Color = SKColors.Black;
-//                    canvas.DrawText(figurename, borderWidth + canvasWidth + 50, borderWidth + 50, paint);
+//                    canvas.DrawText(figurename, canvasWidth / 2, canvasHeight, paint);
 //                }
 
-//                using (var image = surface.Snapshot())
-//                using (var data = image.Encode(SKEncodedImageFormat.Png, 100))
-//                using (var stream = File.OpenWrite($"{graphename}.png"))
+//                // Save bitmap as PNG
+//                using (SKImage img = SKImage.FromBitmap(bitmap))
+//                using (SKData data = img.Encode(SKEncodedImageFormat.Png, 100))
+//                using (FileStream fs = new FileStream($"{graphename}{numColumns}.png", FileMode.Create))
 //                {
-//                    data.SaveTo(stream);
+//                    data.SaveTo(fs);
 //                }
 //            }
 //        }
+
+//        static void PlotActivityHorizontally(List<List<HashSet<int>>> activeCellsColumn, int highlightTouch, int maxcycles, string graphename, string xaxistitle, string yaxistitle, string figurename, int minCell, int maxCell)
+//        {
+//            // Similar implementation as PlotActivityVertically but adjusted for horizontal plotting
+//            // You can implement this if needed
+//        }
 //    }
 //}
+
+
+
+
+
 
 
 
@@ -683,230 +467,230 @@ namespace SDRDrawer
 
 
 
-//using System;
-//using System.Collections.Generic;
-//using System.IO;
-//using SkiaSharp;
-//using SkiaSharp.Views.Desktop;
+using System;
+using System.Collections.Generic;
+using System.IO;
+using SkiaSharp;
+using SkiaSharp.Views.Desktop;
 
-//namespace NeocortexApi.SdrDrawerLib
-//{
-//    class SdrDrawer
-//    {
-//        static void Main(string[] args)
-//        {
-//            if (args.Length < 11)
-//            {
-//                Console.WriteLine("Insufficient command line arguments.");
-//                return;
-//            }
+namespace NeocortexApi.SdrDrawerLib
+{
+    class SdrDrawer
+    {
+        static void Main(string[] args)
+        {
+            if (args.Length < 11)
+            {
+                Console.WriteLine("Insufficient command line arguments.");
+                return;
+            }
 
-//            string filename = args[0];
-//            string graphename = args[1];
-//            int maxcycles = int.Parse(args[2]);
-//            int highlighttouch = int.Parse(args[3]);
-//            string axis = args[4];
-//            string yaxistitle = args[5];
-//            string xaxistitle = args[6];
-//            int? mincellrange = args[7] != null ? int.Parse(args[7]) : (int?)null;
-//            int? maxcellrange = args[8] != null ? int.Parse(args[8]) : (int?)null;
-//            string subplottitle = args[9];
-//            string figurename = args[10];
+            string filename = args[0];
+            string graphename = args[1];
+            int maxcycles = int.Parse(args[2]);
+            int highlighttouch = int.Parse(args[3]);
+            string axis = args[4];
+            string yaxistitle = args[5];
+            string xaxistitle = args[6];
+            int? mincellrange = args[7] != null ? int.Parse(args[7]) : (int?)null;
+            int? maxcellrange = args[8] != null ? int.Parse(args[8]) : (int?)null;
+            string subplottitle = args[9];
+            string figurename = args[10];
 
-//            List<List<HashSet<int>>> dataSets = new List<List<HashSet<int>>>();
-//            List<int> allCells = new List<int>();
+            List<List<HashSet<int>>> dataSets = new List<List<HashSet<int>>>();
+            List<int> allCells = new List<int>();
 
-//            using (StreamReader reader = new StreamReader(filename))
-//            {
-//                string line;
-//                while ((line = reader.ReadLine()) != null)
-//                {
-//                    string[] values = line.Split(',');
-//                    List<HashSet<int>> dataSet = new List<HashSet<int>>();
+            using (StreamReader reader = new StreamReader(filename))
+            {
+                string line;
+                while ((line = reader.ReadLine()) != null)
+                {
+                    string[] values = line.Split(',');
+                    List<HashSet<int>> dataSet = new List<HashSet<int>>();
 
-//                    foreach (string value in values)
-//                    {
-//                        int cell = int.Parse(value.Trim());
-//                        allCells.Add(cell);
-//                        dataSet.Add(new HashSet<int>() { cell });
-//                    }
+                    foreach (string value in values)
+                    {
+                        int cell = int.Parse(value.Trim());
+                        allCells.Add(cell);
+                        dataSet.Add(new HashSet<int>() { cell });
+                    }
 
-//                    dataSets.Add(dataSet);
-//                }
-//            }
+                    dataSets.Add(dataSet);
+                }
+            }
 
-//            int maxCell = allCells.Max() + 100;
-//            int minCell = allCells.Min() - 100;
+            int maxCell = allCells.Max() + 100;
+            int minCell = allCells.Min() - 100;
 
-//            //if (axis == "x")
-//            //{
-//            //    PlotActivityHorizontally(dataSets, highlighttouch, maxcycles, graphename, xaxistitle, yaxistitle, figurename, minCell, maxCell);
-//            //}
-//            //else
-//            //{
-//            //    PlotActivityVertically(dataSets, highlighttouch, maxcycles, graphename, xaxistitle, yaxistitle, figurename, minCell, maxCell);
-//            //}
-//            if (axis == "x")
-//            {
-//                PlotActivityHorizontally(dataSets, highlighttouch, maxcycles, graphename, xaxistitle, yaxistitle, figurename, minCell, maxCell);
-//                PlotActivityVertically(dataSets, highlighttouch, maxcycles, graphename, xaxistitle, yaxistitle, figurename, minCell, maxCell);
-//            }
-//            else
-//            {
-//                PlotActivityVertically(dataSets, highlighttouch, maxcycles, graphename, xaxistitle, yaxistitle, figurename, minCell, maxCell);
-//                PlotActivityHorizontally(dataSets, highlighttouch, maxcycles, graphename, xaxistitle, yaxistitle, figurename, minCell, maxCell);
-//            }
+            //if (axis == "x")
+            //{
+            //    PlotActivityHorizontally(dataSets, highlighttouch, maxcycles, graphename, xaxistitle, yaxistitle, figurename, minCell, maxCell);
+            //}
+            //else
+            //{
+            //    PlotActivityVertically(dataSets, highlighttouch, maxcycles, graphename, xaxistitle, yaxistitle, figurename, minCell, maxCell);
+            //}
+            if (axis == "x")
+            {
+                PlotActivityHorizontally(dataSets, highlighttouch, maxcycles, graphename, xaxistitle, yaxistitle, figurename, minCell, maxCell);
+                PlotActivityVertically(dataSets, highlighttouch, maxcycles, graphename, xaxistitle, yaxistitle, figurename, minCell, maxCell);
+            }
+            else
+            {
+                PlotActivityVertically(dataSets, highlighttouch, maxcycles, graphename, xaxistitle, yaxistitle, figurename, minCell, maxCell);
+                PlotActivityHorizontally(dataSets, highlighttouch, maxcycles, graphename, xaxistitle, yaxistitle, figurename, minCell, maxCell);
+            }
 
-//            Console.WriteLine("SDR image generated successfully!");
-//        }
+            Console.WriteLine("SDR image generated successfully!");
+        }
 
-//        static void PlotActivityVertically(List<List<HashSet<int>>> activeCellsColumn, int highlightTouch, int maxcycles, string graphename, string xaxistitle, string yaxistitle, string figurename, int minCell, int maxCell)
-//        {
-//            int numTouches = Math.Min(maxcycles, activeCellsColumn.Count);
-//            int numColumns = activeCellsColumn[0].Count;
-//            int cellWidth = 6;
-//            int cellHeight = 6;
-//            int cellSpacing = 4;
+        static void PlotActivityVertically(List<List<HashSet<int>>> activeCellsColumn, int highlightTouch, int maxcycles, string graphename, string xaxistitle, string yaxistitle, string figurename, int minCell, int maxCell)
+        {
+            int numTouches = Math.Min(maxcycles, activeCellsColumn.Count);
+            int numColumns = activeCellsColumn[0].Count;
+            int cellWidth = 6;
+            int cellHeight = 6;
+            int cellSpacing = 4;
 
-//            using (var surface = SKSurface.Create(new SKImageInfo(700, 600)))
-//            {
-//                var canvas = surface.Canvas;
-//                canvas.Clear(SKColors.White);
+            using (var surface = SKSurface.Create(new SKImageInfo(700, 600)))
+            {
+                var canvas = surface.Canvas;
+                canvas.Clear(SKColors.White);
 
-//                for (int t = 0; t < activeCellsColumn.Count; t++)
-//                {
-//                    if (t < numTouches)
-//                    {
-//                        for (int c = 0; c < activeCellsColumn[t].Count; c++)
-//                        {
-//                            foreach (int cell in activeCellsColumn[t][c])
-//                            {
-//                                var paint = new SKPaint
-//                                {
-//                                    Color = SKColors.Black,
-//                                    IsStroke = false,
-//                                    Style = SKPaintStyle.Fill
-//                                };
-//                                var rect = SKRect.Create(
-//                                    c * (cellWidth + cellSpacing),
-//                                    t * (cellHeight + cellSpacing),
-//                                    cellWidth,
-//                                    cellHeight);
-//                                canvas.DrawRect(rect, paint);
-//                            }
+                for (int t = 0; t < activeCellsColumn.Count; t++)
+                {
+                    if (t < numTouches)
+                    {
+                        for (int c = 0; c < activeCellsColumn[t].Count; c++)
+                        {
+                            foreach (int cell in activeCellsColumn[t][c])
+                            {
+                                var paint = new SKPaint
+                                {
+                                    Color = SKColors.Black,
+                                    IsStroke = false,
+                                    Style = SKPaintStyle.Fill
+                                };
+                                var rect = SKRect.Create(
+                                    c * (cellWidth + cellSpacing),
+                                    t * (cellHeight + cellSpacing),
+                                    cellWidth,
+                                    cellHeight);
+                                canvas.DrawRect(rect, paint);
+                            }
 
-//                            if (t == highlightTouch)
-//                            {
-//                                var paint = new SKPaint
-//                                {
-//                                    Color = new SKColor(255, 0, 0, 128),
-//                                    IsStroke = true,
-//                                    StrokeWidth = 3
-//                                };
-//                                var rect = SKRect.Create(
-//                                    c * (cellWidth + cellSpacing),
-//                                    0,
-//                                    cellWidth,
-//                                    (numTouches + 1) * (cellHeight + cellSpacing)); // Adjust height to cover all touches
-//                                canvas.DrawRect(rect, paint);
-//                            }
-//                        }
-//                    }
-//                }
+                            if (t == highlightTouch)
+                            {
+                                var paint = new SKPaint
+                                {
+                                    Color = new SKColor(255, 0, 0, 128),
+                                    IsStroke = true,
+                                    StrokeWidth = 3
+                                };
+                                var rect = SKRect.Create(
+                                    c * (cellWidth + cellSpacing),
+                                    0,
+                                    cellWidth,
+                                    (numTouches + 1) * (cellHeight + cellSpacing)); // Adjust height to cover all touches
+                                canvas.DrawRect(rect, paint);
+                            }
+                        }
+                    }
+                }
 
-//                using (var paint = new SKPaint())
-//                {
-//                    paint.TextSize = 20;
-//                    paint.Color = SKColors.Black;
-//                    canvas.DrawText(xaxistitle, 10, 600, paint);
+                using (var paint = new SKPaint())
+                {
+                    paint.TextSize = 20;
+                    paint.Color = SKColors.Black;
+                    canvas.DrawText(xaxistitle, 10, 600, paint);
 
-//                    paint.TextSize = 24;
-//                    canvas.DrawText(figurename + "\n" + "<b>th</b>", 350, 600, paint);
-//                }
+                    paint.TextSize = 24;
+                    canvas.DrawText(figurename + "\n" + "<b>th</b>", 350, 600, paint);
+                }
 
-//                using (var image = surface.Snapshot())
-//                using (var data = image.Encode(SKEncodedImageFormat.Png, 100))
-//                using (var stream = File.OpenWrite($"{graphename}{numColumns}.png"))
-//                {
-//                    data.SaveTo(stream);
-//                }
-//            }
-//        }
+                using (var image = surface.Snapshot())
+                using (var data = image.Encode(SKEncodedImageFormat.Png, 100))
+                using (var stream = File.OpenWrite($"{graphename}{numColumns}.png"))
+                {
+                    data.SaveTo(stream);
+                }
+            }
+        }
 
-//        static void PlotActivityHorizontally(List<List<HashSet<int>>> activeCellsColumn, int highlightTouch, int maxcycles, string graphename, string xaxistitle, string yaxistitle, string figurename, int minCell, int maxCell)
-//        {
-//            int numTouches = Math.Min(maxcycles, activeCellsColumn.Count);
-//            int numColumns = activeCellsColumn[0].Count;
-//            int cellWidth = 6;
-//            int cellHeight = 6;
-//            int cellSpacing = 4;
+        static void PlotActivityHorizontally(List<List<HashSet<int>>> activeCellsColumn, int highlightTouch, int maxcycles, string graphename, string xaxistitle, string yaxistitle, string figurename, int minCell, int maxCell)
+        {
+            int numTouches = Math.Min(maxcycles, activeCellsColumn.Count);
+            int numColumns = activeCellsColumn[0].Count;
+            int cellWidth = 6;
+            int cellHeight = 6;
+            int cellSpacing = 4;
 
-//            using (var surface = SKSurface.Create(new SKImageInfo(700, 600)))
-//            {
-//                var canvas = surface.Canvas;
-//                canvas.Clear(SKColors.White);
+            using (var surface = SKSurface.Create(new SKImageInfo(700, 600)))
+            {
+                var canvas = surface.Canvas;
+                canvas.Clear(SKColors.White);
 
-//                for (int t = 0; t < activeCellsColumn.Count; t++)
-//                {
-//                    if (t < numTouches)
-//                    {
-//                        for (int c = 0; c < activeCellsColumn[t].Count; c++)
-//                        {
-//                            foreach (int cell in activeCellsColumn[t][c])
-//                            {
-//                                var paint = new SKPaint
-//                                {
-//                                    Color = SKColors.Black,
-//                                    IsStroke = false,
-//                                    Style = SKPaintStyle.Fill
-//                                };
-//                                var rect = SKRect.Create(
-//                                    c * (cellWidth + cellSpacing),
-//                                    t * (cellHeight + cellSpacing),
-//                                    cellWidth,
-//                                    cellHeight);
-//                                canvas.DrawRect(rect, paint);
-//                            }
+                for (int t = 0; t < activeCellsColumn.Count; t++)
+                {
+                    if (t < numTouches)
+                    {
+                        for (int c = 0; c < activeCellsColumn[t].Count; c++)
+                        {
+                            foreach (int cell in activeCellsColumn[t][c])
+                            {
+                                var paint = new SKPaint
+                                {
+                                    Color = SKColors.Black,
+                                    IsStroke = false,
+                                    Style = SKPaintStyle.Fill
+                                };
+                                var rect = SKRect.Create(
+                                    c * (cellWidth + cellSpacing),
+                                    t * (cellHeight + cellSpacing),
+                                    cellWidth,
+                                    cellHeight);
+                                canvas.DrawRect(rect, paint);
+                            }
 
-//                            if (t == highlightTouch)
-//                            {
-//                                var paint = new SKPaint
-//                                {
-//                                    Color = new SKColor(255, 0, 0, 128),
-//                                    IsStroke = true,
-//                                    StrokeWidth = 3
-//                                };
-//                                var rect = SKRect.Create(
-//                                    0,
-//                                    c * (cellHeight + cellSpacing),
-//                                    (numTouches + 1) * (cellWidth + cellSpacing), // Adjust width to cover all touches
-//                                    cellHeight);
-//                                canvas.DrawRect(rect, paint);
-//                            }
-//                        }
-//                    }
-//                }
+                            if (t == highlightTouch)
+                            {
+                                var paint = new SKPaint
+                                {
+                                    Color = new SKColor(255, 0, 0, 128),
+                                    IsStroke = true,
+                                    StrokeWidth = 3
+                                };
+                                var rect = SKRect.Create(
+                                    0,
+                                    c * (cellHeight + cellSpacing),
+                                    (numTouches + 1) * (cellWidth + cellSpacing), // Adjust width to cover all touches
+                                    cellHeight);
+                                canvas.DrawRect(rect, paint);
+                            }
+                        }
+                    }
+                }
 
-//                using (var paint = new SKPaint())
-//                {
-//                    paint.TextSize = 20;
-//                    paint.Color = SKColors.Black;
-//                    canvas.DrawText(yaxistitle, 10, 600, paint);
+                using (var paint = new SKPaint())
+                {
+                    paint.TextSize = 20;
+                    paint.Color = SKColors.Black;
+                    canvas.DrawText(yaxistitle, 10, 600, paint);
 
-//                    paint.TextSize = 24;
-//                    canvas.DrawText(figurename + "\n" + "<b>Three</b>", 350, 600, paint);
-//                }
+                    paint.TextSize = 24;
+                    canvas.DrawText(figurename + "\n" + "<b>Three</b>", 350, 600, paint);
+                }
 
-//                using (var image = surface.Snapshot())
-//                using (var data = image.Encode(SKEncodedImageFormat.Png, 100))
-//                using (var stream = File.OpenWrite($"{graphename}{numColumns}.png"))
-//                {
-//                    data.SaveTo(stream);
-//                }
-//            }
-//        }
-//    }
-//}
+                using (var image = surface.Snapshot())
+                using (var data = image.Encode(SKEncodedImageFormat.Png, 100))
+                using (var stream = File.OpenWrite($"{graphename}{numColumns}.png"))
+                {
+                    data.SaveTo(stream);
+                }
+            }
+        }
+    }
+}
 
 
 
@@ -1148,17 +932,17 @@ namespace SDRDrawer
 
 
 
-////using System;
-////using CsvHelper;
-////using SkiaSharp;
+//////using System;
+//////using CsvHelper;
+//////using SkiaSharp;
 
-////namespace NeocortexApi.SdrDrawerLib
-////{
-////    public class SdrDrawer
-////    {
-////        public SdrDrawer()
-////        {
-////        }
-////    }
-////}
+//////namespace NeocortexApi.SdrDrawerLib
+//////{
+//////    public class SdrDrawer
+//////    {
+//////        public SdrDrawer()
+//////        {
+//////        }
+//////    }
+//////}
 
