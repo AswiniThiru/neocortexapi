@@ -10,15 +10,14 @@
 
     <VerticalStackLayout>
 
-        <Label Text="This is the Next Page"
-               FontSize="20"
-               HorizontalOptions="CenterAndExpand"
-               VerticalOptions="CenterAndExpand" />
-
-        <Button Text="Attach CSV File"
-                Clicked="OnAttachFileButtonClick"
-                HorizontalOptions="CenterAndExpand"
-                VerticalOptions="CenterAndExpand" />
-
+         <Label Text="Filename:"/>
+        <Entry x:Name="filenameEntry" Placeholder="Enter Filename" TextChanged="FilenameEntry_TextChanged"/>
+        
+        <Label Text="Graph Name:"/>
+        <Entry x:Name="graphNameEntry" Placeholder="Enter Graph Name" TextChanged="GraphNameEntry_TextChanged"/>
+        
+        <Label Text="Max Cycle:"/>
+        <Picker x:Name="maxCycleDropdown" SelectedIndexChanged="MaxCycleDropdown_SelectedIndexChanged">
+             </Picker>
     </VerticalStackLayout>
 </ContentPage>

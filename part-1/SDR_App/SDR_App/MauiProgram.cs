@@ -20,6 +20,8 @@ public static class MauiProgram
 #endif
 
 	return builder.Build();
+
+
 }
 }
 

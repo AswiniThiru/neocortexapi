@@ -24,7 +24,7 @@
             <Label
                 Text="Welcome to SDR App UI"
                 SemanticProperties.HeadingLevel="Level2"
-                SemanticProperties.Description="Welcome to MAUI App U I"
+                SemanticProperties.Description="Welcome to MAUI App UI"
                 FontSize="18"
                 HorizontalOptions="Center" />
 
