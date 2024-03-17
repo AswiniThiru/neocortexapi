@@ -29,10 +29,9 @@ Development Timeline:
 3) Testing:
 	Conduct rigorous testing, including functional, performance, and security testing, to ensure the app meets high-quality standards.
 
-4) Deployment:
-	Release the MAUI app on relevant app stores and distribution platforms for different operating systems.
+Sprint 1:
 
-5) Feedback Iteration:
-	Continuously gather user feedback and iterate on the app to address any issues or feature requests. 
+ Group Discussion with teammates and worked on information gathering and understanding the basics of developing MAUI App.
 
-Test Cases:
+Sprint 2:
+
