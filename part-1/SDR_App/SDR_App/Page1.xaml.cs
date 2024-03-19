@@ -7,51 +7,42 @@ public partial class Page1 : ContentPage
 {
 	public Page1()
 	{
-		InitializeComponent();
-        InitializeUI();
+        InitializeComponent();
     }
 
-    private void InitializeUI()
+    private void InitializeDropdowns()
     {
-        // Create Text Entry for Filename
-        var filenameEntry = new Entry();
-        filenameEntry.Placeholder = "Enter Filename";
-        filenameEntry.TextChanged += (sender, e) =>
-        {
-            // Do something with the text entered
-        };
-
-        // Create Text Entry for Graph Name
-        var graphNameEntry = new Entry();
-        graphNameEntry.Placeholder = "Enter Graph Name";
-        graphNameEntry.TextChanged += (sender, e) =>
-        {
-            // Do something with the text entered
-        };
-
-        // Create Dropdown for Max Cycle
-        var maxCycleDropdown = new Picker();
-        List<int> maxCycleOptions = new List<int>() { 100, 200, 300, 400, 500 }; // Example options
+        // Populate Max Cycle dropdown
+        List<int> maxCycleOptions = new List<int>() { 100, 200, 300, 400, 500 };
         foreach (var option in maxCycleOptions)
         {
             maxCycleDropdown.Items.Add(option.ToString());
         }
-        maxCycleDropdown.SelectedIndexChanged += (sender, e) =>
+
+        // Populate Min Cell dropdown
+        List<int> minCellOptions = new List<int>() { 1, 2, 3, 4, 5 };
+        foreach (var option in minCellOptions)
         {
-            // Do something with the selected item
-        };
+            minCellDropdown.Items.Add(option.ToString());
+        }
 
-        // Add buttons to the layout
-        var stackLayout = new StackLayout();
-        stackLayout.Children.Add(new Label() { Text = "Filename:" });
-        stackLayout.Children.Add(filenameEntry);
-        stackLayout.Children.Add(new Label() { Text = "Graph Name:" });
-        stackLayout.Children.Add(graphNameEntry);
-        stackLayout.Children.Add(new Label() { Text = "Max Cycle:" });
-        stackLayout.Children.Add(maxCycleDropdown);
+        // Populate Max Cell dropdown
+        List<int> maxCellOptions = new List<int>() { 6, 7, 8, 9, 10 };
+        foreach (var option in maxCellOptions)
+        {
+            maxCellDropdown.Items.Add(option.ToString());
+        }
+    }
 
+    private void Entry_TextChanged(object sender, TextChangedEventArgs e)
+    {
+        // Handle text changed event for text entries
+        // For simplicity, you can perform a common action here or differentiate based on the sender's Name property
+    }
 
-        Content = stackLayout;
+    private void Picker_SelectedIndexChanged(object sender, EventArgs e)
+    {
+        // Handle selected index changed event for dropdowns
+        // For simplicity, you can perform a common action here or differentiate based on the sender's Name property
     }
 }
-
