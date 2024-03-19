@@ -50,6 +50,7 @@ public partial class Page1 : ContentPage
         stackLayout.Children.Add(new Label() { Text = "Max Cycle:" });
         stackLayout.Children.Add(maxCycleDropdown);
 
+
         Content = stackLayout;
     }
 }

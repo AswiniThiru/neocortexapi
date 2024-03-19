@@ -11,13 +11,40 @@
     <VerticalStackLayout>
 
          <Label Text="Filename:"/>
-        <Entry x:Name="filenameEntry" Placeholder="Enter Filename" TextChanged="FilenameEntry_TextChanged"/>
+        <Entry x:Name="filenameEntry" Placeholder="Enter Filename" TextChanged="Entry_TextChanged"/>
         
         <Label Text="Graph Name:"/>
-        <Entry x:Name="graphNameEntry" Placeholder="Enter Graph Name" TextChanged="GraphNameEntry_TextChanged"/>
+        <Entry x:Name="graphNameEntry" Placeholder="Enter Graph Name" TextChanged="Entry_TextChanged"/>
         
         <Label Text="Max Cycle:"/>
-        <Picker x:Name="maxCycleDropdown" SelectedIndexChanged="MaxCycleDropdown_SelectedIndexChanged">
-             </Picker>
+        <Picker x:Name="maxCycleDropdown" SelectedIndexChanged="Picker_SelectedIndexChanged">
+            <!-- Add options dynamically in code-behind -->
+        </Picker>
+        
+        <Label Text="Highest Touch:"/>
+        <Entry x:Name="highestTouchEntry" Placeholder="Enter Highest Touch" TextChanged="Entry_TextChanged"/>
+        
+        <Label Text="Y Axis:"/>
+        <Entry x:Name="yAxisEntry" Placeholder="Enter Y Axis" TextChanged="Entry_TextChanged"/>
+        
+        <Label Text="X Axis:"/>
+        <Entry x:Name="xAxisEntry" Placeholder="Enter X Axis" TextChanged="Entry_TextChanged"/>
+        
+        <Label Text="Min Cell:"/>
+        <Picker x:Name="minCellDropdown" SelectedIndexChanged="Picker_SelectedIndexChanged">
+            <!-- Add options dynamically in code-behind -->
+        </Picker>
+        
+        <Label Text="Max Cell:"/>
+        <Picker x:Name="maxCellDropdown" SelectedIndexChanged="Picker_SelectedIndexChanged">
+            <!-- Add options dynamically in code-behind -->
+        </Picker>
+        
+        <Label Text="Sub Plot:"/>
+        <Entry x:Name="subPlotEntry" Placeholder="Enter Sub Plot" TextChanged="Entry_TextChanged"/>
+        
+        <Label Text="Figure Name:"/>
+        <Entry x:Name="figureNameEntry" Placeholder="Enter Figure Name" TextChanged="Entry_TextChanged"/>
+
     </VerticalStackLayout>
 </ContentPage>
