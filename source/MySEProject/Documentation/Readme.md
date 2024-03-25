@@ -1,3 +1,18 @@
+NeocortexApi.SdrDrawerLib
+
+Description
+NeocortexApi.SdrDrawerLib is a C# library that provides functionality to plot activity data from a sample file using OxyPlot library. It reads data from a text file, processes it, and generates plots either horizontally or vertically based on the provided arguments.
+
+
+Usage
+To use this library, follow these steps:
+
+Ensure you have the required NuGet packages installed. This project relies on OxyPlot for plotting functionality. If you haven't installed it yet, you can do so using NuGet Package Manager.
+
+Include the NeocortexApi.SdrDrawerLib namespace in your C# code file.
+
+
+
 Project Description:
 
 In this project, our team will be developing a .Net Multi-platform App UI and there will be an interface where we will feed the SDR values from either Spatial pool or Multisequence learning and there will be an interface where we can see the SDR output image.
@@ -29,9 +44,4 @@ Development Timeline:
 3) Testing:
 	Conduct rigorous testing, including functional, performance, and security testing, to ensure the app meets high-quality standards.
 
-Sprint 1:
-
- Group Discussion with teammates and worked on information gathering and understanding the basics of developing MAUI App.
-
-Sprint 2:
 
