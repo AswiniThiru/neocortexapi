@@ -1,0 +1,80 @@
+﻿body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif; /* Set a fallback font-family */
+    background-color: #f4f4f4; /* Light gray background color */
+}
+
+.home-col {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px; /* Adding padding for better spacing */
+    background-color: #fff; /* White background color */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.home-row {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start; /* Changed from align-content to align-items */
+}
+
+.textarea-container {
+    height: 90%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.textarea {
+    width: 97%;
+    height: 90%;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    padding: 10px;
+    resize: none;
+    font-size: 14px;
+    outline: none; /* Remove outline on focus */
+}
+
+.file-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: left; /* Changed from left to flex-start */
+    margin-bottom: 20px;
+}
+img {
+    width: 450px;
+    height: 300px;
+}
+
+.pic-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start; /* Changed from left to flex-start */
+    margin-bottom: 20px;
+}
+
+.button-container {
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+.admin-label{
+    font-size:20px;
+    font-weight:500;
+}
+.file-label {
+    font-size: 18px;
+    font-weight: 200;
+}
+.link-button {
+    color:white;
+}
+.link-button:hover{
+    color:white;
+}

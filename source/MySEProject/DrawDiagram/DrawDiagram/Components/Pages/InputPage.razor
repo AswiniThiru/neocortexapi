@@ -1,0 +1,178 @@
+﻿@page "/input"
+@layout Outputlayout
+@inject NavigationManager mynav
+@inject IJSRuntime jsruntime
+<div class="input-page">
+	<h3>Input Page</h3>
+	<div class="buttons-container">
+		<button @onclick="setdefaultvalue">Default (auto set values)</button>
+		<button @onclick="setmanualvalue">Manual Input Entry</button>
+	</div>
+	<div class="input-row">
+		<div class="first-col">
+			<div class="input-container">
+				<label class="input-label">Graph Name</label><br />
+				<input  @bind-value="model.graphname" class="input-field" type="text" id="gName" />
+			</div>
+			<div class="input-container">
+				<label class="input-label">Figure Name</label><br />
+				<input  @bind-value="model.textfile" class="input-field" type="text" id="fName" />
+			</div>
+			<div class="input-container">
+				<label class="input-label">Max Cycle <span style="font-size:10px">0 to @model.maxCycles</span></label><br />
+				<input @bind-value="model.maxCycles"  class="input-field" type="range" id="cycles" />
+			</div>
+		</div>
+		<div class="first-col">
+			<div class="input-container">
+				<label class="input-label">Y-axis Title</label><br />
+				<input  @bind-value="model.yaxis" class="input-field" type="text" id="yaxis" />
+			</div>
+			<div class="input-container">
+				<label class="input-label">X-axis Title</label><br />
+				<input @bind-value="model.xaxis" class="input-field" type="text" id="xaxis" />
+			</div>
+			<div class="input-container">
+				<label class="input-label">Highlight Touch  <span style="font-size:10px">0 to @model.hightouch</span></label><br />
+				<input @bind-value="model.hightouch"  class="input-field" type="range" id="touches" />
+			</div>
+		</div>
+		<div class="first-col">
+			<div class="input-container">
+				<label class="input-label">Min Cell Range</label><br />
+				<select  @bind="model.minrange" class="input-field" id="mincells">
+				</select>
+			</div>
+			<div class="input-container">
+				<label class="input-label">Max Cell Range</label><br />
+				<select  @bind="model.maxrange" class="input-field" id="maxcells">
+				</select>
+			</div>
+			<div class="input-container hide">
+				<label class="input-label">Sub Plot Title</label><br />
+				<input  @bind-value="model.subplottitle" class="input-field" type="range" />
+			</div>
+		</div>
+		<div class="first-col">
+			<div class="input-container">
+				<label class="input-label">Sub Plot Title</label><br />
+				<input  @bind-value="model.subplottitle" class="input-field" type="text" id="subplot" />
+			</div>
+			<div class="input-container hide">
+				<label class="input-label">Grale Name</label><br />
+				<input  class="input-field" type="text" />
+			</div>
+			<div class="input-container hide">
+				<label class="input-label">Grale Name</label>
+				<input class="input-field" type="text" />
+			</div>
+		</div>
+		<div class="button-container">
+			<div class="next-button" style="background-color:#001F34;align-items:center; ">
+				<img @onclick="handleclick" style="width:50px; height:50px" src="images/right-arrow-37.png" />
+			</div>
+			
+		</div>
+	</div>
+</div>
+
+
+
+@code {
+
+	private void submit()
+	{
+		handleclick();
+	}
+
+}
+<script>
+	function gettouches() {
+		return document.getElementById('touches').value;
+	}
+	function getcycle() {
+		return document.getElementById('cycles').value;
+	}
+	function editAbleValues(){
+		let gName = document.getElementById('gName');
+		let fName = document.getElementById('fName');
+		let cycles = document.getElementById('cycles');
+		let yaxis = document.getElementById('yaxis');
+		let xaxis = document.getElementById('xaxis');
+		let touches = document.getElementById('touches');
+		let mincells = document.getElementById('mincells');
+		let maxcells = document.getElementById('maxcells');
+		let subplot = document.getElementById('subplot');
+
+		// Disable all the input fields
+		gName.disabled = false;
+		fName.disabled = false;
+		cycles.disabled = false;
+		yaxis.disabled = false;
+		xaxis.disabled = false;
+		touches.disabled = false;
+		mincells.disabled = false;
+		maxcells.disabled = false;
+		subplot.disabled = false;
+	}
+	function defaultValues() {
+		let gName = document.getElementById('gName');
+		let fName = document.getElementById('fName');
+		let cycles = document.getElementById('cycles');
+		let yaxis = document.getElementById('yaxis');
+		let xaxis = document.getElementById('xaxis');
+		let touches = document.getElementById('touches');
+		let mincells = document.getElementById('mincells');
+		let maxcells = document.getElementById('maxcells');
+		let subplot = document.getElementById('subplot');
+
+		gName.value = "test1";
+		fName.value = "CortialColumn";
+		cycles.value = 19;
+		yaxis.value = "yaxis";
+		xaxis.value = "xaxis";
+		touches.value = "xaxis";
+		mincells.value = 50;
+		maxcells.value = 4000;
+		subplot.value = "single column";
+
+		// Disable all the input fields
+		gName.disabled = true;
+		fName.disabled = true;
+		cycles.disabled = true;
+		yaxis.disabled = true;
+		xaxis.disabled = true;
+		touches.disabled = true;
+		mincells.disabled = true;
+		maxcells.disabled = true;
+		subplot.disabled = true;
+	}
+
+	var maxCellsSelect = document.getElementById('maxcells');
+
+	// Generate options from 100 to 5000 with a difference of 10
+	for (var i = 100; i <= 5000; i += 10) {
+		// Create an option element
+		var option = document.createElement('option');
+		option.value = i;
+		option.textContent = i;
+
+		// Append the option to the select element
+		maxCellsSelect.appendChild(option);
+	}
+	var minCellsSelect = document.getElementById('mincells');
+
+	// Generate options from 100 to 5000 with a difference of 10
+	for (var i = 0; i <= 100; i += 10) {
+		// Create an option element
+		var option1 = document.createElement('option');
+		option1.value = i;
+		option1.textContent = i;
+
+		// Append the option to the select element
+		minCellsSelect.appendChild(option1);
+	}
+
+
+	
+</script>
