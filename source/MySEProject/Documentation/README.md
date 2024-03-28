@@ -15,6 +15,7 @@ The motivation behind this project stems from the need for accessible and user-f
 ## Architecture
 
 
+
 ## Exploring NeocortexApi.SdrDrawerLib Library
 
 ### Purpose
