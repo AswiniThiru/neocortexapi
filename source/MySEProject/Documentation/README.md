@@ -134,21 +134,23 @@ The primary purpose of the `SdValueModel` class is to provide a structured way t
 
 Properties:
 
-- **`textfile`**: Path to the text file containing input data.
-- **`graphname`**: Name of the graph or diagram being plotted.
-- **`maxCycles`**: Maximum number of cycles for the plot.
-- **`hightouch`**: Index of the touch to highlight in the plot.
-- **`yaxis`**: Title of the y-axis.
-- **`xaxis`**: Title of the x-axis.
-- **`minrange`**: Minimum value of the range for the plot.
-- **`maxrange`**: Maximum value of the range for the plot.
-- **`subplottitle`**: Title of the subplot.
-- **`fname`**: File name or identifier.
-- **`axis`**: Axis information.
-- **`fileData`**: Data from the input file.
-- **`datapath`**: Path to the data file.
-- **`outputdatavertical`**: Output data generated for vertical plotting.
-- **`outputdatahorizontal`**: Output data generated for horizontal plotting.
+- `textfile`: Path to the text file containing input data.
+  
+- `graphname`: Name of the graph or diagram being plotted.
+  
+- `maxCycles`: Maximum number of cycles for the plot.
+- `hightouch`: Index of the touch to highlight in the plot.
+- `yaxis`: Title of the y-axis.
+- `xaxis`: Title of the x-axis.
+- `minrange`: Minimum value of the range for the plot.
+- `maxrange`: Maximum value of the range for the plot.
+- `subplottitle`: Title of the subplot.
+- `fname`: File name or identifier.
+- `axis`: Axis information.
+- `fileData`: Data from the input file.
+- `datapath`: Path to the data file.
+- `outputdatavertical`: Output data generated for vertical plotting.
+- `outputdatahorizontal`: Output data generated for horizontal plotting.
 
 Usage:
 
