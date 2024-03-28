@@ -135,9 +135,7 @@ The primary purpose of the `SdValueModel` class is to provide a structured way t
 Properties:
 
 - `textfile`: Path to the text file containing input data.
-  
 - `graphname`: Name of the graph or diagram being plotted.
-  
 - `maxCycles`: Maximum number of cycles for the plot.
 - `hightouch`: Index of the touch to highlight in the plot.
 - `yaxis`: Title of the y-axis.
@@ -163,29 +161,29 @@ Notes:
 
 **3. Filedatahelper Class**
 
-Purpose
+Purpose:
 
 The primary purpose of the Filedatahelper class is to provide convenient methods for accessing and manipulating file data, image paths, and instances of SdValueModal. It serves as a central location for managing these shared resources across multiple components of the library.
 
 Properties:
 
-filedata: A static string property that stores file data as a string.
-imagepath: A static string property that stores the image path.
-Sdvalue: A static property that stores the current instance of SdValueModal.
+- `filedata`: A static string property that stores file data as a string.
+- `imagepath`: A static string property that stores the image path.
+- `Sdvalue`: A static property that stores the current instance of SdValueModal.
 
 **Methods used in Filedatahelper Class**
 
-`getfiledata()`: Retrieves the stored file data as a string.
+- `getfiledata()`: Retrieves the stored file data as a string.
 
-`getimagepath()`: Retrieves the stored image path as a string.
+- `getimagepath()`: Retrieves the stored image path as a string.
 
-`getcurrentSD()`: Retrieves the current instance of SdValueModal.
+- `getcurrentSD()`: Retrieves the current instance of SdValueModal.
 
-`setcurrentSD(SdValueModel model)`: Sets the current instance of SdValueModal.
+- `setcurrentSD(SdValueModel model)`: Sets the current instance of SdValueModal.
 
-`setfiledata(string content)`: Sets the file data with the provided content.
+- `setfiledata(string content)`: Sets the file data with the provided content.
 
-`setimagepath(string path)`: Sets the image path with the provided path.
+- `setimagepath(string path)`: Sets the image path with the provided path.
 
 
 Usage:
