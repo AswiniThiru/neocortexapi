@@ -90,15 +90,15 @@ Purpose: This method plots activity vertically based on provided parameters.
 
 Parameters:
 
-activeCellsColumn: List of hash sets representing active cells in each column.
+- `activeCellsColumn`: List of hash sets representing active cells in each column.
 
-highlightTouch: Index of the touch to highlight.
+- `highlightTouch`: Index of the touch to highlight.
 
-maxCycles: Maximum number of cycles.
+- `maxCycles`: Maximum number of cycles.
 
-minCell, maxCell: Minimum and maximum cell values.
+- `minCell, maxCell`: Minimum and maximum cell values.
 
-yAxisTitle, xAxisTitle, subPlotTitle, figureName, path: Titles and path parameters for the plot.
+- `yAxisTitle, xAxisTitle, subPlotTitle, figureName, path`: Titles and path parameters for the plot.
 
 Explanation:
 
@@ -174,11 +174,17 @@ Sdvalue: A static property that stores the current instance of SdValueModal.
 **Methods used in Filedatahelper Class**
 
 `getfiledata()`: Retrieves the stored file data as a string.
+
 `getimagepath()`: Retrieves the stored image path as a string.
+
 `getcurrentSD()`: Retrieves the current instance of SdValueModal.
+
 `setcurrentSD(SdValueModel model)`: Sets the current instance of SdValueModal.
+
 `setfiledata(string content)`: Sets the file data with the provided content.
+
 `setimagepath(string path)`: Sets the image path with the provided path.
+
 
 Usage:
 
