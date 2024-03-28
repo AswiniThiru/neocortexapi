@@ -18,15 +18,15 @@ The motivation behind this project stems from the need for accessible and user-f
 
 ## Exploring NeocortexApi.SdrDrawerLib Library
 
-## Purpose
+### Purpose
 
 The primary purpose of SdrDrawerLib is to visualize activity data in a graphical format, allowing users to analyze patterns and trends in the data. It offers methods to plot activity both vertically and horizontally, providing flexibility in data representation.
 
-## Dependencies
+### Dependencies
 
 `OxyPlot Nuget Package` : A .NET library for creating plots and charts.
 
-## Installation
+### Installation
 
 To use the SDR Plotting Library in your C# projects, follow these steps:
 
@@ -36,13 +36,13 @@ To use the SDR Plotting Library in your C# projects, follow these steps:
 
 ## Classes
 
-## 1. SdrDrawer Class
+### 1. SdrDrawer Class
 
 Purpose:
 
 This class contains methods for plotting activity data vertically and horizontally.
 
-### Methods used in SdrDrawer Class
+#### Methods used in SdrDrawer Class
 
 **a. PlotActivityVertically Method:**
 
@@ -86,7 +86,7 @@ Specifies the directory for saving the SVG file.
 Exports the plot model to an SVG file.
 Sets the image 
 
-## 2. SdValueModel Class
+### 2. SdValueModel Class
 
 Purpose:
 
@@ -119,7 +119,7 @@ Notes:
 - Ensure that the properties are correctly initialized with appropriate values before using them for plotting.
 - The SdValueModel class provides a convenient way to organize and manage input and output data for diagram plotting operations.
 
-## 3. Filedatahelper Class
+### 3. Filedatahelper Class
 
 Purpose:
 
@@ -131,7 +131,7 @@ Properties:
 - `imagepath`: A static string property that stores the image path.
 - `Sdvalue`: A static property that stores the current instance of SdValueModal.
 
-**Methods used in Filedatahelper Class**
+#### Methods used in Filedatahelper Class
 
 - `getfiledata()`: Retrieves the stored file data as a string.
 
@@ -155,13 +155,13 @@ Notes:
 - Ensure that the properties and methods of the Filedatahelper class are used appropriately within the context of the SdrDrawerLib library.
 - This class provides a centralized approach for managing shared resources and data across different components of the library.
 
-## 4. SdrHelper Class
+### 4. SdrHelper Class
 
 Purpose:
 
 The primary purpose of the SdrHelper class is to process data from an instance of SdValueModel, extract necessary parameters, and utilize the SdrDrawer class to generate SDR plots both vertically and horizontally.
 
-**Methods used in SdrHelper Class:**
+#### Methods used in SdrHelper Class:
 
 newgeneratesdr(SdValueModel model): Generates SDR plots based on the provided SdValueModel instance. It processes the data, extracts parameters, and invokes methods from the SdrDrawer class to create both vertical and horizontal plots.
 
@@ -181,7 +181,7 @@ Notes:
 
 The MAUI desktop app is a multi-platform application built using the .NET MAUI framework, allowing users to generate and visualize Sparse Distributed Representation (SDR) diagrams. SDR is a data representation technique commonly used in various fields such as neuroscience, machine learning, and pattern recognition.
 
-## Dependencies
+### Dependencies
 
 The MAUI desktop app relies on the following dependencies:
 
