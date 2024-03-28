@@ -48,4 +48,49 @@ SdValueModel model = new SdValueModel
 };
 
 newgeneratesdr2(model);
+
+
+Teju
+
+
+**SDR Plotting Library** 
+**Purpose**
+The primary purpose of SdrDrawerLib is to visualize activity data in a graphical format, allowing users to analyze patterns and trends in the data. It offers methods to plot activity both vertically and horizontally, providing flexibility in data representation.Namespaces and Classes:
+Namespaces:
+OxyPlot.Axes, OxyPlot.Series, and OxyPlot: These namespaces belong to the OxyPlot library, which is used for creating plots and charts.
+System, System.Collections.Generic, System.IO: Standard .NET namespaces.
+NeocortexApi.SdrDrawerLib.Models: Namespace for the SdrDrawer class.
+**Classes Used**
+**SdrDrawer:** This class contains methods for plotting activity data vertically and horizontally.
+**Methods**
+**PlotActivityVertically Method:**
+Purpose: This method plots activity vertically based on provided parameters.
+Parameters:
+activeCellsColumn: List of hash sets representing active cells in each column.
+highlightTouch: Index of the touch to highlight.
+maxCycles: Maximum number of cycles.
+minCell, maxCell: Minimum and maximum cell values.
+yAxisTitle, xAxisTitle, subPlotTitle, figureName, path: Titles and path parameters for the plot.
+Explanation:
+It initializes some variables and creates a new plot model.
+Iterates over columns and adds series to the plot model, with optional highlighting.
+Adds axes to the plot model.
+Calculates and appends graph values for each cycle to outputdatavertical.
+Sets plot background and border colors.
+Specifies the directory for saving the SVG file.
+Exports the plot model to an SVG file.
+Sets the image path in Filedatahelper and returns the full path of the generated SVG file.
+**PlotActivityHorizontally Method:**
+Purpose: This method plots activity horizontally based on provided parameters.
+Parameters: Same as PlotActivityVertically.
+Explanation:
+Similar to PlotActivityVertically but plots the data horizontally by swapping the x and y values in the series.
+Calculates and appends graph values for each cycle to outputdatahorizontal.
+Sets plot background and border colors.
+Specifies the directory for saving the SVG file.
+Exports the plot model to an SVG file.
+Sets the image 
+
+
+
  
