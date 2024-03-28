@@ -148,12 +148,12 @@ Properties:
 
 Usage:
 
-The `SdValueModal` class serves as a data container for passing input parameters and storing output data when working with the `SdrDrawerLib` library. It can be instantiated and populated with relevant values before invoking the plotting methods.
+The `SdValueModel` class serves as a data container for passing input parameters and storing output data when working with the `SdrDrawerLib` library. It can be instantiated and populated with relevant values before invoking the plotting methods.
 
 Notes:
 
 - Ensure that the properties are correctly initialized with appropriate values before using them for plotting.
-- The `SdValueModal` class provides a convenient way to organize and manage input and output data for diagram plotting operations.
+- The `SdValueModel` class provides a convenient way to organize and manage input and output data for diagram plotting operations.
 
 **3. Filedatahelper Class**
 
@@ -169,12 +169,12 @@ Sdvalue: A static property that stores the current instance of SdValueModal.
 
 **Methods used in Filedatahelper Class**
 
-getfiledata(): Retrieves the stored file data as a string.
-getimagepath(): Retrieves the stored image path as a string.
-getcurrentSD(): Retrieves the current instance of SdValueModal.
-setcurrentSD(SdValueModal model): Sets the current instance of SdValueModal.
-setfiledata(string content): Sets the file data with the provided content.
-setimagepath(string path): Sets the image path with the provided path.
+'getfiledata()': Retrieves the stored file data as a string.
+'getimagepath()': Retrieves the stored image path as a string.
+'getcurrentSD()': Retrieves the current instance of SdValueModal.
+'setcurrentSD(SdValueModel model)': Sets the current instance of SdValueModal.
+'setfiledata(string content)': Sets the file data with the provided content.
+'setimagepath(string path)': Sets the image path with the provided path.
 
 Usage:
 
