@@ -62,13 +62,13 @@ The primary purpose of SdrDrawerLib is to visualize activity data in a graphical
 
 OxyPlot Nuget Package : A .NET library for creating plots and charts.
 
-Namespaces:
+`Namespaces`:
 
-OxyPlot.Axes, OxyPlot.Series, and OxyPlot: These namespaces belong to the OxyPlot library, which is used for creating plots and charts.
+- OxyPlot.Axes, OxyPlot.Series, and OxyPlot: These namespaces belong to the OxyPlot library, which is used for creating plots and charts.
 
-System, System.Collections.Generic, System.IO: Standard .NET namespaces.
+- System, System.Collections.Generic, System.IO: Standard .NET namespaces.
 
-NeocortexApi.SdrDrawerLib.Models: Namespace for the SdrDrawer class.
+- NeocortexApi.SdrDrawerLib.Models: Namespace for the SdrDrawer class.
 
 **Installation**
 
