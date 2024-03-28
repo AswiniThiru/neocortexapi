@@ -2,35 +2,50 @@ Project Description:
 
 In this project, our team will be developing a .Net Multi-platform App UI and there will be an interface where we will feed the SDR values from either Spatial pool or Multisequence learning and there will be an interface where we can see the SDR output image.
 
-Application Scenario:
 
-The goal of this application is to provide a user-friendly interface to visualize and analyze SDR images seamlessly across different devices and platforms.
+SDR Plot Generation Method:
 
-Features:
+This method, newgeneratesdr, is used to generate an SDR (Sparse Distributed Representation) plot based on the provided model. 
+The method takes an SdValueModel model as input, which contains the necessary data for generating the plot.
 
-1) Compatibility:
-	The MAUI app should be compatible with multiple platforms, including Windows, macOS, iOS, and Android, ensuring accessibility for a diverse user base.
+Input Parameters
 
-2) SDR Data Import:
-	Allow users to import SDR data files easily, supporting various formats commonly used in remote sensing applications.
+SdValueModel model: The model containing the data required for plot generation.
+fileData: The CSV data for the SDR plot.
+graphname: Name of the graph.
+axis: Axis information.
+maxCycles: Maximum cycles.
+hightouch: Highlight touch.
+yaxis: Y-axis title.
+xaxis: X-axis title.
+subplottitle: Subplot title.
+fname: Figure name.
+datapath: Data path.
 
-3) Data Export:
-	Provide options for exporting processed SDR images in standard formats, enabling users to share results with colleagues or incorporate them into reports.
 
+Implementation Details
+Data Processing: The method reads the CSV data from fileData and processes it to create a list of data sets (dataSets) and a list of all cell values (allCells).
+Plot Configuration: 
+It calculates the maximum and minimum cell values, maxCell and minCell respectively, and sets other parameters required for plotting.
+Plot Generation: 
+It sets the current SD in the Filedatahelper and then calls two methods from SdrDrawer to plot the activity vertically and horizontally (PlotActivityVertically and PlotActivityHorizontally respectively).
 
-Development Timeline:
+**Usage**
+To use this method, provide an instance of SdValueModel with the required data, and then call newgeneratesdr with this instance as the argument.
 
-1) Design and Prototyping:
-	Develop a user interface design and create interactive prototypes for feedback and validation.
+SdValueModel model = new SdValueModel
+{
+    fileData = "CSV Data",
+    graphname = "Graph Name",
+    axis = "Axis Information",
+    maxCycles = 10, // Example value
+    hightouch = 5, // Example value
+    yaxis = "Y-axis Title",
+    xaxis = "X-axis Title",
+    subplottitle = "Subplot Title",
+    fname = "Figure Name",
+    datapath = "Data Path"
+};
 
-2) Development:
-	Implement the core functionalities of the MAUI app, focusing on cross-platform compatibility and efficient SDR image visualization.
-
-3) Testing:
-	Conduct rigorous testing, including functional, performance, and security testing, to ensure the app meets high-quality standards.
-
-4) Deployment:
-	Release the MAUI app on relevant app stores and distribution platforms for different operating systems.
-
-5) Feedback Iteration:
-	Continuously gather user feedback and iterate on the app to address any issues or feature requests. 
+newgeneratesdr2(model);
+ 
