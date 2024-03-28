@@ -201,7 +201,7 @@ Notes:
 
 **4. SdrHelper Class**
 
-Purpose
+Purpose:
 
 The primary purpose of the SdrHelper class is to process data from an instance of SdValueModel, extract necessary parameters, and utilize the SdrDrawer class to generate SDR plots both vertically and horizontally.
 
