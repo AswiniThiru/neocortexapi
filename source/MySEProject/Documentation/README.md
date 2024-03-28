@@ -56,15 +56,19 @@ Teju
 **SDR Plotting Library** 
 **Purpose**
 
-The primary purpose of SdrDrawerLib is to visualize activity data in a graphical format, allowing users to analyze patterns and trends in the data. It offers methods to plot activity both vertically and horizontally, providing flexibility in data representation.Namespaces and Classes:
-Namespaces:
-OxyPlot.Axes, OxyPlot.Series, and OxyPlot: These namespaces belong to the OxyPlot library, which is used for creating plots and charts.
-System, System.Collections.Generic, System.IO: Standard .NET namespaces.
-NeocortexApi.SdrDrawerLib.Models: Namespace for the SdrDrawer class.
+The primary purpose of SdrDrawerLib is to visualize activity data in a graphical format, allowing users to analyze patterns and trends in the data. It offers methods to plot activity both vertically and horizontally, providing flexibility in data representation.
 
 **Dependencies**
 
 OxyPlot Nuget Package : A .NET library for creating plots and charts.
+
+Namespaces:
+
+OxyPlot.Axes, OxyPlot.Series, and OxyPlot: These namespaces belong to the OxyPlot library, which is used for creating plots and charts.
+
+System, System.Collections.Generic, System.IO: Standard .NET namespaces.
+
+NeocortexApi.SdrDrawerLib.Models: Namespace for the SdrDrawer class.
 
 **Installation**
 
@@ -130,7 +134,7 @@ Sets the image
 
 Purpose:
 
-The primary purpose of the `SdValueModel` class is to provide a structured way to store input parameters and output data for generating diagrams using the `SdrDrawerLib` library. It encapsulates properties for text file paths, graph names, axis titles, range limits, subplot titles, and output data generated during the plotting process.
+The primary purpose of the SdValueModel class is to provide a structured way to store input parameters and output data for generating diagrams using the `SdrDrawerLib` library. It encapsulates properties for text file paths, graph names, axis titles, range limits, subplot titles, and output data generated during the plotting process.
 
 Properties:
 
@@ -152,12 +156,12 @@ Properties:
 
 Usage:
 
-The `SdValueModel` class serves as a data container for passing input parameters and storing output data when working with the `SdrDrawerLib` library. It can be instantiated and populated with relevant values before invoking the plotting methods.
+The SdValueModel class serves as a data container for passing input parameters and storing output data when working with the SdrDrawerLib library. It can be instantiated and populated with relevant values before invoking the plotting methods.
 
 Notes:
 
 - Ensure that the properties are correctly initialized with appropriate values before using them for plotting.
-- The `SdValueModel` class provides a convenient way to organize and manage input and output data for diagram plotting operations.
+- The SdValueModel class provides a convenient way to organize and manage input and output data for diagram plotting operations.
 
 **3. Filedatahelper Class**
 
