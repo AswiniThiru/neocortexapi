@@ -72,7 +72,7 @@ The primary purpose of SdrDrawerLib is to visualize activity data in a graphical
 
 **Dependencies**
 
-OxyPlot Nuget Package : A .NET library for creating plots and charts.
+`OxyPlot Nuget Package` : A .NET library for creating plots and charts.
 
 **Installation**
 
@@ -84,13 +84,13 @@ To use the SDR Plotting Library in your C# projects, follow these steps:
 
 **Classes**
 
-**1. SdrDrawer** 
+**1. SdrDrawer Class** 
 
 Purpose:
 
 This class contains methods for plotting activity data vertically and horizontally.
 
-**Methods used in SdrDrawer**
+**Methods used in SdrDrawer Class**
 
 **a. PlotActivityVertically Method:**
 
@@ -222,6 +222,173 @@ Notes:
 - Ensure that the SdrDrawer class and SdValueModal model are properly configured before invoking the newgeneratesdr2 method.
 - Exception handling is implemented within the method to handle errors during plot generation.
 - The generated plots will be saved in SVG format at the specified data path.
+
+
+**MAUI Desktop App**
+
+The MAUI desktop app is a multi-platform application built using the .NET MAUI framework, allowing users to generate and visualize Sparse Distributed Representation (SDR) diagrams. SDR is a data representation technique commonly used in various fields such as neuroscience, machine learning, and pattern recognition.
+
+**Dependencies**
+
+The MAUI desktop app relies on the following dependencies:
+
+- `DrawDiagram.Models`: Contains the SdValueModel class for managing input parameters.
+
+- `NeocortexApi.SdrDrawerLib`: Provides the SdrHelper class for generating SDR diagrams.
+
+- `Microsoft.AspNetCore.Components`: Required for handling components in Blazor apps.
+  
+- `Microsoft.JSInterop`: Used for JavaScript interoperation for UI interactions.
+
+**File Handling and Processing Page - Home Page**
+
+The File Handling and Processing Page is a component of the MAUI desktop app responsible for managing file input from the user, processing the content of the selected file, and transitioning to other pages or actions based on the processed data.
+
+**Functionality**
+
+**a. HandleFileChange Method:**
+- Handles the event triggered when a file is selected by the user.
+
+- Reads the content of the selected file asynchronously and stores it in a string variable.
+
+- Invokes the Processcontent method to process the file content.
+
+**b. Gotoinout Method:**
+
+- Invoked to proceed to another page or action.
+
+- Checks if a file has been selected; if not, it triggers the file processing.
+
+- Displays an alert if the file data is empty.
+
+- Sets the file data using Filedatahelper.setfiledata and navigates to another page.
+
+**c. Processcontent Method:**
+
+- Processes the content of the selected file to extract relevant information.
+
+- Uses regular expressions to identify specific patterns in the file content.
+
+- Cleans up the file content by removing certain patterns using regex replacement.
+
+- Extracts cycle values from the file content and sets the Filedatahelper.imagepath accordingly.
+
+**Usage**
+
+1. Selecting a File:
+
+- Users can select a file using the provided file input component.
+
+- The selected file's content is then processed and prepared for further actions.
+
+2. Processing File Content:
+
+- The content of the selected file is cleaned and relevant information is extracted using regex patterns.
+
+- Cycle values are identified and used to set the image path for further processing.
+
+3. Navigating to Other Pages:
+  
+- After processing the file content, users can proceed to other pages or actions within the app.
+
+- Empty file data triggers an alert to notify the user before proceeding.
+
+**Input Page**
+
+The Input Page is a component of the MAUI desktop app responsible for gathering user input to configure parameters for generating Sparse Distributed Representation (SDR) diagrams.
+
+**Functionality**
+
+**a. Initialization:**
+
+Upon initialization, the maxCycles property of the SdValueModel instance (model) is set based on the value retrieved from Filedatahelper.imagepath.
+
+**b. HandleClick Method:**
+
+- Validates the input fields in the form.
+
+- If all required fields are filled, retrieves file data from Filedatahelper.getfiledata().
+
+- Sets the application data path and generates the SDR diagram based on the input parameters using SdrHelper.newgeneratesdr.
+
+- Navigates to the "output" page to display the generated diagram.
+
+**c. BackToHome Method:**
+
+- Navigates back to the home page ("/").
+
+- SetDefaultValue Method:
+
+- Sets default values for the input fields in the form.
+
+- Invokes JavaScript interop to set default values in the UI.
+
+- Updates the UI state.
+
+**d. SetManualValue Method:**
+
+- Allows the user to manually edit input values.
+
+- Invokes JavaScript interop to enable manual editing in the UI.
+
+- Updates the UI state.
+
+**Usage**
+
+1. Input Form: Users fill out the input form with parameters required for generating the SDR diagram.
+
+2. Validation: Input fields are validated to ensure all required fields are filled.
+
+3. Generation of SDR Diagram: Upon successful validation, the SDR diagram is generated based on the provided parameters.
+
+4. Navigation: Users can navigate back to the home page or proceed to view the generated diagram.
+
+**Output Page**
+
+The Output Page is a component of the MAUI desktop app responsible for displaying and managing the output generated from Sparse Distributed Representation (SDR) diagrams.
+
+**Functionality**
+
+**a. Initialization:** 
+
+Upon initialization, the vertical plot is enabled by default (isVerticalPlotEnabled).
+
+**b. SVGPathAsync Method:**
+
+Asynchronously fetches SVG path from a file and generates SDR diagrams based on the retrieved data.
+
+**c. GetBase64Image Method:**
+
+Converts an SVG file to a base64 string for download.
+
+**d. onchangefilename Method:**
+
+- Handles the event when the filename is changed.
+
+- Updates the filename in Filedatahelper.Sdvalue and generates a new graph.
+
+**e. HandleInput Method:**
+
+- Handles the input event and updates the progress value.
+
+- Updates Filedatahelper.Sdvalue.maxCycles and generates a new graph.
+
+**f. DownloadImage Method:**
+
+- Downloads the generated SVG images as horizontal and vertical plots.
+
+- Invokes JavaScript interop to initiate the download and displays an alert upon completion.
+
+**Usage**
+
+1. Manual Input and Adjustment: Input the filename and adjust the progress value to generate customized SDR diagrams.
+
+2. Download Images: Download the generated horizontal and vertical SVG images for further use or sharing.
+
+
+
+
+
 
 
 
