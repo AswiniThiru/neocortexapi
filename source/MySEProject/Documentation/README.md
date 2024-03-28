@@ -3,30 +3,30 @@
 
 
 ---
-**Problem Statement**
+## Problem Statement  
 
 In the realm of machine learning and neuroscience, Sparse Distributed Representations (SDRs) serve as a cornerstone for encoding complex data patterns. However, the visualization of SDRs, particularly in multi-modal applications, poses significant challenges in terms of accessibility and usability. Existing visualization tools often rely on command-line interfaces or specialized software, limiting their adoption and comprehension among non-technical users. To address this gap, this project endeavors to develop an intuitive, interactive SDR visualization tool within the MAUI framework. By leveraging MAUI's capabilities, this tool aims to empower users of all backgrounds to effortlessly explore and interpret intricate data patterns represented by SDRs. By democratizing SDR visualization, this project seeks to bridge the gap between raw data and actionable insights, fostering innovation and understanding across diverse domains.
 
 ---
 
-**Introduction**
+## Introduction
 
 Sparse Distributed Representation (SDR) is a powerful concept in neuroscience and machine learning that enables efficient encoding and representation of information across different domains. Visualization of SDRs plays an important role in understanding their structure, properties, and applications. In this context, the development of software tools to generate SDR images becomes important for researchers and professionals. This research project focuses on creating a multiplatform app UI (MAUI) application for generating SDR images. This application leverages the capabilities of the NeocortexApi framework and different plotting libraries like OxyPlot library and aims to provide the user with an intuitive interface to input parameters and visualize her SDR in 2D.
 The motivation behind this project stems from the need for accessible and user-friendly tools to investigate and analyze SDRs. By developing the MAUI application, we aim to democratize the process of SDR visualization and make it available to a wide range of users, including researchers, educators, and hobbyists. The main objective of this research is to bridge the gap between neuroscience, machine learning, and software engineering by providing a practical solution for generating SDR images. This application aims to allow users to explore the complex structures and patterns encoded in her SDR by implementing a user-friendly interface and efficient drawing functionality. 
 
 ---
 
-**Exploring NeocortexApi.SdrDrawerLib Library** 
+## Exploring NeocortexApi.SdrDrawerLib Library
 
-**Purpose**
+## Purpose
 
 The primary purpose of SdrDrawerLib is to visualize activity data in a graphical format, allowing users to analyze patterns and trends in the data. It offers methods to plot activity both vertically and horizontally, providing flexibility in data representation.
 
-**Dependencies**
+## Dependencies
 
 `OxyPlot Nuget Package` : A .NET library for creating plots and charts.
 
-**Installation**
+## Installation
 
 To use the SDR Plotting Library in your C# projects, follow these steps:
 
@@ -34,15 +34,15 @@ To use the SDR Plotting Library in your C# projects, follow these steps:
 2. Add references to the library DLL files (SdrDrawerLib.dll, DrawDiagram.Models.dll) in your project.
 3. Ensure that all required classes (SdrDrawer, SdValueModal, Filedatahelper, SdrHelper) are accessible in your code files.
 
-**Classes**
+## Classes
 
-**1. SdrDrawer Class** 
+## 1. SdrDrawer Class
 
 Purpose:
 
 This class contains methods for plotting activity data vertically and horizontally.
 
-**Methods used in SdrDrawer Class**
+### Methods used in SdrDrawer Class
 
 **a. PlotActivityVertically Method:**
 
@@ -86,7 +86,7 @@ Specifies the directory for saving the SVG file.
 Exports the plot model to an SVG file.
 Sets the image 
 
-**2. SdValueModel Class**  
+## 2. SdValueModel Class
 
 Purpose:
 
@@ -119,7 +119,7 @@ Notes:
 - Ensure that the properties are correctly initialized with appropriate values before using them for plotting.
 - The SdValueModel class provides a convenient way to organize and manage input and output data for diagram plotting operations.
 
-**3. Filedatahelper Class**
+## 3. Filedatahelper Class
 
 Purpose:
 
@@ -155,7 +155,7 @@ Notes:
 - Ensure that the properties and methods of the Filedatahelper class are used appropriately within the context of the SdrDrawerLib library.
 - This class provides a centralized approach for managing shared resources and data across different components of the library.
 
-**4. SdrHelper Class**
+## 4. SdrHelper Class
 
 Purpose:
 
@@ -177,11 +177,11 @@ Notes:
 
 ---
 
-**Exploring MAUI Desktop App**
+## Exploring MAUI Desktop App
 
 The MAUI desktop app is a multi-platform application built using the .NET MAUI framework, allowing users to generate and visualize Sparse Distributed Representation (SDR) diagrams. SDR is a data representation technique commonly used in various fields such as neuroscience, machine learning, and pattern recognition.
 
-**Dependencies**
+## Dependencies
 
 The MAUI desktop app relies on the following dependencies:
 
@@ -193,11 +193,11 @@ The MAUI desktop app relies on the following dependencies:
   
 - `Microsoft.JSInterop`: Used for JavaScript interoperation for UI interactions.
 
-**File Handling and Processing Page - Home Page**
+## File Handling and Processing Page - Home Page
 
 The File Handling and Processing Page is a component of the MAUI desktop app responsible for managing file input from the user, processing the content of the selected file, and transitioning to other pages or actions based on the processed data.
 
-**Functionality**
+### Functionality
 
 **a. HandleFileChange Method:**
 - Handles the event triggered when a file is selected by the user.
@@ -246,11 +246,11 @@ The File Handling and Processing Page is a component of the MAUI desktop app res
 
 - Empty file data triggers an alert to notify the user before proceeding.
 
-**Input Page**
+## Input Page
 
 The Input Page is a component of the MAUI desktop app responsible for gathering user input to configure parameters for generating Sparse Distributed Representation (SDR) diagrams.
 
-**Functionality**
+### Functionality
 
 **a. Initialization:**
 
@@ -296,11 +296,11 @@ Upon initialization, the maxCycles property of the SdValueModel instance (model)
 
 4. Navigation: Users can navigate back to the home page or proceed to view the generated diagram.
 
-**Output Page**
+## Output Page
 
 The Output Page is a component of the MAUI desktop app responsible for displaying and managing the output generated from Sparse Distributed Representation (SDR) diagrams.
 
-**Functionality**
+### Functionality
 
 **a. Initialization:** 
 
