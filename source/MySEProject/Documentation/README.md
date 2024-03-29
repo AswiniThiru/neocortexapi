@@ -8,8 +8,10 @@ Sparse Distributed Representation (SDR) is a powerful concept in neuroscience an
 The motivation behind this project stems from the need for accessible and user-friendly tools to investigate and analyze SDRs. By developing the MAUI application, we aim to democratize the process of SDR visualization and make it available to a wide range of users, including researchers, educators, and hobbyists. The main objective of this research is to bridge the gap between neuroscience, machine learning, and software engineering by providing a practical solution for generating SDR images. This application aims to allow users to explore the complex structures and patterns encoded in her SDR by implementing a user-friendly interface and efficient drawing functionality. 
 
 
-## Architecture
+## Workflow Architecture 
 
+<img width="472" alt="Screenshot 2024-03-29 at 22 47 38" src="https://github.com/AswiniThiru/neocortexapi/assets/148819826/7dcd34da-61e1-4652-b749-2760d992d1e6">
+<img width="523" alt="Screenshot 2024-03-29 at 22 48 03" src="https://github.com/AswiniThiru/neocortexapi/assets/148819826/d908d75b-e142-489c-81e0-2a42ec7bdbce">
 
 
 ## Exploring NeocortexApi.SdrDrawerLib Library
@@ -490,6 +492,9 @@ Notes:
 
 The MAUI desktop app is a multi-platform application built using the .NET MAUI framework, allowing users to generate and visualize Sparse Distributed Representation (SDR) diagrams. SDR is a data representation technique commonly used in various fields such as neuroscience, machine learning, and pattern recognition.
 
+**Flowdiagram**
+
+<img width="998" alt="Screenshot 2024-03-29 at 22 50 21" src="https://github.com/AswiniThiru/neocortexapi/assets/148819826/b6938675-57b7-4ebb-948d-47b4e28e3ad1">
 
 ## Home Page
 
