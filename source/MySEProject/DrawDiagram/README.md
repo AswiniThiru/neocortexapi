@@ -1,5 +1,5 @@
 
-# ML22/23-7 Implement the SDR representation in the MAUI application.
+# ML23/24-7 Implement the SDR representation in the MAUI application.
 
 
 ## Introduction
@@ -8,8 +8,10 @@ Sparse Distributed Representation (SDR) is a powerful concept in neuroscience an
 The motivation behind this project stems from the need for accessible and user-friendly tools to investigate and analyze SDRs. By developing the MAUI application, we aim to democratize the process of SDR visualization and make it available to a wide range of users, including researchers, educators, and hobbyists. The main objective of this research is to bridge the gap between neuroscience, machine learning, and software engineering by providing a practical solution for generating SDR images. This application aims to allow users to explore the complex structures and patterns encoded in her SDR by implementing a user-friendly interface and efficient drawing functionality. 
 
 
-## Architecture
+## Workflow Architecture 
 
+<img width="472" alt="Screenshot 2024-03-29 at 22 47 38" src="https://github.com/AswiniThiru/neocortexapi/assets/148819826/7dcd34da-61e1-4652-b749-2760d992d1e6">
+<img width="523" alt="Screenshot 2024-03-29 at 22 48 03" src="https://github.com/AswiniThiru/neocortexapi/assets/148819826/d908d75b-e142-489c-81e0-2a42ec7bdbce">
 
 
 ## Exploring NeocortexApi.SdrDrawerLib Library
@@ -44,6 +46,81 @@ Parameters:
 
 - `yAxisTitle, xAxisTitle, subPlotTitle, figureName, path`: Titles and path parameters for the plot.
 
+Code:
+```
+public static string PlotActivityVertically(List<HashSet<int>> activeCellsColumn, int highlightTouch, int maxCycles, int minCell, int maxCell, string yAxisTitle, string xAxisTitle, string subPlotTitle, string figureName, string path)
+        {
+            // Initialize outputdata to empty string
+            Filedatahelper.Sdvalue.outputdatavertical = "";
+
+            // Calculate the number of touches and columns
+            int numTouches = Math.Min(maxCycles, activeCellsColumn.Count);
+            int numColumns = activeCellsColumn[0].Count;
+
+            // Create a new plot model with the provided figure name
+            var model = new PlotModel { Title = subPlotTitle };
+
+            // Set default and border colors for the RectangleBarSeries
+            var defaultSeriesColor = OxyColor.FromRgb(64,224,208);
+            var borderSeriesColor = OxyColor.FromRgb(0,0,0); 
+
+            // Iterate over columns and add series to the plot model
+            for (int c = 0; c < numColumns; c++)
+            {
+                var series = new RectangleBarSeries { Title = $"Column {c + 1}", FillColor = defaultSeriesColor, StrokeColor = borderSeriesColor }; // Set fill color to  and border color to orange
+
+                // Add items to the series for each touch and cell
+                for (int t = 0; t < activeCellsColumn.Count; t++)
+                {
+                    if (t == highlightTouch)
+                    {
+                        series.Items.Add(new RectangleBarItem(t - 0.5, -95, t + 0.5, 4100)); // Highlight the touch
+                    }
+
+                    foreach (var cell in activeCellsColumn[t])
+                    {
+                        series.Items.Add(new RectangleBarItem(t, cell, t + 0.6, cell + 1)); // Add cell to the series
+                    }
+                }
+
+                model.Series.Add(series); // Add the series to the plot model
+            }
+
+            // Add axes to the plot model
+            model.Axes.Add(new LinearAxis { Position = AxisPosition.Bottom, Title = xAxisTitle, Minimum = 0, Maximum = numTouches });
+            model.Axes.Add(new LinearAxis { Position = AxisPosition.Left, Title = yAxisTitle, Minimum = minCell, Maximum = maxCell });
+
+            // Calculate and append graph values for each cycle to the outputdatavertical
+            for (int i = 0; i < numTouches; i++)
+            {
+                double xValue = i;
+                double yValue = (double)i / numTouches * (maxCell - minCell) + minCell;
+                Filedatahelper.Sdvalue.outputdatavertical += $"Cycle {i + 1}: X={xValue}, Y={yValue}<br/>";
+            }
+
+            // Set plot background and border colors
+            model.PlotAreaBackground = OxyColor.FromRgb(227, 253, 215);
+            model.PlotAreaBorderColor = OxyColor.FromRgb(227, 253, 215);
+
+            // Specify the directory where the SVG file will be saved
+            string directory = $"C:\\svgimages";
+            if (!Directory.Exists(directory))
+                Directory.CreateDirectory(directory);
+
+            string svgFilePath = Path.Combine(directory, $"VerticalPlot.svg");
+
+            // Export the plot model to an SVG file
+            var exporter = new SvgExporter { Width = 400, Height = 500 };
+            using (var stream = new FileStream(svgFilePath, FileMode.Create))
+            {
+                exporter.Export(model, stream);
+            }
+
+            Filedatahelper.setimagepath(directory); // Set the image path in Filedatahelper
+            return Path.GetFullPath(directory); // Return the full path of the generated SVG file
+        }
+```
+
 Explanation:
 
 It initializes some variables and creates a new plot model.
@@ -60,6 +137,84 @@ Sets the image path in Filedatahelper and returns the full path of the generated
 Purpose: This method plots activity horizontally based on provided parameters.
 
 Parameters: Same as PlotActivityVertically.
+
+Code:
+
+```
+public static string PlotActivityHorizontally(List<HashSet<int>> activeCellsColumn, int highlightTouch, int maxCycles, int minCell, int maxCell, string yAxisTitle, string xAxisTitle, string subPlotTitle, string figureName, string path)
+        {
+            // Initialize outputdata to empty string
+            Filedatahelper.Sdvalue.outputdatahorizontal = "";
+
+            // Calculate the number of touches and columns
+            int numTouches = Math.Min(maxCycles, activeCellsColumn.Count);
+            int numColumns = activeCellsColumn[0].Count;
+
+            // Create a new plot model with the provided figure name
+            var model = new PlotModel { Title = subPlotTitle };
+
+            // Set default and border colors for the RectangleBarSeries
+            var defaultSeriesColor = OxyColor.FromRgb(64, 224, 208);    
+            var borderSeriesColor = OxyColor.FromRgb(0,0,0); // black for border
+
+            // Iterate over columns and add series to the plot model
+            for (int c = 0; c < numColumns; c++)
+            {
+                var series = new RectangleBarSeries { Title = $"Column {c + 1}", FillColor = defaultSeriesColor, StrokeColor = borderSeriesColor }; // Set fill color to blue and border color to orange
+
+                // Add items to the series for each touch and cell
+                for (int t = 0; t < activeCellsColumn.Count && t <= numTouches; t++)
+                {
+                    if (t == highlightTouch)
+                    {
+                        series.Items.Add(new RectangleBarItem(-95, t - 0.5, 4100, t + 0.5)); // Highlight the touch
+                    }
+
+                    foreach (var cell in activeCellsColumn[t])
+                    {
+                        series.Items.Add(new RectangleBarItem(cell, t, cell + 1, t + 0.6)); // Add cell to the series
+                    }
+                }
+
+                model.Series.Add(series); // Add the series to the plot model
+            }
+
+            // Add axes to the plot model
+            model.Axes.Add(new LinearAxis { Position = AxisPosition.Bottom, Title = xAxisTitle, Minimum = minCell, Maximum = maxCell });
+            model.Axes.Add(new LinearAxis { Position = AxisPosition.Left, Title = yAxisTitle, Minimum = 0, Maximum = numTouches });
+
+            // Calculate and append graph values for each cycle to the outputdatahorizontal
+            for (int i = 0; i < numTouches; i++)
+            {
+                double xValue = i;
+                double yValue = (double)i / numTouches * (maxCell - minCell) + minCell;
+                Filedatahelper.Sdvalue.outputdatahorizontal += $"Cycle {i + 1}: X={xValue}, Y={yValue}<br/>";
+            }
+
+            // Set plot background and border colors
+            model.PlotAreaBackground = OxyColor.FromRgb(227, 253, 215);
+            model.PlotAreaBorderColor = OxyColor.FromRgb(227, 253, 215);
+
+            // Specify the directory where the SVG file will be saved
+            string directory = $"C:\\svgimages";
+            if (!Directory.Exists(directory))
+			{ Directory.CreateDirectory(directory); }
+                
+
+            string svgFilePath = Path.Combine(directory, $"HorizontalPlot.svg");
+
+            var exporter = new SvgExporter { Width = 400, Height = 500 };
+			using (var stream = new FileStream(svgFilePath, FileMode.Create))
+			{
+				exporter.Export(model, stream);
+			}
+
+            // Set Image directory as static 
+            Filedatahelper.setimagepath(directory);
+            // Return the full path of the generated SVG file
+            return Path.GetFullPath(directory);
+		}
+```
 
 Explanation:
 
@@ -93,6 +248,33 @@ Properties:
 - `datapath`: Path to the data file.
 - `outputdatavertical`: Output data generated for vertical plotting.
 - `outputdatahorizontal`: Output data generated for horizontal plotting.
+
+Code:
+
+```
+namespace DrawDiagram.Models
+{
+	public class SdValueModel
+	{
+		public  string textfile { get; set; } = "";
+		public  string graphname { get; set; } = "";
+		public  int maxCycles { get; set; } = 0;
+		public  int hightouch { get; set; } = 0;
+		public  string yaxis { get; set; } = "";
+		public  string xaxis { get; set; } = "";
+		public  int minrange { get; set; } = 0;
+		public  int maxrange { get; set; } = 0;
+		public  string subplottitle { get; set; } = "";
+		public  string fname { get; set; } = "";
+		public  string axis { get; set; } = "";
+		public string fileData { get; set; } = "";
+		public string datapath { get; set; } = "";
+		public string outputdatavertical { get; set; } = "";
+        public string outputdatahorizontal { get; set; } = "";
+    }
+}
+
+```
 
 Usage:
 
@@ -129,6 +311,81 @@ Properties:
 
 - `setimagepath(string path)`: Sets the image path with the provided path.
 
+Code:
+
+```
+public static class Filedatahelper
+    {
+        /// <summary>
+        /// Stores the file data as a string.
+        /// </summary>
+        public static string filedata;
+
+        /// <summary>
+        /// Stores the image path.
+        /// </summary>
+        public static string imagepath;
+
+        /// <summary>
+        /// Stores the current SdValueModel instance.
+        /// </summary>
+        public static SdValueModel Sdvalue = new SdValueModel();
+
+        /// <summary>
+        /// Retrieves the file data.
+        /// </summary>
+        /// <returns>The file data as a string.</returns>
+        public static string getfiledata()
+        {
+            return filedata;
+        }
+
+        /// <summary>
+        /// Retrieves the image path.
+        /// </summary>
+        /// <returns>The image path as a string.</returns>
+        public static string getimagepath()
+        {
+            return imagepath;
+        }
+
+        /// <summary>
+        /// Retrieves the current SdValueModel instance.
+        /// </summary>
+        /// <returns>The current SdValueModel instance.</returns>
+        public static SdValueModel getcurrentSD()
+        {
+            return Sdvalue;
+        }
+
+        /// <summary>
+        /// Sets the current SdValueModel instance.
+        /// </summary>
+        /// <param name="model">The SdValueModel instance to set.</param>
+        public static void setcurrentSD(SdValueModel model)
+        {
+            Sdvalue = model;
+        }
+
+        /// <summary>
+        /// Sets the file data.
+        /// </summary>
+        /// <param name="content">The file data to set.</param>
+        public static void setfiledata(string content)
+        {
+            filedata = content;
+        }
+
+        /// <summary>
+        /// Sets the image path.
+        /// </summary>
+        /// <param name="path">The image path to set.</param>
+        public static void setimagepath(string path)
+        {
+            imagepath = path;
+        }
+    }
+```
 
 Usage:
 
@@ -149,6 +406,76 @@ The primary purpose of the SdrHelper class is to process data from an instance o
 
 newgeneratesdr(SdValueModel model): Generates SDR plots based on the provided SdValueModel instance. It processes the data, extracts parameters, and invokes methods from the SdrDrawer class to create both vertical and horizontal plots.
 
+Code:
+
+```
+public static class SdrHelper
+    {
+        /// <summary>
+        /// Generates an SDR plot based on the provided SdValueModel instance.
+        /// </summary>
+        /// <param name="model">The SdValueModel instance containing the data for the plot.</param>
+        public static void newgeneratesdr(SdValueModel model)
+        {
+            try
+            {
+                // Initializing list for datasets.
+                List<HashSet<int>> dataSets = new List<HashSet<int>>();
+                // Initializing list for all cells.
+                List<int> allCells = new List<int>();
+
+                // Assuming the fileContent contains the CSV data for the SDR plot.
+                string fileContent = model.fileData;
+                string[] lines = fileContent.Split('\n');
+				
+				// Processing each line of the CSV data.
+				foreach (var line in lines)
+                {
+					var values = line.Split(',');
+                    // Initializing HashSet for each line.
+                    HashSet<int> cellSet = new HashSet<int>();
+                    foreach (var value in values)
+                    {
+                        if (!string.IsNullOrWhiteSpace(value))
+                        {
+                            // Parsing cell value to integer.
+                            int cellValue = int.Parse(value.Trim());
+                            cellSet.Add(cellValue);
+                            allCells.Add(cellValue);
+                        }
+                    }
+
+                    dataSets.Add(cellSet);
+                }
+
+                // Extracting additional parameters from the model.
+                string graphName = model.graphname;
+                string axis = model.axis;
+                int maxCell = allCells.Max() + 100;
+                int minCell = allCells.Min() - 100;
+                int maxCycles = model.maxCycles;
+                int highlightTouch = model.hightouch;
+                string yAxisTitle = model.yaxis;
+                string xAxisTitle = model.xaxis;
+                string subPlotTitle = model.subplottitle;
+                string figureName = model.textfile;
+
+                // Setting the current SD in the Filedatahelper.
+                Filedatahelper.setcurrentSD(model);
+
+                // Plotting the activity vertically and horizontally.
+                SdrDrawer.PlotActivityVertically(dataSets, highlightTouch, maxCycles, minCell, maxCell, yAxisTitle, xAxisTitle, subPlotTitle, figureName, model.datapath);
+                SdrDrawer.PlotActivityHorizontally(dataSets, highlightTouch, maxCycles, minCell, maxCell, yAxisTitle, xAxisTitle, subPlotTitle, figureName, model.datapath);
+            }
+            catch (Exception ex)
+            {
+                // Exception handling if any error occurs during the plot generation.
+            }
+        }
+
+    }
+```
+
 Usage:
 
 The SdrHelper class provides a simple interface for generating SDR plots. It accepts an instance of SdValueModel containing relevant data and parameters for plot generation.
@@ -165,14 +492,24 @@ Notes:
 
 The MAUI desktop app is a multi-platform application built using the .NET MAUI framework, allowing users to generate and visualize Sparse Distributed Representation (SDR) diagrams. SDR is a data representation technique commonly used in various fields such as neuroscience, machine learning, and pattern recognition.
 
+**Flowdiagram**
 
-## File Handling and Processing Page - Home Page
+<img width="998" alt="Screenshot 2024-03-29 at 22 50 21" src="https://github.com/AswiniThiru/neocortexapi/assets/148819826/b6938675-57b7-4ebb-948d-47b4e28e3ad1">
+
+## Home Page
 
 The File Handling and Processing Page is a component of the MAUI desktop app responsible for managing file input from the user, processing the content of the selected file, and transitioning to other pages or actions based on the processed data.
 
 ![image](https://github.com/AswiniThiru/neocortexapi/assets/148788581/85c0994d-f72e-4e2d-ba3f-1e29ce76bf03)
 
+Steps to collect the SDR data:
 
+1. Go to: https://github.com/AswiniThiru/neocortexapi/blob/Team_MAUI/source/NeoCortexApi.sln
+
+2. Run the program.cs file and copy the required SDR data from the Application Output window and paste it in a text/csv file to proceed futher.
+
+3. You can also find the example files for testing purpose under txt & csv files for testing under this folder https://github.com/AswiniThiru/neocortexapi/tree/Team_MAUI/source/MySEProject/Documentation
+   
 **Usage**
 
 1. Selecting a File:
@@ -195,13 +532,13 @@ The Input Page is a component of the MAUI desktop app responsible for gathering 
 
 **Usage**
 
-1. Input Form: Users fill out the input form with parameters required for generating the SDR diagram.
+1. Input Form: Users fill out the input form with parameters required for generating the SDR diagram either by selecting the `Set Default Values` button or by `Set Manual Values` button.
 
 2. Validation: Input fields are validated to ensure all required fields are filled.
 
 3. Generation of SDR Diagram: Upon successful validation, the SDR diagram is generated based on the provided parameters.
 
-4. Navigation: Users can navigate back to the home page or proceed to view the generated diagram.
+4. Navigation: Users can navigate back to the home page or proceed to next page to generate diagram.
 
 ## Output Page
 
@@ -214,7 +551,7 @@ The Output Page is a component of the MAUI desktop app responsible for displayin
 
 **Usage**
 
-1. Manual Input and Adjustment: Input the filename and adjust the progress value to generate customized SDR diagrams.
+1. Manual Plot selection Adjustments: Type of plot can be selected and the number of cycles can be adjusted to generate customized SDR diagrams.
 
 2. Download Images: Download the generated horizontal and vertical SVG images for further use or sharing.
 
