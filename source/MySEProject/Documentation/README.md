@@ -164,15 +164,15 @@ Notes:
 ## Exploring MAUI Desktop App
 
 The MAUI desktop app is a multi-platform application built using the .NET MAUI framework, allowing users to generate and visualize Sparse Distributed Representation (SDR) diagrams. SDR is a data representation technique commonly used in various fields such as neuroscience, machine learning, and pattern recognition.
-
-images here...
+![image](https://github.com/AswiniThiru/neocortexapi/assets/148788581/85c0994d-f72e-4e2d-ba3f-1e29ce76bf03)
 
 
 ## File Handling and Processing Page - Home Page
 
 The File Handling and Processing Page is a component of the MAUI desktop app responsible for managing file input from the user, processing the content of the selected file, and transitioning to other pages or actions based on the processed data.
 
-homepage image
+
+
 
 **Usage**
 
