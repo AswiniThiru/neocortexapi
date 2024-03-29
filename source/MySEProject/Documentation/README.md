@@ -217,8 +217,8 @@ input page image
 The Output Page is a component of the MAUI desktop app responsible for displaying and managing the output generated from Sparse Distributed Representation (SDR) diagrams.
 
 output image 
-![image (2)](https://github.com/AswiniThiru/neocortexapi/assets/148788581/b5eb57a5-0da8-4197-8ca2-082d029e4277)
-![image (3)](https://github.com/AswiniThiru/neocortexapi/assets/148788581/a4a2130d-008d-4ff2-99af-f8aa0291780d)
+![image (2)](https://github.com/AswiniThiru/neocortexapi/assets/148788581/6b57572c-91bb-44d9-b6fe-2e7e6ec5c17c)
+![image (3)](https://github.com/AswiniThiru/neocortexapi/assets/148788581/9132be0d-ca66-4dd0-8860-c1711e72ea75)
 ![image (5)](https://github.com/AswiniThiru/neocortexapi/assets/148788581/36903f6b-f89e-4779-8f97-3f35693be60c)
 
 
