@@ -1,0 +1,219 @@
+﻿@page "/output"
+@layout Outputlayout
+@using DrawDiagram.Models;
+@inject IJSRuntime jsruntime
+@inject NavigationManager mynav
+<div class="output-page" >
+	<h3>Output Page</h3>
+    @{
+        svgPath_H = Filedatahelper.getimagepath();
+        svgPath_V = Filedatahelper.getimagepath();
+        string txtgraph = Filedatahelper.Sdvalue.outputdatavertical;
+
+            svgPath_H += "/HorizontalPlot.svg";
+
+            svgPath_V += "/VerticalPlot.svg";
+ 
+
+    }
+    @if (svgPath_V != "")
+    {
+        <div class="output-rows">
+            <div class="output-cols" style="width:460px">
+                <div>
+                    <label for="exampleFormControlTextarea1" class="label-sdr">Plot SDR Graph</label>
+                    <div class="form-group mt-2">
+                        <div>
+                            <span><small class="form-text" style="color: rgb(0,0,0);">Plot Horizontal  </small>
+                            <input type="checkbox" @bind="isHorizontalPlotEnabled" /></span>
+                            <span style="margin-left: 17px;">
+                                <small class="form-text" style="color: rgb(0,0,0);">Plot Vertical</small>
+                                <input type="checkbox" @bind="isVerticalPlotEnabled" /></span>
+                            </div>
+                   
+                    </div>
+                </div>
+              <div class="row">
+                  <span style="color:green; font-size:12px">Selected max cycle group is @Filedatahelper.Sdvalue.maxCycles</span>
+
+                  <div style="padding: 0px;" >
+					<div class="form-range" style="width:285px">
+						<small class="form-text" style="margin: 0;">0</small>
+						<small class="form-text float-end" style="margin: 0;">@Filedatahelper.Sdvalue.maxCycles</small>
+					</div>
+					<input @bind-value="progressValues" @oninput="HandleInput" class="form-range" type="range" style="height: 18px;" />
+					</div>
+                 
+              </div>
+              <div>
+                    <button style="width:150px; height:50px; font-size:12px;background-color:#00E7C7 !important" @onclick="DownloadImage">Download</button>
+                <input placeholder="Chnage Image Name" hidden @onchange="onchangefilename" />
+              </div>
+           
+                   
+
+            </div>
+            <div class="output-cols" >
+                <div class="iframe-container" style="height:600px !important; ">
+                  @if (isVerticalPlotEnabled && isHorizontalPlotEnabled)
+{
+    <img id="svgGraph" src='@($"data:image/svg+xml;base64,{GetBase64Image(svgPath_H)}")' style="width:400px; height:500px;" />
+        <img id="svgGraph" src='@($"data:image/svg+xml;base64,{GetBase64Image(svgPath_V)}")' style="width:400px; height:500px;" />
+}
+else if (isVerticalPlotEnabled)
+{
+    <img id="svgGraph" src='@($"data:image/svg+xml;base64,{GetBase64Image(svgPath_V)}")' style="width:400px; height:500px;" />
+}
+else if (isHorizontalPlotEnabled)
+{
+    <img id="svgGraph" src='@($"data:image/svg+xml;base64,{GetBase64Image(svgPath_H)}")' style="width:400px; height:500px;" />
+}
+
+                </div>
+            </div>
+        </div>
+
+        <div class="row" style="margin-right:50px">
+            <div class="button-container" >
+                <div class="next-button" style="background-color:white;align-items:center;margin-right:90% ">
+                    <img @onclick="Goback" style="width:100px; height:50px;" src="images/back.jpeg" />
+                </div>
+                <div class="next-button" style="background-color:white;align-items:center; ">
+                    <img @onclick="Gotoinout" style="width:100px; height:50px;" src="images/home.png" />
+                </div>
+            </div>
+        </div>
+    }
+    <div id="popup" style="position: absolute; display: none; background-color: white; border: 1px solid black; padding: 5px;"></div>
+
+</div>
+
+<script>
+    function setProgress(event) {
+        const progressBar = document.getElementById('progressBar');
+        const draggableCircle = document.getElementById('draggableCircle');
+        const progressContainer = document.getElementById('progressContainer');
+        const width = event.clientX - progressContainer.getBoundingClientRect().left;
+        const percent = (width / progressContainer.offsetWidth) * 100;
+        progressBar.style.width = percent + '%';
+        draggableCircle.style.left = width - (draggableCircle.offsetWidth / 2) + 'px';
+
+        // Update the hidden input field value
+        const progressValue = document.getElementById('progressValue');
+      
+        progressValue.value = percent;
+        const refmax = parseFloat(document.getElementById('refmax').value);
+        const refmin = parseFloat(document.getElementById('refmin').value);
+        const ratio = parseFloat(document.getElementById('ratio').value);
+        const currentcal = Math.round(((percent / 100) * (refmax - refmin) + refmin));
+        document.getElementById('currentcal').value = currentcal;
+
+    }
+
+    function startDrag(event) {
+        event.preventDefault();
+        const draggableCircle = document.getElementById('draggableCircle');
+        const progressContainer = document.getElementById('progressContainer');
+        document.onmousemove = function (event) {
+            moveCircle(event);
+        };
+        document.onmouseup = function () {
+            stopDrag();
+        };
+
+        function moveCircle(event) {
+            const posX = event.clientX - progressContainer.getBoundingClientRect().left;
+            const maxX = progressContainer.offsetWidth - draggableCircle.offsetWidth;
+            if (posX >= 0 && posX <= maxX) {
+                draggableCircle.style.left = posX + 'px';
+                const percent = (posX / progressContainer.offsetWidth) * 100;
+                const progressBar = document.getElementById('progressBar');
+                progressBar.style.width = percent + '%';
+
+                // Update the hidden input field value
+                const progressValue = document.getElementById('progressValue');
+                progressValue.value = percent;
+                const refmax = parseFloat(document.getElementById('refmax').value);
+                const refmin = parseFloat(document.getElementById('refmin').value);
+                const ratio = parseFloat(document.getElementById('ratio').value);
+                const currentcal = Math.round(((percent / 100) * (refmax - refmin) + refmin));
+                document.getElementById('currentcal').value = currentcal;
+                
+
+            }
+        }
+
+        function stopDrag() {
+            document.onmousemove = null;
+            document.onmouseup = null;
+        }
+    }
+
+    function updateImage() {
+        // Get the image element
+        var sdrImage = document.getElementById('sdrImage');
+
+        // Put the image URL into the src attribute
+        sdrImage.src = "your_image_url_here";
+    }
+    function getCurrentCalValue() {
+        return document.getElementById('currentcal').value;
+    }
+
+
+    const svg = document.getElementById('svgGraph');
+    const popup = document.getElementById('popup');
+
+    // Add event listener for mousemove
+    svg.addEventListener('mousemove', (event) => {
+        // Check if the mouse is over a circle element
+        if (event.target.tagName === 'circle') {
+            // Get the mouse coordinates
+            const x = event.clientX;
+            const y = event.clientY;
+
+            // Position the popup at the mouse coordinates
+            popup.style.left = `${x}px`;
+            popup.style.top = `${y}px`;
+
+            // Show the popup
+            popup.innerHTML = `Point: (${event.target.getAttribute('cx')}, ${event.target.getAttribute('cy')})`;
+            popup.style.display = 'block';
+        } else {
+            // Hide the popup if the mouse is not over a circle element
+            popup.style.display = 'none';
+        }
+    });
+
+    // Hide the popup when the mouse leaves the SVG element
+    svg.addEventListener('mouseleave', () => {
+        popup.style.display = 'none';
+    });
+</script>
+
+<script>
+    window.downloadImage = function (data, fileName) {
+        const a = document.createElement('a');
+        a.href = data;
+        a.download = fileName;
+        document.body.appendChild(a);
+        a.click();
+        document.body.removeChild(a);
+    };
+</script>
+
+@code {
+
+    private void Gotoinout()
+    {
+
+        mynav.NavigateTo("/");
+    }
+    private void Goback()
+    {
+        mynav.NavigateTo("/input");
+    }
+
+   
+  
+}
