@@ -6,10 +6,10 @@
 
      SDR Plot Generation Method
 This method, newgeneratesdr2, is used to generate an SDR (Sparse Distributed Representation) plot based on the provided model. 
-The method takes an SdValueModal model as input, which contains the necessary data for generating the plot.
+The method takes an SdValueModel model as input, which contains the necessary data for generating the plot.
 
 ******Input Parameters*****
-SdValueModal model: The model containing the data required for plot generation.
+SdValueModel model: The model containing the data required for plot generation.
 fileData: The CSV data for the SDR plot.
 graphname: Name of the graph.
 axis: Axis information.
@@ -30,9 +30,9 @@ Plot Generation:
 It sets the current SD in the Filedatahelper and then calls two methods from SdrDrawer to plot the activity vertically and horizontally (PlotActivityVertically and PlotActivityHorizontally respectively).
 
 **Usage**
-To use this method, provide an instance of SdValueModal with the required data, and then call newgeneratesdr2 with this instance as the argument.
+To use this method, provide an instance of SdValueModel with the required data, and then call newgeneratesdr2 with this instance as the argument.
 
-SdValueModal model = new SdValueModal
+SdValueModel model = new SdValueModel
 {
     fileData = "CSV Data",
     graphname = "Graph Name",
@@ -52,26 +52,26 @@ newgeneratesdr2(model);
 
 ### Filedatahelper Class
 
-The `Filedatahelper` class is a utility class that provides methods for storing and retrieving file data, image paths, and instances of the `SdValueModal` class. This class is designed to assist in managing data related to SDR plots.
+The `Filedatahelper` class is a utility class that provides methods for storing and retrieving file data, image paths, and instances of the `SdValueModel` class. This class is designed to assist in managing data related to SDR plots.
 
 #### Members
 
 - `filedata`: A static string variable that stores the file data as a string.
 - `imagepath`: A static string variable that stores the image path.
-- `Sdvalue`: A static instance of the `SdValueModal` class that stores the current `SdValueModal` instance.
+- `Sdvalue`: A static instance of the `SdValueModel` class that stores the current `SdValueModel` instance.
 
 #### Methods
 
 - `getfiledata()`: A static method that retrieves the stored file data as a string.
 - `getimagepath()`: A static method that retrieves the stored image path as a string.
-- `getcurrentSD()`: A static method that retrieves the current `SdValueModal` instance.
-- `setcurrentSD(SdValueModal model)`: A static method that sets the current `SdValueModal` instance.
+- `getcurrentSD()`: A static method that retrieves the current `SdValueModel` instance.
+- `setcurrentSD(SdValueModel model)`: A static method that sets the current `SdValueModel` instance.
 - `setfiledata(string content)`: A static method that sets the file data.
 - `setimagepath(string path)`: A static method that sets the image path.
 
 #### Usage
 
-This class can be used to store and retrieve file data, image paths, and `SdValueModal` instances in a convenient and organized manner, making it easier to manage data related to SDR plots in the application.
+This class can be used to store and retrieve file data, image paths, and `SdValueModel` instances in a convenient and organized manner, making it easier to manage data related to SDR plots in the application.
 
 
 

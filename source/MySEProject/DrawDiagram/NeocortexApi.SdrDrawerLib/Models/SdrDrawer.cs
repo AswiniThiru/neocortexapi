@@ -20,20 +20,20 @@ namespace NeocortexApi.SdrDrawerLib.Models
             Filedatahelper.Sdvalue.outputdatavertical = "";
 
             // Calculate the number of touches and columns
-            int numTouches = Math.Max(maxCycles, activeCellsColumn.Count);
+            int numTouches = Math.Min(maxCycles, activeCellsColumn.Count);
             int numColumns = activeCellsColumn[0].Count;
 
             // Create a new plot model with the provided figure name
-            var model = new PlotModel { Title = figureName };
+            var model = new PlotModel { Title = subPlotTitle };
 
             // Set default and border colors for the RectangleBarSeries
-            var defaultSeriesColor = OxyColor.FromRgb(0, 0, 0);
-            var borderSeriesColor = OxyColor.FromRgb(160, 82, 45); // Orange for border
+            var defaultSeriesColor = OxyColor.FromRgb(64,224,208);
+            var borderSeriesColor = OxyColor.FromRgb(0,0,0); 
 
             // Iterate over columns and add series to the plot model
             for (int c = 0; c < numColumns; c++)
             {
-                var series = new RectangleBarSeries { Title = $"Column {c + 1}", FillColor = defaultSeriesColor, StrokeColor = borderSeriesColor }; // Set fill color to blue and border color to orange
+                var series = new RectangleBarSeries { Title = $"Column {c + 1}", FillColor = defaultSeriesColor, StrokeColor = borderSeriesColor }; // Set fill color to  and border color to orange
 
                 // Add items to the series for each touch and cell
                 for (int t = 0; t < activeCellsColumn.Count; t++)
@@ -65,8 +65,8 @@ namespace NeocortexApi.SdrDrawerLib.Models
             }
 
             // Set plot background and border colors
-            model.PlotAreaBackground = OxyColor.FromRgb(255, 235, 205);
-            model.PlotAreaBorderColor = OxyColor.FromRgb(0, 0, 0);
+            model.PlotAreaBackground = OxyColor.FromRgb(227, 253, 215);
+            model.PlotAreaBorderColor = OxyColor.FromRgb(227, 253, 215);
 
             // Specify the directory where the SVG file will be saved
             string directory = $"C:\\svgimages";
@@ -76,7 +76,7 @@ namespace NeocortexApi.SdrDrawerLib.Models
             string svgFilePath = Path.Combine(directory, $"VerticalPlot.svg");
 
             // Export the plot model to an SVG file
-            var exporter = new SvgExporter { Width = 400, Height = 400 };
+            var exporter = new SvgExporter { Width = 400, Height = 500 };
             using (var stream = new FileStream(svgFilePath, FileMode.Create))
             {
                 exporter.Export(model, stream);
@@ -95,15 +95,15 @@ namespace NeocortexApi.SdrDrawerLib.Models
             Filedatahelper.Sdvalue.outputdatahorizontal = "";
 
             // Calculate the number of touches and columns
-            int numTouches = Math.Max(maxCycles, activeCellsColumn.Count);
+            int numTouches = Math.Min(maxCycles, activeCellsColumn.Count);
             int numColumns = activeCellsColumn[0].Count;
 
             // Create a new plot model with the provided figure name
-            var model = new PlotModel { Title = figureName };
+            var model = new PlotModel { Title = subPlotTitle };
 
             // Set default and border colors for the RectangleBarSeries
-            var defaultSeriesColor = OxyColor.FromRgb(0, 0, 0);
-            var borderSeriesColor = OxyColor.FromRgb(160, 82, 45); // Orange for border
+            var defaultSeriesColor = OxyColor.FromRgb(64, 224, 208);    
+            var borderSeriesColor = OxyColor.FromRgb(0,0,0); // black for border
 
             // Iterate over columns and add series to the plot model
             for (int c = 0; c < numColumns; c++)
@@ -140,8 +140,8 @@ namespace NeocortexApi.SdrDrawerLib.Models
             }
 
             // Set plot background and border colors
-            model.PlotAreaBackground = OxyColor.FromRgb(255, 235, 205);
-            model.PlotAreaBorderColor = OxyColor.FromRgb(0, 0, 0);
+            model.PlotAreaBackground = OxyColor.FromRgb(227, 253, 215);
+            model.PlotAreaBorderColor = OxyColor.FromRgb(227, 253, 215);
 
             // Specify the directory where the SVG file will be saved
             string directory = $"C:\\svgimages";
@@ -151,7 +151,7 @@ namespace NeocortexApi.SdrDrawerLib.Models
 
             string svgFilePath = Path.Combine(directory, $"HorizontalPlot.svg");
 
-            var exporter = new SvgExporter { Width = 400, Height = 400 };
+            var exporter = new SvgExporter { Width = 400, Height = 500 };
 			using (var stream = new FileStream(svgFilePath, FileMode.Create))
 			{
 				exporter.Export(model, stream);

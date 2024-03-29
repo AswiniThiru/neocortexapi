@@ -13,11 +13,16 @@ namespace DrawDiagram.Components.Pages
 {
 	public partial class OutputPage
 	{
+        private bool isVerticalPlotEnabled { get; set; }
+        private bool isHorizontalPlotEnabled { get; set; }
+        private bool isBothPlotsEnabled { get; set; }
+
         public bool isAutomaticScreenshotEnabled = false; // Flag to indicate if automatic screenshot is enabled
         private double referenceMin = 0; // Minimum reference value for scaling
         private double referenceMax = Filedatahelper.Sdvalue.maxCycles; // Maximum reference value for scaling
         double ratio = 0; // Ratio for scaling
-        public string svgPath = ""; // Path to the SVG image
+        public string svgPath_H = ""; // Path to the SVG image for horizontal
+        public string svgPath_V = ""; // Path to the SVG image for vertical
         double currentval = 0; // Current value for progress bar
         double progressValues = 100; // Total progress values
         private int minValue = 0; // Minimum value for progress bar
@@ -26,8 +31,8 @@ namespace DrawDiagram.Components.Pages
         // Method called when the component is initialized
         protected override async Task OnInitializedAsync()
         {
-          
-           
+
+            isVerticalPlotEnabled = true;
         }
 
         // Asynchronously fetches SVG path from a file here this function not using you can now remove 
@@ -105,7 +110,7 @@ namespace DrawDiagram.Components.Pages
         {
           
             Filedatahelper.Sdvalue.fname = e.Value.ToString();
-            SdrHelper.newgeneratesdr2(Filedatahelper.Sdvalue); // Generate graph
+            SdrHelper.newgeneratesdr(Filedatahelper.Sdvalue); // Generate graph
             StateHasChanged(); // Update the component
         }
 
@@ -115,15 +120,16 @@ namespace DrawDiagram.Components.Pages
             if (int.TryParse(e.Value.ToString(), out int value))
             {
                 progressValues = value;
-                Filedatahelper.Sdvalue.maxCycles =Convert.ToInt32((referenceMax/100)*progressValues); // Update maxCycles in SdValueModal
-                SdrHelper.newgeneratesdr2(Filedatahelper.Sdvalue); // Generate graph
+                Filedatahelper.Sdvalue.maxCycles =Convert.ToInt32((referenceMax/100)*progressValues); // Update maxCycles in SdValueModel
+                SdrHelper.newgeneratesdr(Filedatahelper.Sdvalue); // Generate graph
                 StateHasChanged(); // Update the component
             }
         }
 
         private async Task DownloadImage()
         {
-            await jsruntime.InvokeVoidAsync("downloadImage", $"data:image/svg+xml;base64,{GetBase64Image(svgPath)}", "graph.svg");
+            await jsruntime.InvokeVoidAsync("downloadImage", $"data:image/svg+xml;base64,{GetBase64Image(svgPath_H)}", "horizontal.svg");
+            await jsruntime.InvokeVoidAsync("downloadImage", $"data:image/svg+xml;base64,{GetBase64Image(svgPath_V)}", "vertical.svg");
             await jsruntime.InvokeVoidAsync("alert", "Download complete!");
         }
     }

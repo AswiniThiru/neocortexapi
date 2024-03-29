@@ -6,69 +6,80 @@
 <div class="output-page" >
 	<h3>Output Page</h3>
     @{
-        svgPath = Filedatahelper.getimagepath();
+        svgPath_H = Filedatahelper.getimagepath();
+        svgPath_V = Filedatahelper.getimagepath();
         string txtgraph = Filedatahelper.Sdvalue.outputdatavertical;
-        if (isAutomaticScreenshotEnabled)
-        {
-            svgPath += "/HorizontalPlot.svg";
-            txtgraph = Filedatahelper.Sdvalue.outputdatahorizontal;
-        }else
-        {
-            svgPath += "/VerticalPlot.svg";
-            txtgraph = Filedatahelper.Sdvalue.outputdatavertical;
-        }
+
+            svgPath_H += "/HorizontalPlot.svg";
+
+            svgPath_V += "/VerticalPlot.svg";
+ 
 
     }
-    @if(svgPath != "")
+    @if (svgPath_V != "")
     {
         <div class="output-rows">
-            <div class="output-cols">
+            <div class="output-cols" style="width:460px">
                 <div>
                     <label for="exampleFormControlTextarea1" class="label-sdr">Plot SDR Graph</label>
                     <div class="form-group mt-2">
-                        <small for="exampleFormControlTextarea1">Horizontal Plot</small>
-
-                        <label class="switch">
-                            <input type="checkbox" @bind="isAutomaticScreenshotEnabled" @onclick="(async () => await ToggleScreenshotOption())">
-                            <span class="slider round"></span>
-                        </label>
-                        <small for="exampleFormControlTextarea1">Vertical Plot</small>
+                        <div>
+                            <span><small class="form-text" style="color: rgb(0,0,0);">Plot Horizontal  </small>
+                            <input type="checkbox" @bind="isHorizontalPlotEnabled" /></span>
+                            <span style="margin-left: 17px;">
+                                <small class="form-text" style="color: rgb(0,0,0);">Plot Vertical</small>
+                                <input type="checkbox" @bind="isVerticalPlotEnabled" /></span>
+                            </div>
+                   
                     </div>
                 </div>
               <div class="row">
                   <span style="color:green; font-size:12px">Selected max cycle group is @Filedatahelper.Sdvalue.maxCycles</span>
-                   <input @bind-value="progressValues"  class="input-field" style="width:600px" type="range" id="touches" @oninput="HandleInput" />
+
+                  <div style="padding: 0px;" >
+					<div class="form-range" style="width:285px">
+						<small class="form-text" style="margin: 0;">0</small>
+						<small class="form-text float-end" style="margin: 0;">@Filedatahelper.Sdvalue.maxCycles</small>
+					</div>
+					<input @bind-value="progressValues" @oninput="HandleInput" class="form-range" type="range" style="height: 18px;" />
+					</div>
+                 
               </div>
               <div>
-                <button style="width:150px; height:30px; font-size:12px" @onclick="DownloadImage">Download</button>
-                <input placeholder="Chnage Image Name" @onchange="onchangefilename" />
+                    <button style="width:150px; height:50px; font-size:12px;background-color:#00E7C7 !important" @onclick="DownloadImage">Download</button>
+                <input placeholder="Chnage Image Name" hidden @onchange="onchangefilename" />
               </div>
            
                    
 
             </div>
-        </div>
-        <div class="output-rows">
-                <div class="col-md-4">
-                    <div class="iframe-container" style="height: 300px; overflow:auto">
-                    @{
-                        
-                        MarkupString html = new MarkupString(txtgraph);
-                    }
-                    <p style="font-size:9px">@html</p>
-                    </div>
+            <div class="output-cols" >
+                <div class="iframe-container" style="height:600px !important; ">
+                  @if (isVerticalPlotEnabled && isHorizontalPlotEnabled)
+{
+    <img id="svgGraph" src='@($"data:image/svg+xml;base64,{GetBase64Image(svgPath_H)}")' style="width:400px; height:500px;" />
+        <img id="svgGraph" src='@($"data:image/svg+xml;base64,{GetBase64Image(svgPath_V)}")' style="width:400px; height:500px;" />
+}
+else if (isVerticalPlotEnabled)
+{
+    <img id="svgGraph" src='@($"data:image/svg+xml;base64,{GetBase64Image(svgPath_V)}")' style="width:400px; height:500px;" />
+}
+else if (isHorizontalPlotEnabled)
+{
+    <img id="svgGraph" src='@($"data:image/svg+xml;base64,{GetBase64Image(svgPath_H)}")' style="width:400px; height:500px;" />
+}
+
                 </div>
-                <div class="col-md-8">
-                    <div class="iframe-container">
-                    <img id="svgGraph" src='@($"data:image/svg+xml;base64,{GetBase64Image(svgPath)}")' width="200" height="200" />
-                    </div>
-                </div>
-          
+            </div>
         </div>
-        <div class="row">
-            <div class="button-container">
-                <div class="next-button" style="background-color:#001F34;align-items:center; ">
-                    <img @onclick="Gotoinout" style="width:50px; height:50px" src="images/rightback.png" />
+
+        <div class="row" style="margin-right:50px">
+            <div class="button-container" >
+                <div class="next-button" style="background-color:white;align-items:center;margin-right:90% ">
+                    <img @onclick="Goback" style="width:100px; height:50px;" src="images/back.jpeg" />
+                </div>
+                <div class="next-button" style="background-color:white;align-items:center; ">
+                    <img @onclick="Gotoinout" style="width:100px; height:50px;" src="images/home.png" />
                 </div>
             </div>
         </div>
@@ -195,8 +206,12 @@
 
     private void Gotoinout()
     {
-        
+
         mynav.NavigateTo("/");
+    }
+    private void Goback()
+    {
+        mynav.NavigateTo("/input");
     }
 
    

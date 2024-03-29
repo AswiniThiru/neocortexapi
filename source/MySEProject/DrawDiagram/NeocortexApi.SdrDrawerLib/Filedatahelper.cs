@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 namespace NeocortexApi.SdrDrawerLib
 {
     /// <summary>
-    /// Helper class for managing file data, image paths, and an instance of SdValueModal.
+    /// Helper class for managing file data, image paths, and an instance of SdValueModel.
     /// </summary>
     public static class Filedatahelper
     {
@@ -23,9 +23,9 @@ namespace NeocortexApi.SdrDrawerLib
         public static string imagepath;
 
         /// <summary>
-        /// Stores the current SdValueModal instance.
+        /// Stores the current SdValueModel instance.
         /// </summary>
-        public static SdValueModal Sdvalue = new SdValueModal();
+        public static SdValueModel Sdvalue = new SdValueModel();
 
         /// <summary>
         /// Retrieves the file data.
@@ -46,19 +46,19 @@ namespace NeocortexApi.SdrDrawerLib
         }
 
         /// <summary>
-        /// Retrieves the current SdValueModal instance.
+        /// Retrieves the current SdValueModel instance.
         /// </summary>
-        /// <returns>The current SdValueModal instance.</returns>
-        public static SdValueModal getcurrentSD()
+        /// <returns>The current SdValueModel instance.</returns>
+        public static SdValueModel getcurrentSD()
         {
             return Sdvalue;
         }
 
         /// <summary>
-        /// Sets the current SdValueModal instance.
+        /// Sets the current SdValueModel instance.
         /// </summary>
-        /// <param name="model">The SdValueModal instance to set.</param>
-        public static void setcurrentSD(SdValueModal model)
+        /// <param name="model">The SdValueModel instance to set.</param>
+        public static void setcurrentSD(SdValueModel model)
         {
             Sdvalue = model;
         }

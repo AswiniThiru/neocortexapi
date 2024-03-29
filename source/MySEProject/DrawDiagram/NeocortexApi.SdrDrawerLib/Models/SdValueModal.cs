@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace DrawDiagram.Models
 {
-	public class SdValueModal
+	public class SdValueModel
 	{
 		public  string textfile { get; set; } = "";
 		public  string graphname { get; set; } = "";

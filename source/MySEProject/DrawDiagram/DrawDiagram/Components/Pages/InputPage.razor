@@ -5,81 +5,114 @@
 <div class="input-page">
 	<h3>Input Page</h3>
 	<div class="buttons-container">
-		<button @onclick="setdefaultvalue">Default (auto set values)</button>
-		<button @onclick="setmanualvalue">Manual Input Entry</button>
+		<button style="background-color:#00E7C7 !important" @onclick="setdefaultvalue">Set Default Values</button>
+		<button style="background-color:#00E7C7 !important" @onclick="setmanualvalue">Set Manual Values</button>
 	</div>
-	<div class="input-row">
-		<div class="first-col">
-			<div class="input-container">
-				<label class="input-label">Graph Name</label><br />
-				<input  @bind-value="model.graphname" class="input-field" type="text" id="gName" />
+	<EditForm Model="model" >
+		<div class="input-row">
+			<div class="first-col">
+				<div class="input-container">
+					<label class="input-label">Graph Name</label><br />
+					<input required="" @bind-value="model.graphname" class="input-field" type="text" id="gName" />
+				</div>
+				<div class="input-container">
+					<label class="input-label">Figure Name</label><br />
+					<input required="" @bind-value="model.textfile" class="input-field" type="text" id="fName" />
+				</div>
+				<div class="input-container">
+					<label class="input-label">Max Cycle </label><br />
+					<div style="padding: 0px;">
+						<div class="form-range" style="width:285px">
+							<small class="form-text" style="margin: 0;">0</small>
+							<small class="form-text float-end" style="margin: 0;">100</small>
+						</div>
+						<input value="100" disabled class="form-range" type="range" id="cycles" style="height: 18px;" />
+					</div>
+
+				</div>
 			</div>
-			<div class="input-container">
-				<label class="input-label">Figure Name</label><br />
-				<input  @bind-value="model.textfile" class="input-field" type="text" id="fName" />
+			<div class="first-col">
+				<div class="input-container">
+					<label class="input-label">Y-axis Title</label><br />
+					<input required="" @bind-value="model.yaxis" class="input-field" type="text" id="yaxis" />
+				</div>
+				<div class="input-container">
+					<label class="input-label">X-axis Title</label><br />
+					<input required="" @bind-value="model.xaxis" class="input-field" type="text" id="xaxis" />
+				</div>
+				<div class="input-container">
+					<label class="input-label">Highlight Touch</label><br />
+					<div style="padding: 0px;">
+						<div class="form-range" style="width:285px">
+							<small class="form-text" style="margin: 0;">0</small>
+							<small class="form-text float-end" style="margin: 0;">@model.hightouch</small>
+						</div>
+						<input @bind-value="model.hightouch" class="form-range" type="range" id="touches" style="height: 18px;" />
+					</div>
+
+				</div>
 			</div>
-			<div class="input-container">
-				<label class="input-label">Max Cycle <span style="font-size:10px">0 to @model.maxCycles</span></label><br />
-				<input @bind-value="model.maxCycles"  class="input-field" type="range" id="cycles" />
+			<div class="first-col">
+				<div class="input-container">
+					<label class="input-label">Min Cell Range</label><br />
+					<select required="" @bind="model.minrange" class="input-field" id="mincells">
+						@foreach (var item in mincellslist)
+						{
+							<option value="@item.value">@item.value.ToString()</option>
+						}
+					</select>
+				</div>
+				<div class="input-container">
+					<label class="input-label">Max Cell Range</label><br />
+					<select required="" @bind="model.maxrange" class="input-field" id="maxcells">
+						@foreach (var item in maxcelleslist)
+						{
+							<option value="@item.value">@item.value.ToString()</option>
+						}
+					</select>
+				</div>
+				<div class="input-container hide">
+					<label class="input-label">Sub Plot Title</label><br />
+					<input required="" @bind-value="model.subplottitle" class="input-field" type="range" />
+				</div>
+			</div>
+			<div class="first-col">
+				<div class="input-container">
+					<label class="input-label">Sub Plot Title</label><br />
+					<input required="" @bind-value="model.subplottitle" class="input-field" type="text" id="subplot" />
+				</div>
+				<div class="input-container hide">
+					<label class="input-label">Grale Name</label><br />
+					<input class="input-field" type="text" />
+				</div>
+				<div class="input-container hide">
+					<label class="input-label">Grale Name</label>
+					<input class="input-field" type="text" />
+				</div>
+			</div>
+			<div class="button-container" style="margin-right:50px">
+				<div class="next-button" style="background-color:white;align-items:center;margin-right:86% ">
+					<img @onclick="backtohome" style="width:100px; height:50px" src="images/back.jpeg" />
+					
+					
+				</div>
+				<div class="next-button" style="background-color:white;align-items:center; margin-right:20px">
+					<button @onclick="handleclick" type="submit" style="border:none; background-color:transparent;">
+						<img  style="width:100px; height:50px" src="images/next.jpeg" />
+					</button>
+					
+				</div>
+
 			</div>
 		</div>
-		<div class="first-col">
-			<div class="input-container">
-				<label class="input-label">Y-axis Title</label><br />
-				<input  @bind-value="model.yaxis" class="input-field" type="text" id="yaxis" />
-			</div>
-			<div class="input-container">
-				<label class="input-label">X-axis Title</label><br />
-				<input @bind-value="model.xaxis" class="input-field" type="text" id="xaxis" />
-			</div>
-			<div class="input-container">
-				<label class="input-label">Highlight Touch  <span style="font-size:10px">0 to @model.hightouch</span></label><br />
-				<input @bind-value="model.hightouch"  class="input-field" type="range" id="touches" />
-			</div>
-		</div>
-		<div class="first-col">
-			<div class="input-container">
-				<label class="input-label">Min Cell Range</label><br />
-				<select  @bind="model.minrange" class="input-field" id="mincells">
-				</select>
-			</div>
-			<div class="input-container">
-				<label class="input-label">Max Cell Range</label><br />
-				<select  @bind="model.maxrange" class="input-field" id="maxcells">
-				</select>
-			</div>
-			<div class="input-container hide">
-				<label class="input-label">Sub Plot Title</label><br />
-				<input  @bind-value="model.subplottitle" class="input-field" type="range" />
-			</div>
-		</div>
-		<div class="first-col">
-			<div class="input-container">
-				<label class="input-label">Sub Plot Title</label><br />
-				<input  @bind-value="model.subplottitle" class="input-field" type="text" id="subplot" />
-			</div>
-			<div class="input-container hide">
-				<label class="input-label">Grale Name</label><br />
-				<input  class="input-field" type="text" />
-			</div>
-			<div class="input-container hide">
-				<label class="input-label">Grale Name</label>
-				<input class="input-field" type="text" />
-			</div>
-		</div>
-		<div class="button-container">
-			<div class="next-button" style="background-color:#001F34;align-items:center; ">
-				<img @onclick="handleclick" style="width:50px; height:50px" src="images/right-arrow-37.png" />
-			</div>
-			
-		</div>
-	</div>
+	</EditForm>
+	
 </div>
 
 
 
 @code {
-
+	private ElementReference rangeInput;
 	private void submit()
 	{
 		handleclick();
@@ -87,12 +120,8 @@
 
 }
 <script>
-	function gettouches() {
-		return document.getElementById('touches').value;
-	}
-	function getcycle() {
-		return document.getElementById('cycles').value;
-	}
+	
+
 	function editAbleValues(){
 		let gName = document.getElementById('gName');
 		let fName = document.getElementById('fName');

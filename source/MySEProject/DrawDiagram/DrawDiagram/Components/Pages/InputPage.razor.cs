@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-
+using System.Reflection.Metadata;
 using DrawDiagram.Models;
 
 using Microsoft.JSInterop;
@@ -11,46 +11,81 @@ namespace DrawDiagram.Components.Pages
 {
     partial class InputPage
     {
-		SdValueModal model = new SdValueModal();
+		SdValueModel model = new SdValueModel();
         string disable = "false";
         bool isanabled = true;
 		private string inputValue = "";
+        List<Dropdown> mincellslist = new List<Dropdown>();
+		List<Dropdown> maxcelleslist = new List<Dropdown>();
+        protected override void OnInitialized()
+        {
+            try
+            {
+                if (Convert.ToInt32(Filedatahelper.imagepath) == 0)
+                {
+                    model.maxCycles = 100;
+
+                }
+                else if (Convert.ToInt32(Filedatahelper.imagepath) > 0)
+                {
+                    model.maxCycles = Convert.ToInt32(Filedatahelper.imagepath);
+                }
+            }
+            catch (Exception ex)
+            {
+                model.maxCycles = 100;
+            }
+
+
+            for (var i = 100; i <= 5000; i += 10)
+			{
+                maxcelleslist.Add(new Dropdown { value = i });
+			}
+			for (var i = 0; i <= 100; i += 10)
+			{
+			mincellslist.Add(new Dropdown { value = i });
+			}
+		}
 		public async void handleclick()
         {
-            // Get the current cycle from JavaScript
-            string cycle = await jsruntime.InvokeAsync<string>("getcycle");
-            // Set the maxCycles in the model
-            model.maxCycles = Convert.ToInt32(cycle);
 
-            // Get the number of high touches from JavaScript
-            model.hightouch = Convert.ToInt32(await jsruntime.InvokeAsync<string>("gettouches"));
+            if (model.graphname=="" || model.textfile=="" || model.yaxis=="" || model.xaxis =="" || model.subplottitle=="")
+            {
+				
+			}
+            else
+            {
+				// Get the file data from the Filedatahelper
+				model.fileData = Filedatahelper.getfiledata();
 
-            // Get the file data from the Filedatahelper
-            model.fileData = Filedatahelper.getfiledata();
+				// Get the application data path
+				model.datapath = Environment.GetFolderPath(Environment.SpecialFolder.ApplicationData);
 
-            // Get the application data path
-            model.datapath = Environment.GetFolderPath(Environment.SpecialFolder.ApplicationData);
+				// Generate the SDR based on the model data
+				SdrHelper.newgeneratesdr(model);
 
-            // Generate the SDR based on the model data
-            SdrHelper.newgeneratesdr2(model);
-
-            // Navigate to the "output" page
-            mynav.NavigateTo("output");
+				// Navigate to the "output" page
+				mynav.NavigateTo("output");
+			}
+         
 
         }
 
+        private void backtohome()
+        {
+            mynav.NavigateTo("/");
+        }
         public async Task setdefaultvalue()
         {
             model.graphname = "test1";
             model.fname = "CortialColumn";
-            model.maxCycles = 19;
             model.yaxis = "Yaxis";
             model.xaxis = "Xaxis";
             model.minrange = 50;
             model.maxrange = 4000;
             model.subplottitle = "single column";
-            model.hightouch = 100;
-            model.textfile = "test1";
+            model.hightouch = 8;
+            model.textfile = "CortialColumn";
             await jsruntime.InvokeVoidAsync("defaultValues");
             StateHasChanged();
 
@@ -63,5 +98,10 @@ namespace DrawDiagram.Components.Pages
 		}
      
        
+    }
+
+    public class Dropdown
+    {
+        public int value { get; set; }
     }
 }

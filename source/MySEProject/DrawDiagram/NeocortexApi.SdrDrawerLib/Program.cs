@@ -1,15 +1,16 @@
 ﻿using DrawDiagram.Models;
 using NeocortexApi.SdrDrawerLib.Models;
+using System.Text.RegularExpressions;
 
 namespace NeocortexApi.SdrDrawerLib
 {
     public static class SdrHelper
     {
         /// <summary>
-        /// Generates an SDR plot based on the provided SdValueModal instance.
+        /// Generates an SDR plot based on the provided SdValueModel instance.
         /// </summary>
-        /// <param name="model">The SdValueModal instance containing the data for the plot.</param>
-        public static void newgeneratesdr2(SdValueModal model)
+        /// <param name="model">The SdValueModel instance containing the data for the plot.</param>
+        public static void newgeneratesdr(SdValueModel model)
         {
             try
             {
@@ -21,12 +22,11 @@ namespace NeocortexApi.SdrDrawerLib
                 // Assuming the fileContent contains the CSV data for the SDR plot.
                 string fileContent = model.fileData;
                 string[] lines = fileContent.Split('\n');
-
-                // Processing each line of the CSV data.
-                foreach (var line in lines)
+				
+				// Processing each line of the CSV data.
+				foreach (var line in lines)
                 {
-                    var values = line.Split(',');
-
+					var values = line.Split(',');
                     // Initializing HashSet for each line.
                     HashSet<int> cellSet = new HashSet<int>();
                     foreach (var value in values)
