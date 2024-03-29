@@ -533,7 +533,7 @@ The Input Page is a component of the MAUI desktop app responsible for gathering 
 
 3. Generation of SDR Diagram: Upon successful validation, the SDR diagram is generated based on the provided parameters.
 
-4. Navigation: Users can navigate back to the home page or proceed to view the generated diagram.
+4. Navigation: Users can navigate back to the home page or proceed to next page to generate diagram.
 
 ## Output Page
 
