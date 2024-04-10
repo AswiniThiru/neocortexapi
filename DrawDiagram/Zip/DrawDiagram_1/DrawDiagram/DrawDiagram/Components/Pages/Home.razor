@@ -1,0 +1,47 @@
+﻿@page "/"
+@layout Outputlayout
+@inject NavigationManager mynav
+@inject IJSRuntime jsruntime
+
+<div class="home" style="background-color:#E3FDD7 !important">
+    <div class="home-col" >
+        <div class="home-row">
+            <div class="pic-container">
+                <img src="/images/admin.jpg" width="70" height="70" alt="Admin image" />
+                <label class="admin-label">Hello from Team_MAUI</label>
+            </div>
+            <div class="file-container">
+                <label class="file-label">Choose CSV/TXT file</label>
+                <InputFile class="file" accept=".csv, .txt" OnChange="HandleFileChange" />
+              @*   <input type="file" class="file" @onchange="HandleFileChange" id="fileInput" accept=".csv, .txt" /> *@
+            </div>
+        </div>
+        <div class="textarea-container">
+            <InputTextArea rows="20" cols="50" required=""  placeholder="place your SDR values here" class="textarea" @bind-Value="filedata"></InputTextArea>
+            <div class="button-container" style="margin-right:50px">
+                <div class="next-button" style="background-color:white;align-items:center;">
+                    <img @onclick="Gotoinout" style="width:100px; height:50px" src="images/next.jpeg" />
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    document.getElementById('textInput').addEventListener('input', function (event) {
+        // Get the input value
+        let inputValue = event.target.value;
+
+        // Regular expression to match commas and numbers only
+        let regex = /[^0-9,]/g;
+
+        // Remove any characters that are not commas or numbers
+        let cleanedValue = inputValue.replace(regex, '');
+
+        // Update the input value with cleaned one
+        event.target.value = cleanedValue;
+    });
+</script>
+
+
+   
