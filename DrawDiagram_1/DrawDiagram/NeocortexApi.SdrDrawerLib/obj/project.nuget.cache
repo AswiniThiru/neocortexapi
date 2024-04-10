@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "dgSpecHash": "N7ZHWtfvySu+cATVEc4zKBgOyozgAlZ9q77sZTGWkttAstK55XL55EzkrQNBnYMrSPSodl15mcx3+pH8KxXevA==",
+  "success": true,
+  "projectFilePath": "D:\\software engineering test\\Jr pro\\teju\\zip\\DrawDiagram\\DrawDiagram\\NeocortexApi.SdrDrawerLib\\NeocortexApi.SdrDrawerLib.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\SAHITH\\.nuget\\packages\\oxyplot.core\\2.1.2\\oxyplot.core.2.1.2.nupkg.sha512",
+    "C:\\Users\\SAHITH\\.nuget\\packages\\skiasharp\\3.0.0-preview.2.1\\skiasharp.3.0.0-preview.2.1.nupkg.sha512",
+    "C:\\Users\\SAHITH\\.nuget\\packages\\skiasharp.nativeassets.macos\\3.0.0-preview.2.1\\skiasharp.nativeassets.macos.3.0.0-preview.2.1.nupkg.sha512",
+    "C:\\Users\\SAHITH\\.nuget\\packages\\skiasharp.nativeassets.win32\\3.0.0-preview.2.1\\skiasharp.nativeassets.win32.3.0.0-preview.2.1.nupkg.sha512",
+    "C:\\Users\\SAHITH\\.nuget\\packages\\system.buffers\\4.5.1\\system.buffers.4.5.1.nupkg.sha512",
+    "C:\\Users\\SAHITH\\.nuget\\packages\\system.memory\\4.5.5\\system.memory.4.5.5.nupkg.sha512",
+    "C:\\Users\\SAHITH\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Users\\SAHITH\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

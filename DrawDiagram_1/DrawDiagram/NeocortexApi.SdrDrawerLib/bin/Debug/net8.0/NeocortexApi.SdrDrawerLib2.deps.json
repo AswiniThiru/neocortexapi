@@ -1,0 +1,139 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "NeocortexApi.SdrDrawerLib2/1.0.0": {
+        "dependencies": {
+          "OxyPlot.Core": "2.1.2",
+          "SkiaSharp": "3.0.0-preview.2.1",
+          "System.Buffers": "4.5.1",
+          "System.Memory": "4.5.5",
+          "System.Numerics.Vectors": "4.5.0",
+          "System.Runtime.CompilerServices.Unsafe": "6.0.0"
+        },
+        "runtime": {
+          "NeocortexApi.SdrDrawerLib2.dll": {}
+        }
+      },
+      "OxyPlot.Core/2.1.2": {
+        "runtime": {
+          "lib/netstandard2.0/OxyPlot.dll": {
+            "assemblyVersion": "2.1.2.0",
+            "fileVersion": "2.1.2.0"
+          }
+        }
+      },
+      "SkiaSharp/3.0.0-preview.2.1": {
+        "dependencies": {
+          "SkiaSharp.NativeAssets.Win32": "3.0.0-preview.2.1",
+          "SkiaSharp.NativeAssets.macOS": "3.0.0-preview.2.1"
+        },
+        "runtime": {
+          "lib/net7.0/SkiaSharp.dll": {
+            "assemblyVersion": "3.0.0.0",
+            "fileVersion": "3.0.0.0"
+          }
+        }
+      },
+      "SkiaSharp.NativeAssets.macOS/3.0.0-preview.2.1": {
+        "runtimeTargets": {
+          "runtimes/osx/native/libSkiaSharp.dylib": {
+            "rid": "osx",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          }
+        }
+      },
+      "SkiaSharp.NativeAssets.Win32/3.0.0-preview.2.1": {
+        "runtimeTargets": {
+          "runtimes/win-arm64/native/libSkiaSharp.dll": {
+            "rid": "win-arm64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/win-x64/native/libSkiaSharp.dll": {
+            "rid": "win-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/win-x86/native/libSkiaSharp.dll": {
+            "rid": "win-x86",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          }
+        }
+      },
+      "System.Buffers/4.5.1": {},
+      "System.Memory/4.5.5": {},
+      "System.Numerics.Vectors/4.5.0": {},
+      "System.Runtime.CompilerServices.Unsafe/6.0.0": {}
+    }
+  },
+  "libraries": {
+    "NeocortexApi.SdrDrawerLib2/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "OxyPlot.Core/2.1.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-/BuPL1Wa7ZhpKA2DBe72md+S8PgIHF+UP/NsKfO9BiheXnbns1/tqS7s2MWIR1xFy5i+PWVC67KziGPY48mNgA==",
+      "path": "oxyplot.core/2.1.2",
+      "hashPath": "oxyplot.core.2.1.2.nupkg.sha512"
+    },
+    "SkiaSharp/3.0.0-preview.2.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-6n+0t0p/nYMZqVv6hsZRv9R/sCZv6ELclRvGZ8MW6lm5WkAwG+Dtf9IfE6KZYtNp9FyXfLUjPl97dzuO8thMUw==",
+      "path": "skiasharp/3.0.0-preview.2.1",
+      "hashPath": "skiasharp.3.0.0-preview.2.1.nupkg.sha512"
+    },
+    "SkiaSharp.NativeAssets.macOS/3.0.0-preview.2.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Kq7mbxLtlE/ElIBPrrnsfKFV0uDQX3Mrj5ea615ZzhCjzBMfawLs4fYF7B0qCG9DI6D070KuU/qc/JMX2okjbg==",
+      "path": "skiasharp.nativeassets.macos/3.0.0-preview.2.1",
+      "hashPath": "skiasharp.nativeassets.macos.3.0.0-preview.2.1.nupkg.sha512"
+    },
+    "SkiaSharp.NativeAssets.Win32/3.0.0-preview.2.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-C7sgmY7P/VeLXyli81mCd5DA8O5cGAsSgD/y0CqTS0OTpqMcUBh5TCAMdG1eDgwG71zeBjPJK4upc0/WNoYjcw==",
+      "path": "skiasharp.nativeassets.win32/3.0.0-preview.2.1",
+      "hashPath": "skiasharp.nativeassets.win32.3.0.0-preview.2.1.nupkg.sha512"
+    },
+    "System.Buffers/4.5.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Rw7ijyl1qqRS0YQD/WycNst8hUUMgrMH4FCn1nNm27M4VxchZ1js3fVjQaANHO5f3sN4isvP4a+Met9Y4YomAg==",
+      "path": "system.buffers/4.5.1",
+      "hashPath": "system.buffers.4.5.1.nupkg.sha512"
+    },
+    "System.Memory/4.5.5": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-XIWiDvKPXaTveaB7HVganDlOCRoj03l+jrwNvcge/t8vhGYKvqV+dMv6G4SAX2NoNmN0wZfVPTAlFwZcZvVOUw==",
+      "path": "system.memory/4.5.5",
+      "hashPath": "system.memory.4.5.5.nupkg.sha512"
+    },
+    "System.Numerics.Vectors/4.5.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-QQTlPTl06J/iiDbJCiepZ4H//BVraReU4O4EoRw1U02H5TLUIT7xn3GnDp9AXPSlJUDyFs4uWjWafNX6WrAojQ==",
+      "path": "system.numerics.vectors/4.5.0",
+      "hashPath": "system.numerics.vectors.4.5.0.nupkg.sha512"
+    },
+    "System.Runtime.CompilerServices.Unsafe/6.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-/iUeP3tq1S0XdNNoMz5C9twLSrM/TH+qElHkXWaPvuNOt+99G75NrV0OS2EqHx5wMN7popYjpc8oTjC1y16DLg==",
+      "path": "system.runtime.compilerservices.unsafe/6.0.0",
+      "hashPath": "system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
+    }
+  }
+}

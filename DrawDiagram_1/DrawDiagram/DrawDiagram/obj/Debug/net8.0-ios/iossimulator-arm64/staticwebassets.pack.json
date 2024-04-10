@@ -1,0 +1,101 @@
+{
+  "Files": [
+    {
+      "Id": "/Users/saitejaswini/se_maui_project/neocortexapi/source/MySEProject/DrawDiagram/DrawDiagram/obj/Debug/net8.0-ios/iossimulator-arm64/scopedcss/bundle/DrawDiagram.styles.css",
+      "PackagePath": "staticwebassets/DrawDiagram.styles.css"
+    },
+    {
+      "Id": "/Users/saitejaswini/se_maui_project/neocortexapi/source/MySEProject/DrawDiagram/DrawDiagram/wwwroot/NeocortexApi.SdrDrawerLib.exe",
+      "PackagePath": "staticwebassets/NeocortexApi.SdrDrawerLib.exe"
+    },
+    {
+      "Id": "/Users/saitejaswini/se_maui_project/neocortexapi/source/MySEProject/DrawDiagram/DrawDiagram/wwwroot/NeocortexApi.SdrDrawerLib.exe.config",
+      "PackagePath": "staticwebassets/NeocortexApi.SdrDrawerLib.exe.config"
+    },
+    {
+      "Id": "/Users/saitejaswini/se_maui_project/neocortexapi/source/MySEProject/DrawDiagram/DrawDiagram/wwwroot/VerticalPlot.svg",
+      "PackagePath": "staticwebassets/VerticalPlot.svg"
+    },
+    {
+      "Id": "/Users/saitejaswini/se_maui_project/neocortexapi/source/MySEProject/DrawDiagram/DrawDiagram/wwwroot/css/app.css",
+      "PackagePath": "staticwebassets/css/app.css"
+    },
+    {
+      "Id": "/Users/saitejaswini/se_maui_project/neocortexapi/source/MySEProject/DrawDiagram/DrawDiagram/wwwroot/css/bootstrap/bootstrap.min.css",
+      "PackagePath": "staticwebassets/css/bootstrap/bootstrap.min.css"
+    },
+    {
+      "Id": "/Users/saitejaswini/se_maui_project/neocortexapi/source/MySEProject/DrawDiagram/DrawDiagram/wwwroot/css/bootstrap/bootstrap.min.css.map",
+      "PackagePath": "staticwebassets/css/bootstrap/bootstrap.min.css.map"
+    },
+    {
+      "Id": "/Users/saitejaswini/se_maui_project/neocortexapi/source/MySEProject/DrawDiagram/DrawDiagram/wwwroot/css/home.css",
+      "PackagePath": "staticwebassets/css/home.css"
+    },
+    {
+      "Id": "/Users/saitejaswini/se_maui_project/neocortexapi/source/MySEProject/DrawDiagram/DrawDiagram/wwwroot/css/inputpage.css",
+      "PackagePath": "staticwebassets/css/inputpage.css"
+    },
+    {
+      "Id": "/Users/saitejaswini/se_maui_project/neocortexapi/source/MySEProject/DrawDiagram/DrawDiagram/wwwroot/css/outputPage.css",
+      "PackagePath": "staticwebassets/css/outputPage.css"
+    },
+    {
+      "Id": "/Users/saitejaswini/se_maui_project/neocortexapi/source/MySEProject/DrawDiagram/DrawDiagram/wwwroot/favicon.png",
+      "PackagePath": "staticwebassets/favicon.png"
+    },
+    {
+      "Id": "/Users/saitejaswini/se_maui_project/neocortexapi/source/MySEProject/DrawDiagram/DrawDiagram/wwwroot/images/HorizontalPlot.svg",
+      "PackagePath": "staticwebassets/images/HorizontalPlot.svg"
+    },
+    {
+      "Id": "/Users/saitejaswini/se_maui_project/neocortexapi/source/MySEProject/DrawDiagram/DrawDiagram/wwwroot/images/admin.jpg",
+      "PackagePath": "staticwebassets/images/admin.jpg"
+    },
+    {
+      "Id": "/Users/saitejaswini/se_maui_project/neocortexapi/source/MySEProject/DrawDiagram/DrawDiagram/wwwroot/images/admin.png",
+      "PackagePath": "staticwebassets/images/admin.png"
+    },
+    {
+      "Id": "/Users/saitejaswini/se_maui_project/neocortexapi/source/MySEProject/DrawDiagram/DrawDiagram/wwwroot/images/back.jpeg",
+      "PackagePath": "staticwebassets/images/back.jpeg"
+    },
+    {
+      "Id": "/Users/saitejaswini/se_maui_project/neocortexapi/source/MySEProject/DrawDiagram/DrawDiagram/wwwroot/images/home.png",
+      "PackagePath": "staticwebassets/images/home.png"
+    },
+    {
+      "Id": "/Users/saitejaswini/se_maui_project/neocortexapi/source/MySEProject/DrawDiagram/DrawDiagram/wwwroot/images/next.jpeg",
+      "PackagePath": "staticwebassets/images/next.jpeg"
+    },
+    {
+      "Id": "/Users/saitejaswini/se_maui_project/neocortexapi/source/MySEProject/DrawDiagram/DrawDiagram/wwwroot/images/right-arrow-37.png",
+      "PackagePath": "staticwebassets/images/right-arrow-37.png"
+    },
+    {
+      "Id": "/Users/saitejaswini/se_maui_project/neocortexapi/source/MySEProject/DrawDiagram/DrawDiagram/wwwroot/images/rightback.png",
+      "PackagePath": "staticwebassets/images/rightback.png"
+    },
+    {
+      "Id": "/Users/saitejaswini/se_maui_project/neocortexapi/source/MySEProject/DrawDiagram/DrawDiagram/wwwroot/index.html",
+      "PackagePath": "staticwebassets/index.html"
+    },
+    {
+      "Id": "obj/Debug/net8.0-ios/iossimulator-arm64/staticwebassets/msbuild.DrawDiagram.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj/Debug/net8.0-ios/iossimulator-arm64/staticwebassets/msbuild.build.DrawDiagram.props",
+      "PackagePath": "build\\DrawDiagram.props"
+    },
+    {
+      "Id": "obj/Debug/net8.0-ios/iossimulator-arm64/staticwebassets/msbuild.buildMultiTargeting.DrawDiagram.props",
+      "PackagePath": "buildMultiTargeting\\DrawDiagram.props"
+    },
+    {
+      "Id": "obj/Debug/net8.0-ios/iossimulator-arm64/staticwebassets/msbuild.buildTransitive.DrawDiagram.props",
+      "PackagePath": "buildTransitive\\DrawDiagram.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

@@ -1,0 +1,666 @@
+E:\fiverr\code\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\DrawDiagram.runtimeconfig.json
+E:\fiverr\code\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\DrawDiagram.dll
+E:\fiverr\code\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\DrawDiagram.pdb
+E:\fiverr\code\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\Microsoft.AspNetCore.Authorization.dll
+E:\fiverr\code\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\Microsoft.AspNetCore.Components.dll
+E:\fiverr\code\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\Microsoft.AspNetCore.Components.Forms.dll
+E:\fiverr\code\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\Microsoft.AspNetCore.Components.Web.dll
+E:\fiverr\code\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\Microsoft.AspNetCore.Components.WebView.dll
+E:\fiverr\code\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\Microsoft.AspNetCore.Components.WebView.Maui.dll
+E:\fiverr\code\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\Microsoft.AspNetCore.Metadata.dll
+E:\fiverr\code\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\Microsoft.Extensions.Configuration.dll
+E:\fiverr\code\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\Microsoft.Extensions.Configuration.Abstractions.dll
+E:\fiverr\code\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\Microsoft.Extensions.Configuration.Binder.dll
+E:\fiverr\code\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\Microsoft.Extensions.Configuration.FileExtensions.dll
+E:\fiverr\code\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\Microsoft.Extensions.Configuration.Json.dll
+E:\fiverr\code\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\Microsoft.Extensions.DependencyInjection.dll
+E:\fiverr\code\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+E:\fiverr\code\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\Microsoft.Extensions.FileProviders.Abstractions.dll
+E:\fiverr\code\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\Microsoft.Extensions.FileProviders.Composite.dll
+E:\fiverr\code\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\Microsoft.Extensions.FileProviders.Embedded.dll
+E:\fiverr\code\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\Microsoft.Extensions.FileProviders.Physical.dll
+E:\fiverr\code\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\Microsoft.Extensions.FileSystemGlobbing.dll
+E:\fiverr\code\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\Microsoft.Extensions.Logging.dll
+E:\fiverr\code\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\Microsoft.Extensions.Logging.Abstractions.dll
+E:\fiverr\code\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\Microsoft.Extensions.Logging.Debug.dll
+E:\fiverr\code\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\Microsoft.Extensions.Options.dll
+E:\fiverr\code\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\Microsoft.Extensions.Primitives.dll
+E:\fiverr\code\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\Microsoft.JSInterop.dll
+E:\fiverr\code\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\Microsoft.Maui.Controls.Compatibility.dll
+E:\fiverr\code\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\Microsoft.Maui.Controls.dll
+E:\fiverr\code\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\Microsoft.Maui.Controls.Xaml.dll
+E:\fiverr\code\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\Microsoft.Maui.dll
+E:\fiverr\code\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\Microsoft.Maui.Essentials.dll
+E:\fiverr\code\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\Microsoft.Maui.Graphics.dll
+E:\fiverr\code\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\System.IO.Pipelines.dll
+E:\fiverr\code\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\ar\Microsoft.Maui.Controls.resources.dll
+E:\fiverr\code\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\ca\Microsoft.Maui.Controls.resources.dll
+E:\fiverr\code\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\cs\Microsoft.Maui.Controls.resources.dll
+E:\fiverr\code\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\da\Microsoft.Maui.Controls.resources.dll
+E:\fiverr\code\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\de\Microsoft.Maui.Controls.resources.dll
+E:\fiverr\code\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\el\Microsoft.Maui.Controls.resources.dll
+E:\fiverr\code\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\es\Microsoft.Maui.Controls.resources.dll
+E:\fiverr\code\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\fi\Microsoft.Maui.Controls.resources.dll
+E:\fiverr\code\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\fr\Microsoft.Maui.Controls.resources.dll
+E:\fiverr\code\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\he\Microsoft.Maui.Controls.resources.dll
+E:\fiverr\code\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\hi\Microsoft.Maui.Controls.resources.dll
+E:\fiverr\code\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\hr\Microsoft.Maui.Controls.resources.dll
+E:\fiverr\code\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\hu\Microsoft.Maui.Controls.resources.dll
+E:\fiverr\code\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\id\Microsoft.Maui.Controls.resources.dll
+E:\fiverr\code\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\it\Microsoft.Maui.Controls.resources.dll
+E:\fiverr\code\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\ja\Microsoft.Maui.Controls.resources.dll
+E:\fiverr\code\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\ko\Microsoft.Maui.Controls.resources.dll
+E:\fiverr\code\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\ms\Microsoft.Maui.Controls.resources.dll
+E:\fiverr\code\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\nb\Microsoft.Maui.Controls.resources.dll
+E:\fiverr\code\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\nl\Microsoft.Maui.Controls.resources.dll
+E:\fiverr\code\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\pl\Microsoft.Maui.Controls.resources.dll
+E:\fiverr\code\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\pt-BR\Microsoft.Maui.Controls.resources.dll
+E:\fiverr\code\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\pt\Microsoft.Maui.Controls.resources.dll
+E:\fiverr\code\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\ro\Microsoft.Maui.Controls.resources.dll
+E:\fiverr\code\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\ru\Microsoft.Maui.Controls.resources.dll
+E:\fiverr\code\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\sk\Microsoft.Maui.Controls.resources.dll
+E:\fiverr\code\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\sv\Microsoft.Maui.Controls.resources.dll
+E:\fiverr\code\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\th\Microsoft.Maui.Controls.resources.dll
+E:\fiverr\code\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\tr\Microsoft.Maui.Controls.resources.dll
+E:\fiverr\code\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\uk\Microsoft.Maui.Controls.resources.dll
+E:\fiverr\code\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\vi\Microsoft.Maui.Controls.resources.dll
+E:\fiverr\code\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\zh-HK\Microsoft.Maui.Controls.resources.dll
+E:\fiverr\code\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\zh-Hans\Microsoft.Maui.Controls.resources.dll
+E:\fiverr\code\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\zh-Hant\Microsoft.Maui.Controls.resources.dll
+E:\fiverr\code\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\Microsoft.CSharp.dll
+E:\fiverr\code\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\Microsoft.VisualBasic.Core.dll
+E:\fiverr\code\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\Microsoft.VisualBasic.dll
+E:\fiverr\code\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\Microsoft.Win32.Primitives.dll
+E:\fiverr\code\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\Microsoft.Win32.Registry.dll
+E:\fiverr\code\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\System.AppContext.dll
+E:\fiverr\code\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\System.Buffers.dll
+E:\fiverr\code\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\System.Collections.Concurrent.dll
+E:\fiverr\code\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\System.Collections.Immutable.dll
+E:\fiverr\code\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\System.Collections.NonGeneric.dll
+E:\fiverr\code\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\System.Collections.Specialized.dll
+E:\fiverr\code\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\System.Collections.dll
+E:\fiverr\code\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\System.ComponentModel.Annotations.dll
+E:\fiverr\code\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\System.ComponentModel.DataAnnotations.dll
+E:\fiverr\code\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\System.ComponentModel.EventBasedAsync.dll
+E:\fiverr\code\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\System.ComponentModel.Primitives.dll
+E:\fiverr\code\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\System.ComponentModel.TypeConverter.dll
+E:\fiverr\code\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\System.ComponentModel.dll
+E:\fiverr\code\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\System.Configuration.dll
+E:\fiverr\code\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\System.Console.dll
+E:\fiverr\code\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\System.Core.dll
+E:\fiverr\code\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\System.Data.Common.dll
+E:\fiverr\code\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\System.Data.DataSetExtensions.dll
+E:\fiverr\code\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\System.Data.dll
+E:\fiverr\code\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\System.Diagnostics.Contracts.dll
+E:\fiverr\code\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\System.Diagnostics.Debug.dll
+E:\fiverr\code\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\System.Diagnostics.DiagnosticSource.dll
+E:\fiverr\code\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\System.Diagnostics.FileVersionInfo.dll
+E:\fiverr\code\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\System.Diagnostics.Process.dll
+E:\fiverr\code\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\System.Diagnostics.StackTrace.dll
+E:\fiverr\code\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\System.Diagnostics.TextWriterTraceListener.dll
+E:\fiverr\code\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\System.Diagnostics.Tools.dll
+E:\fiverr\code\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\System.Diagnostics.TraceSource.dll
+E:\fiverr\code\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\System.Diagnostics.Tracing.dll
+E:\fiverr\code\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\System.Drawing.Primitives.dll
+E:\fiverr\code\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\System.Drawing.dll
+E:\fiverr\code\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\System.Dynamic.Runtime.dll
+E:\fiverr\code\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\System.Formats.Asn1.dll
+E:\fiverr\code\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\System.Formats.Tar.dll
+E:\fiverr\code\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\System.Globalization.Calendars.dll
+E:\fiverr\code\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\System.Globalization.Extensions.dll
+E:\fiverr\code\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\System.Globalization.dll
+E:\fiverr\code\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\System.IO.Compression.Brotli.dll
+E:\fiverr\code\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\System.IO.Compression.FileSystem.dll
+E:\fiverr\code\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\System.IO.Compression.ZipFile.dll
+E:\fiverr\code\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\System.IO.Compression.dll
+E:\fiverr\code\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\System.IO.FileSystem.AccessControl.dll
+E:\fiverr\code\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\System.IO.FileSystem.DriveInfo.dll
+E:\fiverr\code\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\System.IO.FileSystem.Primitives.dll
+E:\fiverr\code\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\System.IO.FileSystem.Watcher.dll
+E:\fiverr\code\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\System.IO.FileSystem.dll
+E:\fiverr\code\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\System.IO.IsolatedStorage.dll
+E:\fiverr\code\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\System.IO.MemoryMappedFiles.dll
+E:\fiverr\code\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\System.IO.Pipes.AccessControl.dll
+E:\fiverr\code\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\System.IO.Pipes.dll
+E:\fiverr\code\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\System.IO.UnmanagedMemoryStream.dll
+E:\fiverr\code\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\System.IO.dll
+E:\fiverr\code\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\System.Linq.Expressions.dll
+E:\fiverr\code\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\System.Linq.Parallel.dll
+E:\fiverr\code\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\System.Linq.Queryable.dll
+E:\fiverr\code\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\System.Linq.dll
+E:\fiverr\code\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\System.Memory.dll
+E:\fiverr\code\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\System.Net.Http.Json.dll
+E:\fiverr\code\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\System.Net.Http.dll
+E:\fiverr\code\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\System.Net.HttpListener.dll
+E:\fiverr\code\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\System.Net.Mail.dll
+E:\fiverr\code\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\System.Net.NameResolution.dll
+E:\fiverr\code\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\System.Net.NetworkInformation.dll
+E:\fiverr\code\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\System.Net.Ping.dll
+E:\fiverr\code\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\System.Net.Primitives.dll
+E:\fiverr\code\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\System.Net.Quic.dll
+E:\fiverr\code\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\System.Net.Requests.dll
+E:\fiverr\code\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\System.Net.Security.dll
+E:\fiverr\code\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\System.Net.ServicePoint.dll
+E:\fiverr\code\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\System.Net.Sockets.dll
+E:\fiverr\code\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\System.Net.WebClient.dll
+E:\fiverr\code\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\System.Net.WebHeaderCollection.dll
+E:\fiverr\code\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\System.Net.WebProxy.dll
+E:\fiverr\code\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\System.Net.WebSockets.Client.dll
+E:\fiverr\code\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\System.Net.WebSockets.dll
+E:\fiverr\code\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\System.Net.dll
+E:\fiverr\code\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\System.Numerics.Vectors.dll
+E:\fiverr\code\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\System.Numerics.dll
+E:\fiverr\code\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\System.ObjectModel.dll
+E:\fiverr\code\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\System.Private.DataContractSerialization.dll
+E:\fiverr\code\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\System.Private.Uri.dll
+E:\fiverr\code\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\System.Private.Xml.Linq.dll
+E:\fiverr\code\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\System.Private.Xml.dll
+E:\fiverr\code\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\System.Reflection.DispatchProxy.dll
+E:\fiverr\code\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\System.Reflection.Emit.ILGeneration.dll
+E:\fiverr\code\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\System.Reflection.Emit.Lightweight.dll
+E:\fiverr\code\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\System.Reflection.Emit.dll
+E:\fiverr\code\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\System.Reflection.Extensions.dll
+E:\fiverr\code\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\System.Reflection.Metadata.dll
+E:\fiverr\code\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\System.Reflection.Primitives.dll
+E:\fiverr\code\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\System.Reflection.TypeExtensions.dll
+E:\fiverr\code\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\System.Reflection.dll
+E:\fiverr\code\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\System.Resources.Reader.dll
+E:\fiverr\code\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\System.Resources.ResourceManager.dll
+E:\fiverr\code\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\System.Resources.Writer.dll
+E:\fiverr\code\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\System.Runtime.CompilerServices.Unsafe.dll
+E:\fiverr\code\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\System.Runtime.CompilerServices.VisualC.dll
+E:\fiverr\code\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\System.Runtime.Extensions.dll
+E:\fiverr\code\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\System.Runtime.Handles.dll
+E:\fiverr\code\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\System.Runtime.InteropServices.JavaScript.dll
+E:\fiverr\code\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\System.Runtime.InteropServices.RuntimeInformation.dll
+E:\fiverr\code\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\System.Runtime.InteropServices.dll
+E:\fiverr\code\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\System.Runtime.Intrinsics.dll
+E:\fiverr\code\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\System.Runtime.Loader.dll
+E:\fiverr\code\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\System.Runtime.Numerics.dll
+E:\fiverr\code\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\System.Runtime.Serialization.Formatters.dll
+E:\fiverr\code\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\System.Runtime.Serialization.Json.dll
+E:\fiverr\code\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\System.Runtime.Serialization.Primitives.dll
+E:\fiverr\code\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\System.Runtime.Serialization.Xml.dll
+E:\fiverr\code\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\System.Runtime.Serialization.dll
+E:\fiverr\code\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\System.Runtime.dll
+E:\fiverr\code\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\System.Security.AccessControl.dll
+E:\fiverr\code\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\System.Security.Claims.dll
+E:\fiverr\code\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\System.Security.Cryptography.Algorithms.dll
+E:\fiverr\code\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\System.Security.Cryptography.Cng.dll
+E:\fiverr\code\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\System.Security.Cryptography.Csp.dll
+E:\fiverr\code\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\System.Security.Cryptography.Encoding.dll
+E:\fiverr\code\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\System.Security.Cryptography.OpenSsl.dll
+E:\fiverr\code\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\System.Security.Cryptography.Primitives.dll
+E:\fiverr\code\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\System.Security.Cryptography.X509Certificates.dll
+E:\fiverr\code\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\System.Security.Cryptography.dll
+E:\fiverr\code\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\System.Security.Principal.Windows.dll
+E:\fiverr\code\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\System.Security.Principal.dll
+E:\fiverr\code\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\System.Security.SecureString.dll
+E:\fiverr\code\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\System.Security.dll
+E:\fiverr\code\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\System.ServiceModel.Web.dll
+E:\fiverr\code\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\System.ServiceProcess.dll
+E:\fiverr\code\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\System.Text.Encoding.CodePages.dll
+E:\fiverr\code\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\System.Text.Encoding.Extensions.dll
+E:\fiverr\code\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\System.Text.Encoding.dll
+E:\fiverr\code\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\System.Text.Encodings.Web.dll
+E:\fiverr\code\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\System.Text.Json.dll
+E:\fiverr\code\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\System.Text.RegularExpressions.dll
+E:\fiverr\code\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\System.Threading.Channels.dll
+E:\fiverr\code\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\System.Threading.Overlapped.dll
+E:\fiverr\code\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\System.Threading.Tasks.Dataflow.dll
+E:\fiverr\code\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\System.Threading.Tasks.Extensions.dll
+E:\fiverr\code\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\System.Threading.Tasks.Parallel.dll
+E:\fiverr\code\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\System.Threading.Tasks.dll
+E:\fiverr\code\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\System.Threading.Thread.dll
+E:\fiverr\code\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\System.Threading.ThreadPool.dll
+E:\fiverr\code\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\System.Threading.Timer.dll
+E:\fiverr\code\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\System.Threading.dll
+E:\fiverr\code\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\System.Transactions.Local.dll
+E:\fiverr\code\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\System.Transactions.dll
+E:\fiverr\code\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\System.ValueTuple.dll
+E:\fiverr\code\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\System.Web.HttpUtility.dll
+E:\fiverr\code\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\System.Web.dll
+E:\fiverr\code\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\System.Windows.dll
+E:\fiverr\code\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\System.Xml.Linq.dll
+E:\fiverr\code\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\System.Xml.ReaderWriter.dll
+E:\fiverr\code\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\System.Xml.Serialization.dll
+E:\fiverr\code\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\System.Xml.XDocument.dll
+E:\fiverr\code\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\System.Xml.XPath.XDocument.dll
+E:\fiverr\code\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\System.Xml.XPath.dll
+E:\fiverr\code\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\System.Xml.XmlDocument.dll
+E:\fiverr\code\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\System.Xml.XmlSerializer.dll
+E:\fiverr\code\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\System.Xml.dll
+E:\fiverr\code\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\System.dll
+E:\fiverr\code\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\WindowsBase.dll
+E:\fiverr\code\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\mscorlib.dll
+E:\fiverr\code\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\netstandard.dll
+E:\fiverr\code\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\Microsoft.MacCatalyst.dll
+E:\fiverr\code\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\System.Private.CoreLib.dll
+E:\fiverr\code\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\icudt.dat
+E:\fiverr\code\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\icudt_CJK.dat
+E:\fiverr\code\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\icudt_EFIGS.dat
+E:\fiverr\code\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\icudt_hybrid.dat
+E:\fiverr\code\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\icudt_no_CJK.dat
+E:\fiverr\code\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\libSystem.Globalization.Native.a
+E:\fiverr\code\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\libSystem.Globalization.Native.dylib
+E:\fiverr\code\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\libSystem.IO.Compression.Native.a
+E:\fiverr\code\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\libSystem.IO.Compression.Native.dylib
+E:\fiverr\code\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\libSystem.Native.a
+E:\fiverr\code\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\libSystem.Native.dylib
+E:\fiverr\code\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\libSystem.Net.Security.Native.a
+E:\fiverr\code\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\libSystem.Net.Security.Native.dylib
+E:\fiverr\code\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\libSystem.Security.Cryptography.Native.Apple.a
+E:\fiverr\code\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\libSystem.Security.Cryptography.Native.Apple.dylib
+E:\fiverr\code\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\libicudata.a
+E:\fiverr\code\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\libicui18n.a
+E:\fiverr\code\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\libicuuc.a
+E:\fiverr\code\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\libmono-component-debugger-static.a
+E:\fiverr\code\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\libmono-component-debugger-stub-static.a
+E:\fiverr\code\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\libmono-component-diagnostics_tracing-static.a
+E:\fiverr\code\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\libmono-component-diagnostics_tracing-stub-static.a
+E:\fiverr\code\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\libmono-component-hot_reload-static.a
+E:\fiverr\code\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\libmono-component-hot_reload-stub-static.a
+E:\fiverr\code\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\libmono-component-marshal-ilgen-static.a
+E:\fiverr\code\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\libmono-component-marshal-ilgen-stub-static.a
+E:\fiverr\code\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\libmonosgen-2.0.a
+E:\fiverr\code\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\libmonosgen-2.0.dylib
+E:\fiverr\code\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\Microsoft.MacCatalyst.registrar.a
+E:\fiverr\code\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\libxamarin-dotnet-debug.a
+E:\fiverr\code\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\libxamarin-dotnet-debug.dylib
+E:\fiverr\code\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\libxamarin-dotnet-nativeaot-debug.a
+E:\fiverr\code\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\libxamarin-dotnet-nativeaot.a
+E:\fiverr\code\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\libxamarin-dotnet.a
+E:\fiverr\code\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\libxamarin-dotnet.dylib
+E:\fiverr\code\DrawDiagram\DrawDiagram\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\staticwebassets.build.json
+E:\fiverr\code\DrawDiagram\DrawDiagram\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\staticwebassets.development.json
+E:\fiverr\code\DrawDiagram\DrawDiagram\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\staticwebassets\msbuild.DrawDiagram.Microsoft.AspNetCore.StaticWebAssets.props
+E:\fiverr\code\DrawDiagram\DrawDiagram\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\staticwebassets\msbuild.build.DrawDiagram.props
+E:\fiverr\code\DrawDiagram\DrawDiagram\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\staticwebassets\msbuild.buildMultiTargeting.DrawDiagram.props
+E:\fiverr\code\DrawDiagram\DrawDiagram\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\staticwebassets\msbuild.buildTransitive.DrawDiagram.props
+E:\fiverr\code\DrawDiagram\DrawDiagram\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\staticwebassets.pack.json
+E:\fiverr\code\DrawDiagram\DrawDiagram\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\scopedcss\Components\Layout\MainLayout.razor.rz.scp.css
+E:\fiverr\code\DrawDiagram\DrawDiagram\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\scopedcss\Components\Layout\NavMenu.razor.rz.scp.css
+E:\fiverr\code\DrawDiagram\DrawDiagram\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\scopedcss\bundle\DrawDiagram.styles.css
+E:\fiverr\code\DrawDiagram\DrawDiagram\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\scopedcss\projectbundle\DrawDiagram.bundle.scp.css
+E:\fiverr\code\DrawDiagram\DrawDiagram\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\staticwebassets.publish.json
+E:\fiverr\code\DrawDiagram\DrawDiagram\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\mauiimage.inputs
+E:\fiverr\code\DrawDiagram\DrawDiagram\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\mauifont.inputs
+E:\fiverr\code\DrawDiagram\DrawDiagram\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\mauisplash.inputs
+E:\fiverr\code\DrawDiagram\DrawDiagram\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\mauisplash.stamp
+E:\fiverr\code\DrawDiagram\DrawDiagram\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\resizetizer\r\Assets.xcassets\appicon.appiconset\appiconItunesArtwork.png
+E:\fiverr\code\DrawDiagram\DrawDiagram\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\resizetizer\r\Assets.xcassets\appicon.appiconset\appicon83.5x83.5@2x.png
+E:\fiverr\code\DrawDiagram\DrawDiagram\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\resizetizer\r\Assets.xcassets\appicon.appiconset\appicon76x76@2x.png
+E:\fiverr\code\DrawDiagram\DrawDiagram\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\resizetizer\r\Assets.xcassets\appicon.appiconset\appicon60x60@3x.png
+E:\fiverr\code\DrawDiagram\DrawDiagram\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\resizetizer\r\Assets.xcassets\appicon.appiconset\appicon60x60@2x.png
+E:\fiverr\code\DrawDiagram\DrawDiagram\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\resizetizer\r\Assets.xcassets\appicon.appiconset\appicon40x40@3x.png
+E:\fiverr\code\DrawDiagram\DrawDiagram\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\resizetizer\r\Assets.xcassets\appicon.appiconset\appicon40x40@2x.png
+E:\fiverr\code\DrawDiagram\DrawDiagram\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\resizetizer\r\Assets.xcassets\appicon.appiconset\appicon29x29@3x.png
+E:\fiverr\code\DrawDiagram\DrawDiagram\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\resizetizer\r\Assets.xcassets\appicon.appiconset\appicon29x29@2x.png
+E:\fiverr\code\DrawDiagram\DrawDiagram\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\resizetizer\r\Assets.xcassets\appicon.appiconset\appicon20x20@3x.png
+E:\fiverr\code\DrawDiagram\DrawDiagram\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\resizetizer\r\Assets.xcassets\appicon.appiconset\appicon20x20@2x.png
+E:\fiverr\code\DrawDiagram\DrawDiagram\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\resizetizer\r\Assets.xcassets\appicon.appiconset\Contents.json
+E:\fiverr\code\DrawDiagram\DrawDiagram\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\resizetizer\r\dotnet_bot@3x.png
+E:\fiverr\code\DrawDiagram\DrawDiagram\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\resizetizer\r\dotnet_bot@2x.png
+E:\fiverr\code\DrawDiagram\DrawDiagram\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\resizetizer\r\dotnet_bot.png
+E:\fiverr\code\DrawDiagram\DrawDiagram\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\mauiimage.stamp
+E:\fiverr\code\DrawDiagram\DrawDiagram\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\resizetizer\f\MauiInfo.plist
+E:\fiverr\code\DrawDiagram\DrawDiagram\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\mauifont.stamp
+E:\fiverr\code\DrawDiagram\DrawDiagram\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\resizetizer\f\OpenSans-Regular.ttf
+E:\fiverr\code\DrawDiagram\DrawDiagram\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\actool\_PartialAppManifest.items
+E:\fiverr\code\DrawDiagram\DrawDiagram\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\actool\_BundleResourceWithLogicalName.items
+E:\fiverr\code\DrawDiagram\DrawDiagram\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\actool\_ProcessedImageAssetsPath.items
+E:\fiverr\code\DrawDiagram\DrawDiagram\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\coremlc\_PartialAppManifest.items
+E:\fiverr\code\DrawDiagram\DrawDiagram\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\coremlc\_BundleResourceWithLogicalName.items
+E:\fiverr\code\DrawDiagram\DrawDiagram\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\coremlc\_ProcessedCoreMLModelsPath.items
+E:\fiverr\code\DrawDiagram\DrawDiagram\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\_ProcessedBundleResourcesPath.items
+E:\fiverr\code\DrawDiagram\DrawDiagram\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\_ProcessedContentPath.items
+E:\fiverr\code\DrawDiagram\DrawDiagram\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\DrawDiagram.csproj.AssemblyReference.cache
+E:\fiverr\code\DrawDiagram\DrawDiagram\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\DrawDiagram.GeneratedMSBuildEditorConfig.editorconfig
+E:\fiverr\code\DrawDiagram\DrawDiagram\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\DrawDiagram.AssemblyInfoInputs.cache
+E:\fiverr\code\DrawDiagram\DrawDiagram\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\DrawDiagram.AssemblyInfo.cs
+E:\fiverr\code\DrawDiagram\DrawDiagram\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\DrawDiagram.csproj.CoreCompileInputs.cache
+E:\fiverr\code\DrawDiagram\DrawDiagram\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\DrawDiagram.MvcApplicationPartsAssemblyInfo.cache
+E:\fiverr\code\DrawDiagram\DrawDiagram\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\XamlC.stamp
+E:\fiverr\code\DrawDiagram\DrawDiagram\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\DrawDiagram.csproj.CopyComplete
+E:\fiverr\code\DrawDiagram\DrawDiagram\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\DrawDiagram.dll
+E:\fiverr\code\DrawDiagram\DrawDiagram\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\refint\DrawDiagram.dll
+E:\fiverr\code\DrawDiagram\DrawDiagram\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\DrawDiagram.pdb
+E:\fiverr\code\DrawDiagram\DrawDiagram\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\DrawDiagram.genruntimeconfig.cache
+E:\fiverr\code\DrawDiagram\DrawDiagram\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\ref\DrawDiagram.dll
+E:\fiverr\code\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\MatBlazor.dll
+E:\MyProjects\Hassan Fiverr\DrawDiagram\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\DrawDiagram.runtimeconfig.json
+E:\MyProjects\Hassan Fiverr\DrawDiagram\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\DrawDiagram.dll
+E:\MyProjects\Hassan Fiverr\DrawDiagram\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\DrawDiagram.pdb
+E:\MyProjects\Hassan Fiverr\DrawDiagram\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\MatBlazor.dll
+E:\MyProjects\Hassan Fiverr\DrawDiagram\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\Microsoft.AspNetCore.Authorization.dll
+E:\MyProjects\Hassan Fiverr\DrawDiagram\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\Microsoft.AspNetCore.Components.dll
+E:\MyProjects\Hassan Fiverr\DrawDiagram\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\Microsoft.AspNetCore.Components.Forms.dll
+E:\MyProjects\Hassan Fiverr\DrawDiagram\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\Microsoft.AspNetCore.Components.Web.dll
+E:\MyProjects\Hassan Fiverr\DrawDiagram\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\Microsoft.AspNetCore.Components.WebView.dll
+E:\MyProjects\Hassan Fiverr\DrawDiagram\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\Microsoft.AspNetCore.Components.WebView.Maui.dll
+E:\MyProjects\Hassan Fiverr\DrawDiagram\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\Microsoft.AspNetCore.Metadata.dll
+E:\MyProjects\Hassan Fiverr\DrawDiagram\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\Microsoft.Extensions.Configuration.dll
+E:\MyProjects\Hassan Fiverr\DrawDiagram\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\Microsoft.Extensions.Configuration.Abstractions.dll
+E:\MyProjects\Hassan Fiverr\DrawDiagram\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\Microsoft.Extensions.Configuration.Binder.dll
+E:\MyProjects\Hassan Fiverr\DrawDiagram\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\Microsoft.Extensions.Configuration.FileExtensions.dll
+E:\MyProjects\Hassan Fiverr\DrawDiagram\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\Microsoft.Extensions.Configuration.Json.dll
+E:\MyProjects\Hassan Fiverr\DrawDiagram\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\Microsoft.Extensions.DependencyInjection.dll
+E:\MyProjects\Hassan Fiverr\DrawDiagram\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+E:\MyProjects\Hassan Fiverr\DrawDiagram\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\Microsoft.Extensions.FileProviders.Abstractions.dll
+E:\MyProjects\Hassan Fiverr\DrawDiagram\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\Microsoft.Extensions.FileProviders.Composite.dll
+E:\MyProjects\Hassan Fiverr\DrawDiagram\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\Microsoft.Extensions.FileProviders.Embedded.dll
+E:\MyProjects\Hassan Fiverr\DrawDiagram\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\Microsoft.Extensions.FileProviders.Physical.dll
+E:\MyProjects\Hassan Fiverr\DrawDiagram\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\Microsoft.Extensions.FileSystemGlobbing.dll
+E:\MyProjects\Hassan Fiverr\DrawDiagram\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\Microsoft.Extensions.Logging.dll
+E:\MyProjects\Hassan Fiverr\DrawDiagram\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\Microsoft.Extensions.Logging.Abstractions.dll
+E:\MyProjects\Hassan Fiverr\DrawDiagram\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\Microsoft.Extensions.Logging.Debug.dll
+E:\MyProjects\Hassan Fiverr\DrawDiagram\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\Microsoft.Extensions.Options.dll
+E:\MyProjects\Hassan Fiverr\DrawDiagram\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\Microsoft.Extensions.Primitives.dll
+E:\MyProjects\Hassan Fiverr\DrawDiagram\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\Microsoft.JSInterop.dll
+E:\MyProjects\Hassan Fiverr\DrawDiagram\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\Microsoft.Maui.Controls.Compatibility.dll
+E:\MyProjects\Hassan Fiverr\DrawDiagram\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\Microsoft.Maui.Controls.dll
+E:\MyProjects\Hassan Fiverr\DrawDiagram\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\Microsoft.Maui.Controls.Xaml.dll
+E:\MyProjects\Hassan Fiverr\DrawDiagram\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\Microsoft.Maui.dll
+E:\MyProjects\Hassan Fiverr\DrawDiagram\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\Microsoft.Maui.Essentials.dll
+E:\MyProjects\Hassan Fiverr\DrawDiagram\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\Microsoft.Maui.Graphics.dll
+E:\MyProjects\Hassan Fiverr\DrawDiagram\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\OxyPlot.dll
+E:\MyProjects\Hassan Fiverr\DrawDiagram\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\SkiaSharp.dll
+E:\MyProjects\Hassan Fiverr\DrawDiagram\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\System.IO.Pipelines.dll
+E:\MyProjects\Hassan Fiverr\DrawDiagram\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\ar\Microsoft.Maui.Controls.resources.dll
+E:\MyProjects\Hassan Fiverr\DrawDiagram\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\ca\Microsoft.Maui.Controls.resources.dll
+E:\MyProjects\Hassan Fiverr\DrawDiagram\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\cs\Microsoft.Maui.Controls.resources.dll
+E:\MyProjects\Hassan Fiverr\DrawDiagram\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\da\Microsoft.Maui.Controls.resources.dll
+E:\MyProjects\Hassan Fiverr\DrawDiagram\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\de\Microsoft.Maui.Controls.resources.dll
+E:\MyProjects\Hassan Fiverr\DrawDiagram\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\el\Microsoft.Maui.Controls.resources.dll
+E:\MyProjects\Hassan Fiverr\DrawDiagram\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\es\Microsoft.Maui.Controls.resources.dll
+E:\MyProjects\Hassan Fiverr\DrawDiagram\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\fi\Microsoft.Maui.Controls.resources.dll
+E:\MyProjects\Hassan Fiverr\DrawDiagram\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\fr\Microsoft.Maui.Controls.resources.dll
+E:\MyProjects\Hassan Fiverr\DrawDiagram\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\he\Microsoft.Maui.Controls.resources.dll
+E:\MyProjects\Hassan Fiverr\DrawDiagram\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\hi\Microsoft.Maui.Controls.resources.dll
+E:\MyProjects\Hassan Fiverr\DrawDiagram\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\hr\Microsoft.Maui.Controls.resources.dll
+E:\MyProjects\Hassan Fiverr\DrawDiagram\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\hu\Microsoft.Maui.Controls.resources.dll
+E:\MyProjects\Hassan Fiverr\DrawDiagram\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\id\Microsoft.Maui.Controls.resources.dll
+E:\MyProjects\Hassan Fiverr\DrawDiagram\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\it\Microsoft.Maui.Controls.resources.dll
+E:\MyProjects\Hassan Fiverr\DrawDiagram\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\ja\Microsoft.Maui.Controls.resources.dll
+E:\MyProjects\Hassan Fiverr\DrawDiagram\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\ko\Microsoft.Maui.Controls.resources.dll
+E:\MyProjects\Hassan Fiverr\DrawDiagram\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\ms\Microsoft.Maui.Controls.resources.dll
+E:\MyProjects\Hassan Fiverr\DrawDiagram\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\nb\Microsoft.Maui.Controls.resources.dll
+E:\MyProjects\Hassan Fiverr\DrawDiagram\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\nl\Microsoft.Maui.Controls.resources.dll
+E:\MyProjects\Hassan Fiverr\DrawDiagram\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\pl\Microsoft.Maui.Controls.resources.dll
+E:\MyProjects\Hassan Fiverr\DrawDiagram\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\pt-BR\Microsoft.Maui.Controls.resources.dll
+E:\MyProjects\Hassan Fiverr\DrawDiagram\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\pt\Microsoft.Maui.Controls.resources.dll
+E:\MyProjects\Hassan Fiverr\DrawDiagram\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\ro\Microsoft.Maui.Controls.resources.dll
+E:\MyProjects\Hassan Fiverr\DrawDiagram\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\ru\Microsoft.Maui.Controls.resources.dll
+E:\MyProjects\Hassan Fiverr\DrawDiagram\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\sk\Microsoft.Maui.Controls.resources.dll
+E:\MyProjects\Hassan Fiverr\DrawDiagram\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\sv\Microsoft.Maui.Controls.resources.dll
+E:\MyProjects\Hassan Fiverr\DrawDiagram\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\th\Microsoft.Maui.Controls.resources.dll
+E:\MyProjects\Hassan Fiverr\DrawDiagram\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\tr\Microsoft.Maui.Controls.resources.dll
+E:\MyProjects\Hassan Fiverr\DrawDiagram\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\uk\Microsoft.Maui.Controls.resources.dll
+E:\MyProjects\Hassan Fiverr\DrawDiagram\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\vi\Microsoft.Maui.Controls.resources.dll
+E:\MyProjects\Hassan Fiverr\DrawDiagram\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\zh-HK\Microsoft.Maui.Controls.resources.dll
+E:\MyProjects\Hassan Fiverr\DrawDiagram\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\zh-Hans\Microsoft.Maui.Controls.resources.dll
+E:\MyProjects\Hassan Fiverr\DrawDiagram\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\zh-Hant\Microsoft.Maui.Controls.resources.dll
+E:\MyProjects\Hassan Fiverr\DrawDiagram\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\libSkiaSharp.framework.zip
+E:\MyProjects\Hassan Fiverr\DrawDiagram\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\Microsoft.CSharp.dll
+E:\MyProjects\Hassan Fiverr\DrawDiagram\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\Microsoft.VisualBasic.Core.dll
+E:\MyProjects\Hassan Fiverr\DrawDiagram\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\Microsoft.VisualBasic.dll
+E:\MyProjects\Hassan Fiverr\DrawDiagram\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\Microsoft.Win32.Primitives.dll
+E:\MyProjects\Hassan Fiverr\DrawDiagram\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\Microsoft.Win32.Registry.dll
+E:\MyProjects\Hassan Fiverr\DrawDiagram\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\System.AppContext.dll
+E:\MyProjects\Hassan Fiverr\DrawDiagram\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\System.Buffers.dll
+E:\MyProjects\Hassan Fiverr\DrawDiagram\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\System.Collections.Concurrent.dll
+E:\MyProjects\Hassan Fiverr\DrawDiagram\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\System.Collections.Immutable.dll
+E:\MyProjects\Hassan Fiverr\DrawDiagram\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\System.Collections.NonGeneric.dll
+E:\MyProjects\Hassan Fiverr\DrawDiagram\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\System.Collections.Specialized.dll
+E:\MyProjects\Hassan Fiverr\DrawDiagram\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\System.Collections.dll
+E:\MyProjects\Hassan Fiverr\DrawDiagram\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\System.ComponentModel.Annotations.dll
+E:\MyProjects\Hassan Fiverr\DrawDiagram\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\System.ComponentModel.DataAnnotations.dll
+E:\MyProjects\Hassan Fiverr\DrawDiagram\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\System.ComponentModel.EventBasedAsync.dll
+E:\MyProjects\Hassan Fiverr\DrawDiagram\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\System.ComponentModel.Primitives.dll
+E:\MyProjects\Hassan Fiverr\DrawDiagram\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\System.ComponentModel.TypeConverter.dll
+E:\MyProjects\Hassan Fiverr\DrawDiagram\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\System.ComponentModel.dll
+E:\MyProjects\Hassan Fiverr\DrawDiagram\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\System.Configuration.dll
+E:\MyProjects\Hassan Fiverr\DrawDiagram\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\System.Console.dll
+E:\MyProjects\Hassan Fiverr\DrawDiagram\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\System.Core.dll
+E:\MyProjects\Hassan Fiverr\DrawDiagram\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\System.Data.Common.dll
+E:\MyProjects\Hassan Fiverr\DrawDiagram\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\System.Data.DataSetExtensions.dll
+E:\MyProjects\Hassan Fiverr\DrawDiagram\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\System.Data.dll
+E:\MyProjects\Hassan Fiverr\DrawDiagram\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\System.Diagnostics.Contracts.dll
+E:\MyProjects\Hassan Fiverr\DrawDiagram\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\System.Diagnostics.Debug.dll
+E:\MyProjects\Hassan Fiverr\DrawDiagram\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\System.Diagnostics.DiagnosticSource.dll
+E:\MyProjects\Hassan Fiverr\DrawDiagram\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\System.Diagnostics.FileVersionInfo.dll
+E:\MyProjects\Hassan Fiverr\DrawDiagram\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\System.Diagnostics.Process.dll
+E:\MyProjects\Hassan Fiverr\DrawDiagram\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\System.Diagnostics.StackTrace.dll
+E:\MyProjects\Hassan Fiverr\DrawDiagram\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\System.Diagnostics.TextWriterTraceListener.dll
+E:\MyProjects\Hassan Fiverr\DrawDiagram\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\System.Diagnostics.Tools.dll
+E:\MyProjects\Hassan Fiverr\DrawDiagram\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\System.Diagnostics.TraceSource.dll
+E:\MyProjects\Hassan Fiverr\DrawDiagram\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\System.Diagnostics.Tracing.dll
+E:\MyProjects\Hassan Fiverr\DrawDiagram\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\System.Drawing.Primitives.dll
+E:\MyProjects\Hassan Fiverr\DrawDiagram\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\System.Drawing.dll
+E:\MyProjects\Hassan Fiverr\DrawDiagram\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\System.Dynamic.Runtime.dll
+E:\MyProjects\Hassan Fiverr\DrawDiagram\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\System.Formats.Asn1.dll
+E:\MyProjects\Hassan Fiverr\DrawDiagram\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\System.Formats.Tar.dll
+E:\MyProjects\Hassan Fiverr\DrawDiagram\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\System.Globalization.Calendars.dll
+E:\MyProjects\Hassan Fiverr\DrawDiagram\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\System.Globalization.Extensions.dll
+E:\MyProjects\Hassan Fiverr\DrawDiagram\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\System.Globalization.dll
+E:\MyProjects\Hassan Fiverr\DrawDiagram\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\System.IO.Compression.Brotli.dll
+E:\MyProjects\Hassan Fiverr\DrawDiagram\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\System.IO.Compression.FileSystem.dll
+E:\MyProjects\Hassan Fiverr\DrawDiagram\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\System.IO.Compression.ZipFile.dll
+E:\MyProjects\Hassan Fiverr\DrawDiagram\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\System.IO.Compression.dll
+E:\MyProjects\Hassan Fiverr\DrawDiagram\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\System.IO.FileSystem.AccessControl.dll
+E:\MyProjects\Hassan Fiverr\DrawDiagram\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\System.IO.FileSystem.DriveInfo.dll
+E:\MyProjects\Hassan Fiverr\DrawDiagram\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\System.IO.FileSystem.Primitives.dll
+E:\MyProjects\Hassan Fiverr\DrawDiagram\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\System.IO.FileSystem.Watcher.dll
+E:\MyProjects\Hassan Fiverr\DrawDiagram\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\System.IO.FileSystem.dll
+E:\MyProjects\Hassan Fiverr\DrawDiagram\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\System.IO.IsolatedStorage.dll
+E:\MyProjects\Hassan Fiverr\DrawDiagram\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\System.IO.MemoryMappedFiles.dll
+E:\MyProjects\Hassan Fiverr\DrawDiagram\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\System.IO.Pipes.AccessControl.dll
+E:\MyProjects\Hassan Fiverr\DrawDiagram\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\System.IO.Pipes.dll
+E:\MyProjects\Hassan Fiverr\DrawDiagram\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\System.IO.UnmanagedMemoryStream.dll
+E:\MyProjects\Hassan Fiverr\DrawDiagram\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\System.IO.dll
+E:\MyProjects\Hassan Fiverr\DrawDiagram\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\System.Linq.Expressions.dll
+E:\MyProjects\Hassan Fiverr\DrawDiagram\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\System.Linq.Parallel.dll
+E:\MyProjects\Hassan Fiverr\DrawDiagram\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\System.Linq.Queryable.dll
+E:\MyProjects\Hassan Fiverr\DrawDiagram\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\System.Linq.dll
+E:\MyProjects\Hassan Fiverr\DrawDiagram\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\System.Memory.dll
+E:\MyProjects\Hassan Fiverr\DrawDiagram\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\System.Net.Http.Json.dll
+E:\MyProjects\Hassan Fiverr\DrawDiagram\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\System.Net.Http.dll
+E:\MyProjects\Hassan Fiverr\DrawDiagram\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\System.Net.HttpListener.dll
+E:\MyProjects\Hassan Fiverr\DrawDiagram\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\System.Net.Mail.dll
+E:\MyProjects\Hassan Fiverr\DrawDiagram\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\System.Net.NameResolution.dll
+E:\MyProjects\Hassan Fiverr\DrawDiagram\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\System.Net.NetworkInformation.dll
+E:\MyProjects\Hassan Fiverr\DrawDiagram\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\System.Net.Ping.dll
+E:\MyProjects\Hassan Fiverr\DrawDiagram\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\System.Net.Primitives.dll
+E:\MyProjects\Hassan Fiverr\DrawDiagram\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\System.Net.Quic.dll
+E:\MyProjects\Hassan Fiverr\DrawDiagram\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\System.Net.Requests.dll
+E:\MyProjects\Hassan Fiverr\DrawDiagram\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\System.Net.Security.dll
+E:\MyProjects\Hassan Fiverr\DrawDiagram\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\System.Net.ServicePoint.dll
+E:\MyProjects\Hassan Fiverr\DrawDiagram\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\System.Net.Sockets.dll
+E:\MyProjects\Hassan Fiverr\DrawDiagram\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\System.Net.WebClient.dll
+E:\MyProjects\Hassan Fiverr\DrawDiagram\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\System.Net.WebHeaderCollection.dll
+E:\MyProjects\Hassan Fiverr\DrawDiagram\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\System.Net.WebProxy.dll
+E:\MyProjects\Hassan Fiverr\DrawDiagram\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\System.Net.WebSockets.Client.dll
+E:\MyProjects\Hassan Fiverr\DrawDiagram\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\System.Net.WebSockets.dll
+E:\MyProjects\Hassan Fiverr\DrawDiagram\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\System.Net.dll
+E:\MyProjects\Hassan Fiverr\DrawDiagram\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\System.Numerics.Vectors.dll
+E:\MyProjects\Hassan Fiverr\DrawDiagram\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\System.Numerics.dll
+E:\MyProjects\Hassan Fiverr\DrawDiagram\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\System.ObjectModel.dll
+E:\MyProjects\Hassan Fiverr\DrawDiagram\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\System.Private.DataContractSerialization.dll
+E:\MyProjects\Hassan Fiverr\DrawDiagram\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\System.Private.Uri.dll
+E:\MyProjects\Hassan Fiverr\DrawDiagram\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\System.Private.Xml.Linq.dll
+E:\MyProjects\Hassan Fiverr\DrawDiagram\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\System.Private.Xml.dll
+E:\MyProjects\Hassan Fiverr\DrawDiagram\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\System.Reflection.DispatchProxy.dll
+E:\MyProjects\Hassan Fiverr\DrawDiagram\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\System.Reflection.Emit.ILGeneration.dll
+E:\MyProjects\Hassan Fiverr\DrawDiagram\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\System.Reflection.Emit.Lightweight.dll
+E:\MyProjects\Hassan Fiverr\DrawDiagram\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\System.Reflection.Emit.dll
+E:\MyProjects\Hassan Fiverr\DrawDiagram\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\System.Reflection.Extensions.dll
+E:\MyProjects\Hassan Fiverr\DrawDiagram\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\System.Reflection.Metadata.dll
+E:\MyProjects\Hassan Fiverr\DrawDiagram\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\System.Reflection.Primitives.dll
+E:\MyProjects\Hassan Fiverr\DrawDiagram\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\System.Reflection.TypeExtensions.dll
+E:\MyProjects\Hassan Fiverr\DrawDiagram\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\System.Reflection.dll
+E:\MyProjects\Hassan Fiverr\DrawDiagram\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\System.Resources.Reader.dll
+E:\MyProjects\Hassan Fiverr\DrawDiagram\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\System.Resources.ResourceManager.dll
+E:\MyProjects\Hassan Fiverr\DrawDiagram\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\System.Resources.Writer.dll
+E:\MyProjects\Hassan Fiverr\DrawDiagram\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\System.Runtime.CompilerServices.Unsafe.dll
+E:\MyProjects\Hassan Fiverr\DrawDiagram\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\System.Runtime.CompilerServices.VisualC.dll
+E:\MyProjects\Hassan Fiverr\DrawDiagram\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\System.Runtime.Extensions.dll
+E:\MyProjects\Hassan Fiverr\DrawDiagram\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\System.Runtime.Handles.dll
+E:\MyProjects\Hassan Fiverr\DrawDiagram\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\System.Runtime.InteropServices.JavaScript.dll
+E:\MyProjects\Hassan Fiverr\DrawDiagram\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\System.Runtime.InteropServices.RuntimeInformation.dll
+E:\MyProjects\Hassan Fiverr\DrawDiagram\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\System.Runtime.InteropServices.dll
+E:\MyProjects\Hassan Fiverr\DrawDiagram\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\System.Runtime.Intrinsics.dll
+E:\MyProjects\Hassan Fiverr\DrawDiagram\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\System.Runtime.Loader.dll
+E:\MyProjects\Hassan Fiverr\DrawDiagram\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\System.Runtime.Numerics.dll
+E:\MyProjects\Hassan Fiverr\DrawDiagram\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\System.Runtime.Serialization.Formatters.dll
+E:\MyProjects\Hassan Fiverr\DrawDiagram\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\System.Runtime.Serialization.Json.dll
+E:\MyProjects\Hassan Fiverr\DrawDiagram\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\System.Runtime.Serialization.Primitives.dll
+E:\MyProjects\Hassan Fiverr\DrawDiagram\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\System.Runtime.Serialization.Xml.dll
+E:\MyProjects\Hassan Fiverr\DrawDiagram\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\System.Runtime.Serialization.dll
+E:\MyProjects\Hassan Fiverr\DrawDiagram\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\System.Runtime.dll
+E:\MyProjects\Hassan Fiverr\DrawDiagram\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\System.Security.AccessControl.dll
+E:\MyProjects\Hassan Fiverr\DrawDiagram\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\System.Security.Claims.dll
+E:\MyProjects\Hassan Fiverr\DrawDiagram\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\System.Security.Cryptography.Algorithms.dll
+E:\MyProjects\Hassan Fiverr\DrawDiagram\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\System.Security.Cryptography.Cng.dll
+E:\MyProjects\Hassan Fiverr\DrawDiagram\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\System.Security.Cryptography.Csp.dll
+E:\MyProjects\Hassan Fiverr\DrawDiagram\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\System.Security.Cryptography.Encoding.dll
+E:\MyProjects\Hassan Fiverr\DrawDiagram\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\System.Security.Cryptography.OpenSsl.dll
+E:\MyProjects\Hassan Fiverr\DrawDiagram\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\System.Security.Cryptography.Primitives.dll
+E:\MyProjects\Hassan Fiverr\DrawDiagram\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\System.Security.Cryptography.X509Certificates.dll
+E:\MyProjects\Hassan Fiverr\DrawDiagram\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\System.Security.Cryptography.dll
+E:\MyProjects\Hassan Fiverr\DrawDiagram\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\System.Security.Principal.Windows.dll
+E:\MyProjects\Hassan Fiverr\DrawDiagram\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\System.Security.Principal.dll
+E:\MyProjects\Hassan Fiverr\DrawDiagram\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\System.Security.SecureString.dll
+E:\MyProjects\Hassan Fiverr\DrawDiagram\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\System.Security.dll
+E:\MyProjects\Hassan Fiverr\DrawDiagram\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\System.ServiceModel.Web.dll
+E:\MyProjects\Hassan Fiverr\DrawDiagram\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\System.ServiceProcess.dll
+E:\MyProjects\Hassan Fiverr\DrawDiagram\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\System.Text.Encoding.CodePages.dll
+E:\MyProjects\Hassan Fiverr\DrawDiagram\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\System.Text.Encoding.Extensions.dll
+E:\MyProjects\Hassan Fiverr\DrawDiagram\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\System.Text.Encoding.dll
+E:\MyProjects\Hassan Fiverr\DrawDiagram\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\System.Text.Encodings.Web.dll
+E:\MyProjects\Hassan Fiverr\DrawDiagram\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\System.Text.Json.dll
+E:\MyProjects\Hassan Fiverr\DrawDiagram\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\System.Text.RegularExpressions.dll
+E:\MyProjects\Hassan Fiverr\DrawDiagram\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\System.Threading.Channels.dll
+E:\MyProjects\Hassan Fiverr\DrawDiagram\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\System.Threading.Overlapped.dll
+E:\MyProjects\Hassan Fiverr\DrawDiagram\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\System.Threading.Tasks.Dataflow.dll
+E:\MyProjects\Hassan Fiverr\DrawDiagram\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\System.Threading.Tasks.Extensions.dll
+E:\MyProjects\Hassan Fiverr\DrawDiagram\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\System.Threading.Tasks.Parallel.dll
+E:\MyProjects\Hassan Fiverr\DrawDiagram\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\System.Threading.Tasks.dll
+E:\MyProjects\Hassan Fiverr\DrawDiagram\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\System.Threading.Thread.dll
+E:\MyProjects\Hassan Fiverr\DrawDiagram\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\System.Threading.ThreadPool.dll
+E:\MyProjects\Hassan Fiverr\DrawDiagram\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\System.Threading.Timer.dll
+E:\MyProjects\Hassan Fiverr\DrawDiagram\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\System.Threading.dll
+E:\MyProjects\Hassan Fiverr\DrawDiagram\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\System.Transactions.Local.dll
+E:\MyProjects\Hassan Fiverr\DrawDiagram\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\System.Transactions.dll
+E:\MyProjects\Hassan Fiverr\DrawDiagram\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\System.ValueTuple.dll
+E:\MyProjects\Hassan Fiverr\DrawDiagram\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\System.Web.HttpUtility.dll
+E:\MyProjects\Hassan Fiverr\DrawDiagram\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\System.Web.dll
+E:\MyProjects\Hassan Fiverr\DrawDiagram\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\System.Windows.dll
+E:\MyProjects\Hassan Fiverr\DrawDiagram\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\System.Xml.Linq.dll
+E:\MyProjects\Hassan Fiverr\DrawDiagram\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\System.Xml.ReaderWriter.dll
+E:\MyProjects\Hassan Fiverr\DrawDiagram\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\System.Xml.Serialization.dll
+E:\MyProjects\Hassan Fiverr\DrawDiagram\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\System.Xml.XDocument.dll
+E:\MyProjects\Hassan Fiverr\DrawDiagram\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\System.Xml.XPath.XDocument.dll
+E:\MyProjects\Hassan Fiverr\DrawDiagram\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\System.Xml.XPath.dll
+E:\MyProjects\Hassan Fiverr\DrawDiagram\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\System.Xml.XmlDocument.dll
+E:\MyProjects\Hassan Fiverr\DrawDiagram\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\System.Xml.XmlSerializer.dll
+E:\MyProjects\Hassan Fiverr\DrawDiagram\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\System.Xml.dll
+E:\MyProjects\Hassan Fiverr\DrawDiagram\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\System.dll
+E:\MyProjects\Hassan Fiverr\DrawDiagram\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\WindowsBase.dll
+E:\MyProjects\Hassan Fiverr\DrawDiagram\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\mscorlib.dll
+E:\MyProjects\Hassan Fiverr\DrawDiagram\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\netstandard.dll
+E:\MyProjects\Hassan Fiverr\DrawDiagram\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\Microsoft.MacCatalyst.dll
+E:\MyProjects\Hassan Fiverr\DrawDiagram\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\System.Private.CoreLib.dll
+E:\MyProjects\Hassan Fiverr\DrawDiagram\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\icudt.dat
+E:\MyProjects\Hassan Fiverr\DrawDiagram\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\icudt_CJK.dat
+E:\MyProjects\Hassan Fiverr\DrawDiagram\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\icudt_EFIGS.dat
+E:\MyProjects\Hassan Fiverr\DrawDiagram\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\icudt_hybrid.dat
+E:\MyProjects\Hassan Fiverr\DrawDiagram\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\icudt_no_CJK.dat
+E:\MyProjects\Hassan Fiverr\DrawDiagram\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\libSystem.Globalization.Native.a
+E:\MyProjects\Hassan Fiverr\DrawDiagram\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\libSystem.Globalization.Native.dylib
+E:\MyProjects\Hassan Fiverr\DrawDiagram\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\libSystem.IO.Compression.Native.a
+E:\MyProjects\Hassan Fiverr\DrawDiagram\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\libSystem.IO.Compression.Native.dylib
+E:\MyProjects\Hassan Fiverr\DrawDiagram\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\libSystem.Native.a
+E:\MyProjects\Hassan Fiverr\DrawDiagram\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\libSystem.Native.dylib
+E:\MyProjects\Hassan Fiverr\DrawDiagram\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\libSystem.Net.Security.Native.a
+E:\MyProjects\Hassan Fiverr\DrawDiagram\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\libSystem.Net.Security.Native.dylib
+E:\MyProjects\Hassan Fiverr\DrawDiagram\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\libSystem.Security.Cryptography.Native.Apple.a
+E:\MyProjects\Hassan Fiverr\DrawDiagram\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\libSystem.Security.Cryptography.Native.Apple.dylib
+E:\MyProjects\Hassan Fiverr\DrawDiagram\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\libicudata.a
+E:\MyProjects\Hassan Fiverr\DrawDiagram\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\libicui18n.a
+E:\MyProjects\Hassan Fiverr\DrawDiagram\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\libicuuc.a
+E:\MyProjects\Hassan Fiverr\DrawDiagram\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\libmono-component-debugger-static.a
+E:\MyProjects\Hassan Fiverr\DrawDiagram\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\libmono-component-debugger-stub-static.a
+E:\MyProjects\Hassan Fiverr\DrawDiagram\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\libmono-component-diagnostics_tracing-static.a
+E:\MyProjects\Hassan Fiverr\DrawDiagram\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\libmono-component-diagnostics_tracing-stub-static.a
+E:\MyProjects\Hassan Fiverr\DrawDiagram\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\libmono-component-hot_reload-static.a
+E:\MyProjects\Hassan Fiverr\DrawDiagram\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\libmono-component-hot_reload-stub-static.a
+E:\MyProjects\Hassan Fiverr\DrawDiagram\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\libmono-component-marshal-ilgen-static.a
+E:\MyProjects\Hassan Fiverr\DrawDiagram\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\libmono-component-marshal-ilgen-stub-static.a
+E:\MyProjects\Hassan Fiverr\DrawDiagram\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\libmonosgen-2.0.a
+E:\MyProjects\Hassan Fiverr\DrawDiagram\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\libmonosgen-2.0.dylib
+E:\MyProjects\Hassan Fiverr\DrawDiagram\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\Microsoft.MacCatalyst.registrar.a
+E:\MyProjects\Hassan Fiverr\DrawDiagram\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\libxamarin-dotnet-debug.a
+E:\MyProjects\Hassan Fiverr\DrawDiagram\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\libxamarin-dotnet-debug.dylib
+E:\MyProjects\Hassan Fiverr\DrawDiagram\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\libxamarin-dotnet-nativeaot-debug.a
+E:\MyProjects\Hassan Fiverr\DrawDiagram\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\libxamarin-dotnet-nativeaot.a
+E:\MyProjects\Hassan Fiverr\DrawDiagram\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\libxamarin-dotnet.a
+E:\MyProjects\Hassan Fiverr\DrawDiagram\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\libxamarin-dotnet.dylib
+E:\MyProjects\Hassan Fiverr\DrawDiagram\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\NeocortexApi.SdrDrawerLib.dll
+E:\MyProjects\Hassan Fiverr\DrawDiagram\DrawDiagram\DrawDiagram\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\NeocortexApi.SdrDrawerLib.pdb
+E:\MyProjects\Hassan Fiverr\DrawDiagram\DrawDiagram\DrawDiagram\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\staticwebassets.build.json
+E:\MyProjects\Hassan Fiverr\DrawDiagram\DrawDiagram\DrawDiagram\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\staticwebassets.development.json
+E:\MyProjects\Hassan Fiverr\DrawDiagram\DrawDiagram\DrawDiagram\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\staticwebassets\msbuild.DrawDiagram.Microsoft.AspNetCore.StaticWebAssets.props
+E:\MyProjects\Hassan Fiverr\DrawDiagram\DrawDiagram\DrawDiagram\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\staticwebassets\msbuild.build.DrawDiagram.props
+E:\MyProjects\Hassan Fiverr\DrawDiagram\DrawDiagram\DrawDiagram\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\staticwebassets\msbuild.buildMultiTargeting.DrawDiagram.props
+E:\MyProjects\Hassan Fiverr\DrawDiagram\DrawDiagram\DrawDiagram\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\staticwebassets\msbuild.buildTransitive.DrawDiagram.props
+E:\MyProjects\Hassan Fiverr\DrawDiagram\DrawDiagram\DrawDiagram\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\staticwebassets.pack.json
+E:\MyProjects\Hassan Fiverr\DrawDiagram\DrawDiagram\DrawDiagram\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\scopedcss\Components\Layout\MainLayout.razor.rz.scp.css
+E:\MyProjects\Hassan Fiverr\DrawDiagram\DrawDiagram\DrawDiagram\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\scopedcss\Components\Layout\NavMenu.razor.rz.scp.css
+E:\MyProjects\Hassan Fiverr\DrawDiagram\DrawDiagram\DrawDiagram\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\scopedcss\Components\Layout\Outputlayout.razor.rz.scp.css
+E:\MyProjects\Hassan Fiverr\DrawDiagram\DrawDiagram\DrawDiagram\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\scopedcss\bundle\DrawDiagram.styles.css
+E:\MyProjects\Hassan Fiverr\DrawDiagram\DrawDiagram\DrawDiagram\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\scopedcss\projectbundle\DrawDiagram.bundle.scp.css
+E:\MyProjects\Hassan Fiverr\DrawDiagram\DrawDiagram\DrawDiagram\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\staticwebassets.publish.json
+E:\MyProjects\Hassan Fiverr\DrawDiagram\DrawDiagram\DrawDiagram\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\mauiimage.inputs
+E:\MyProjects\Hassan Fiverr\DrawDiagram\DrawDiagram\DrawDiagram\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\mauifont.inputs
+E:\MyProjects\Hassan Fiverr\DrawDiagram\DrawDiagram\DrawDiagram\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\mauisplash.inputs
+E:\MyProjects\Hassan Fiverr\DrawDiagram\DrawDiagram\DrawDiagram\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\mauisplash.stamp
+E:\MyProjects\Hassan Fiverr\DrawDiagram\DrawDiagram\DrawDiagram\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\resizetizer\r\Assets.xcassets\appicon.appiconset\appiconItunesArtwork.png
+E:\MyProjects\Hassan Fiverr\DrawDiagram\DrawDiagram\DrawDiagram\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\resizetizer\r\Assets.xcassets\appicon.appiconset\appicon83.5x83.5@2x.png
+E:\MyProjects\Hassan Fiverr\DrawDiagram\DrawDiagram\DrawDiagram\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\resizetizer\r\Assets.xcassets\appicon.appiconset\appicon76x76@2x.png
+E:\MyProjects\Hassan Fiverr\DrawDiagram\DrawDiagram\DrawDiagram\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\resizetizer\r\Assets.xcassets\appicon.appiconset\appicon60x60@3x.png
+E:\MyProjects\Hassan Fiverr\DrawDiagram\DrawDiagram\DrawDiagram\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\resizetizer\r\Assets.xcassets\appicon.appiconset\appicon60x60@2x.png
+E:\MyProjects\Hassan Fiverr\DrawDiagram\DrawDiagram\DrawDiagram\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\resizetizer\r\Assets.xcassets\appicon.appiconset\appicon40x40@3x.png
+E:\MyProjects\Hassan Fiverr\DrawDiagram\DrawDiagram\DrawDiagram\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\resizetizer\r\Assets.xcassets\appicon.appiconset\appicon40x40@2x.png
+E:\MyProjects\Hassan Fiverr\DrawDiagram\DrawDiagram\DrawDiagram\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\resizetizer\r\Assets.xcassets\appicon.appiconset\appicon29x29@3x.png
+E:\MyProjects\Hassan Fiverr\DrawDiagram\DrawDiagram\DrawDiagram\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\resizetizer\r\Assets.xcassets\appicon.appiconset\appicon29x29@2x.png
+E:\MyProjects\Hassan Fiverr\DrawDiagram\DrawDiagram\DrawDiagram\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\resizetizer\r\Assets.xcassets\appicon.appiconset\appicon20x20@3x.png
+E:\MyProjects\Hassan Fiverr\DrawDiagram\DrawDiagram\DrawDiagram\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\resizetizer\r\Assets.xcassets\appicon.appiconset\appicon20x20@2x.png
+E:\MyProjects\Hassan Fiverr\DrawDiagram\DrawDiagram\DrawDiagram\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\resizetizer\r\Assets.xcassets\appicon.appiconset\Contents.json
+E:\MyProjects\Hassan Fiverr\DrawDiagram\DrawDiagram\DrawDiagram\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\resizetizer\r\dotnet_bot@3x.png
+E:\MyProjects\Hassan Fiverr\DrawDiagram\DrawDiagram\DrawDiagram\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\resizetizer\r\dotnet_bot@2x.png
+E:\MyProjects\Hassan Fiverr\DrawDiagram\DrawDiagram\DrawDiagram\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\resizetizer\r\dotnet_bot.png
+E:\MyProjects\Hassan Fiverr\DrawDiagram\DrawDiagram\DrawDiagram\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\mauiimage.stamp
+E:\MyProjects\Hassan Fiverr\DrawDiagram\DrawDiagram\DrawDiagram\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\resizetizer\f\MauiInfo.plist
+E:\MyProjects\Hassan Fiverr\DrawDiagram\DrawDiagram\DrawDiagram\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\mauifont.stamp
+E:\MyProjects\Hassan Fiverr\DrawDiagram\DrawDiagram\DrawDiagram\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\resizetizer\f\OpenSans-Regular.ttf
+E:\MyProjects\Hassan Fiverr\DrawDiagram\DrawDiagram\DrawDiagram\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\actool\_PartialAppManifest.items
+E:\MyProjects\Hassan Fiverr\DrawDiagram\DrawDiagram\DrawDiagram\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\actool\_BundleResourceWithLogicalName.items
+E:\MyProjects\Hassan Fiverr\DrawDiagram\DrawDiagram\DrawDiagram\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\actool\_ProcessedImageAssetsPath.items
+E:\MyProjects\Hassan Fiverr\DrawDiagram\DrawDiagram\DrawDiagram\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\coremlc\_PartialAppManifest.items
+E:\MyProjects\Hassan Fiverr\DrawDiagram\DrawDiagram\DrawDiagram\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\coremlc\_BundleResourceWithLogicalName.items
+E:\MyProjects\Hassan Fiverr\DrawDiagram\DrawDiagram\DrawDiagram\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\coremlc\_ProcessedCoreMLModelsPath.items
+E:\MyProjects\Hassan Fiverr\DrawDiagram\DrawDiagram\DrawDiagram\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\_ProcessedBundleResourcesPath.items
+E:\MyProjects\Hassan Fiverr\DrawDiagram\DrawDiagram\DrawDiagram\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\_ProcessedContentPath.items
+E:\MyProjects\Hassan Fiverr\DrawDiagram\DrawDiagram\DrawDiagram\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\DrawDiagram.csproj.AssemblyReference.cache
+E:\MyProjects\Hassan Fiverr\DrawDiagram\DrawDiagram\DrawDiagram\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\DrawDiagram.GeneratedMSBuildEditorConfig.editorconfig
+E:\MyProjects\Hassan Fiverr\DrawDiagram\DrawDiagram\DrawDiagram\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\DrawDiagram.AssemblyInfoInputs.cache
+E:\MyProjects\Hassan Fiverr\DrawDiagram\DrawDiagram\DrawDiagram\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\DrawDiagram.AssemblyInfo.cs
+E:\MyProjects\Hassan Fiverr\DrawDiagram\DrawDiagram\DrawDiagram\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\DrawDiagram.csproj.CoreCompileInputs.cache
+E:\MyProjects\Hassan Fiverr\DrawDiagram\DrawDiagram\DrawDiagram\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\DrawDiagram.MvcApplicationPartsAssemblyInfo.cache
+E:\MyProjects\Hassan Fiverr\DrawDiagram\DrawDiagram\DrawDiagram\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\XamlC.stamp
+E:\MyProjects\Hassan Fiverr\DrawDiagram\DrawDiagram\DrawDiagram\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\DrawDiagram.csproj.CopyComplete
+E:\MyProjects\Hassan Fiverr\DrawDiagram\DrawDiagram\DrawDiagram\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\DrawDiagram.dll
+E:\MyProjects\Hassan Fiverr\DrawDiagram\DrawDiagram\DrawDiagram\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\refint\DrawDiagram.dll
+E:\MyProjects\Hassan Fiverr\DrawDiagram\DrawDiagram\DrawDiagram\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\DrawDiagram.pdb
+E:\MyProjects\Hassan Fiverr\DrawDiagram\DrawDiagram\DrawDiagram\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\DrawDiagram.genruntimeconfig.cache
+E:\MyProjects\Hassan Fiverr\DrawDiagram\DrawDiagram\DrawDiagram\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\ref\DrawDiagram.dll

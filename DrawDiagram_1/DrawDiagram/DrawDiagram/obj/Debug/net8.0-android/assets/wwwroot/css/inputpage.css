@@ -1,0 +1,119 @@
+﻿body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif; /* Set a fallback font-family */
+    background-color: #f4f4f4; /* Light gray background color */
+}
+
+/* Styles for the input page */
+.input-page {
+    background-color: #fff; /* White background color */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Box shadow for depth */
+    padding: 20px;
+}
+
+/* Flex layout for input rows */
+.input-row {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px; /* Adding some space between rows */
+}
+
+/* Flex layout for the first column */
+.first-col {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 10px; /* Adding some space between elements */
+}
+
+/* Style for input labels */
+label {
+    margin-right: 10px; /* Adding space between label and input */
+    font-weight: bold; /* Making labels bold */
+}
+
+/* Style for input fields */
+input[type="text"],
+input[type="email"],
+input[type="range"],
+input[type="password"] {
+    padding: 8px; /* Adding padding for better input appearance */
+    border: 1px solid #ccc; /* Adding a border */
+    border-radius: 4px; /* Rounded corners for inputs */
+    width: 100%; /* Making inputs fill the container */
+    max-width: 280px; /* Limiting maximum width */
+    box-sizing: border-box; /* Ensuring padding and border included in width */
+}
+
+/* Styles for buttons container */
+.buttons-container {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom:40px;
+}
+
+/* Styles for buttons */
+button {
+    padding: 10px 20px; /* Adding padding to buttons */
+    border: none; /* Removing default button border */
+    border-radius: 4px; /* Rounded corners */
+    background-color: #007bff; /* Blue background color */
+    color: #fff; /* White text color */
+    cursor: pointer; /* Changing cursor to pointer */
+}
+
+button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+
+.button-container {
+    display: flex;
+    justify-content: flex-end;
+    margin: 10px; /* Added margin top for spacing */
+}
+
+.next-button {
+    width: 70px;
+    padding: 10px 20px; /* Increased padding for better button size */
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease; /* Smooth transition on hover */
+}
+
+.next-button:hover {
+    background-color: #0056b3;
+}
+.link-button {
+    color: white;
+}
+
+.link-button:hover {
+    color: white;
+}
+/* Style for select elements */
+select {
+    padding: 8px; /* Adding padding for better appearance */
+    border: 1px solid #ccc; /* Adding a border */
+    border-radius: 4px; /* Rounded corners */
+    width: calc(100% - 20px); /* Making select elements fill the container minus the padding and border */
+    max-width: 280px; /* Limiting maximum width */
+    box-sizing: border-box; /* Ensuring padding and border included in width */
+}
+.select-class{
+    width:100%;
+}
+.input-container{
+    width:100%;
+}
+.hide{
+    visibility:hidden;
+}

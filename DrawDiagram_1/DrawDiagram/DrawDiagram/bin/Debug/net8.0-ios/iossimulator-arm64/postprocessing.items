@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <_PostProcessingItem Include="DrawDiagram.app/DrawDiagram">
+      <BCSymbolMapName>DrawDiagram.bcsymbolmap</BCSymbolMapName>
+      <NoDSymUtil>true</NoDSymUtil>
+      <dSYMSourcePathExists>false</dSYMSourcePathExists>
+      <NoSymbolStrip>true</NoSymbolStrip>
+      <dSYMInfoPlistRelativePath>DrawDiagram.app.dSYM\Contents\Info.plist</dSYMInfoPlistRelativePath>
+      <SymbolFile>/Users/saitejaswini/se_maui_project/neocortexapi/source/MySEProject/DrawDiagram/DrawDiagram/obj/Debug/net8.0-ios/iossimulator-arm64/mtouch-symbols.list</SymbolFile>
+      <DSymName>DrawDiagram.app.dSYM</DSymName>
+      <SourceProjectPath>/Users/saitejaswini/se_maui_project/neocortexapi/source/MySEProject/DrawDiagram/DrawDiagram</SourceProjectPath>
+    </_PostProcessingItem>
+  </ItemGroup>
+</Project>

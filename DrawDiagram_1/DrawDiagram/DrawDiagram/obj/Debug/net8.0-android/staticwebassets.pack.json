@@ -1,0 +1,101 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\software engineering test\\Jr pro\\teju\\zip\\DrawDiagram\\DrawDiagram\\DrawDiagram\\obj\\Debug\\net8.0-android\\scopedcss\\bundle\\DrawDiagram.styles.css",
+      "PackagePath": "staticwebassets\\DrawDiagram.styles.css"
+    },
+    {
+      "Id": "D:\\software engineering test\\Jr pro\\teju\\zip\\DrawDiagram\\DrawDiagram\\DrawDiagram\\wwwroot\\NeocortexApi.SdrDrawerLib.exe",
+      "PackagePath": "staticwebassets\\NeocortexApi.SdrDrawerLib.exe"
+    },
+    {
+      "Id": "D:\\software engineering test\\Jr pro\\teju\\zip\\DrawDiagram\\DrawDiagram\\DrawDiagram\\wwwroot\\NeocortexApi.SdrDrawerLib.exe.config",
+      "PackagePath": "staticwebassets\\NeocortexApi.SdrDrawerLib.exe.config"
+    },
+    {
+      "Id": "D:\\software engineering test\\Jr pro\\teju\\zip\\DrawDiagram\\DrawDiagram\\DrawDiagram\\wwwroot\\VerticalPlot.svg",
+      "PackagePath": "staticwebassets\\VerticalPlot.svg"
+    },
+    {
+      "Id": "D:\\software engineering test\\Jr pro\\teju\\zip\\DrawDiagram\\DrawDiagram\\DrawDiagram\\wwwroot\\css\\app.css",
+      "PackagePath": "staticwebassets\\css\\app.css"
+    },
+    {
+      "Id": "D:\\software engineering test\\Jr pro\\teju\\zip\\DrawDiagram\\DrawDiagram\\DrawDiagram\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\software engineering test\\Jr pro\\teju\\zip\\DrawDiagram\\DrawDiagram\\DrawDiagram\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "D:\\software engineering test\\Jr pro\\teju\\zip\\DrawDiagram\\DrawDiagram\\DrawDiagram\\wwwroot\\css\\home.css",
+      "PackagePath": "staticwebassets\\css\\home.css"
+    },
+    {
+      "Id": "D:\\software engineering test\\Jr pro\\teju\\zip\\DrawDiagram\\DrawDiagram\\DrawDiagram\\wwwroot\\css\\inputpage.css",
+      "PackagePath": "staticwebassets\\css\\inputpage.css"
+    },
+    {
+      "Id": "D:\\software engineering test\\Jr pro\\teju\\zip\\DrawDiagram\\DrawDiagram\\DrawDiagram\\wwwroot\\css\\outputPage.css",
+      "PackagePath": "staticwebassets\\css\\outputPage.css"
+    },
+    {
+      "Id": "D:\\software engineering test\\Jr pro\\teju\\zip\\DrawDiagram\\DrawDiagram\\DrawDiagram\\wwwroot\\favicon.png",
+      "PackagePath": "staticwebassets\\favicon.png"
+    },
+    {
+      "Id": "D:\\software engineering test\\Jr pro\\teju\\zip\\DrawDiagram\\DrawDiagram\\DrawDiagram\\wwwroot\\images\\HorizontalPlot.svg",
+      "PackagePath": "staticwebassets\\images\\HorizontalPlot.svg"
+    },
+    {
+      "Id": "D:\\software engineering test\\Jr pro\\teju\\zip\\DrawDiagram\\DrawDiagram\\DrawDiagram\\wwwroot\\images\\admin.jpg",
+      "PackagePath": "staticwebassets\\images\\admin.jpg"
+    },
+    {
+      "Id": "D:\\software engineering test\\Jr pro\\teju\\zip\\DrawDiagram\\DrawDiagram\\DrawDiagram\\wwwroot\\images\\admin.png",
+      "PackagePath": "staticwebassets\\images\\admin.png"
+    },
+    {
+      "Id": "D:\\software engineering test\\Jr pro\\teju\\zip\\DrawDiagram\\DrawDiagram\\DrawDiagram\\wwwroot\\images\\back.jpeg",
+      "PackagePath": "staticwebassets\\images\\back.jpeg"
+    },
+    {
+      "Id": "D:\\software engineering test\\Jr pro\\teju\\zip\\DrawDiagram\\DrawDiagram\\DrawDiagram\\wwwroot\\images\\home.png",
+      "PackagePath": "staticwebassets\\images\\home.png"
+    },
+    {
+      "Id": "D:\\software engineering test\\Jr pro\\teju\\zip\\DrawDiagram\\DrawDiagram\\DrawDiagram\\wwwroot\\images\\next.jpeg",
+      "PackagePath": "staticwebassets\\images\\next.jpeg"
+    },
+    {
+      "Id": "D:\\software engineering test\\Jr pro\\teju\\zip\\DrawDiagram\\DrawDiagram\\DrawDiagram\\wwwroot\\images\\right-arrow-37.png",
+      "PackagePath": "staticwebassets\\images\\right-arrow-37.png"
+    },
+    {
+      "Id": "D:\\software engineering test\\Jr pro\\teju\\zip\\DrawDiagram\\DrawDiagram\\DrawDiagram\\wwwroot\\images\\rightback.png",
+      "PackagePath": "staticwebassets\\images\\rightback.png"
+    },
+    {
+      "Id": "D:\\software engineering test\\Jr pro\\teju\\zip\\DrawDiagram\\DrawDiagram\\DrawDiagram\\wwwroot\\index.html",
+      "PackagePath": "staticwebassets\\index.html"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0-android\\staticwebassets\\msbuild.DrawDiagram.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0-android\\staticwebassets\\msbuild.build.DrawDiagram.props",
+      "PackagePath": "build\\DrawDiagram.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0-android\\staticwebassets\\msbuild.buildMultiTargeting.DrawDiagram.props",
+      "PackagePath": "buildMultiTargeting\\DrawDiagram.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0-android\\staticwebassets\\msbuild.buildTransitive.DrawDiagram.props",
+      "PackagePath": "buildTransitive\\DrawDiagram.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

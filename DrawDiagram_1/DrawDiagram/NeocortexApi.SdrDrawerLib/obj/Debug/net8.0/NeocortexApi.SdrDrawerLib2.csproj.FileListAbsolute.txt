@@ -1,0 +1,12 @@
+E:\MyProjects\Hassan Fiverr\DrawDiagram\DrawDiagram\NeocortexApi.SdrDrawerLib2\bin\Debug\net8.0\NeocortexApi.SdrDrawerLib2.deps.json
+E:\MyProjects\Hassan Fiverr\DrawDiagram\DrawDiagram\NeocortexApi.SdrDrawerLib2\bin\Debug\net8.0\NeocortexApi.SdrDrawerLib2.dll
+E:\MyProjects\Hassan Fiverr\DrawDiagram\DrawDiagram\NeocortexApi.SdrDrawerLib2\bin\Debug\net8.0\NeocortexApi.SdrDrawerLib2.pdb
+E:\MyProjects\Hassan Fiverr\DrawDiagram\DrawDiagram\NeocortexApi.SdrDrawerLib2\obj\Debug\net8.0\NeocortexApi.SdrDrawerLib2.csproj.AssemblyReference.cache
+E:\MyProjects\Hassan Fiverr\DrawDiagram\DrawDiagram\NeocortexApi.SdrDrawerLib2\obj\Debug\net8.0\NeocortexApi.SdrDrawerLib2.GeneratedMSBuildEditorConfig.editorconfig
+E:\MyProjects\Hassan Fiverr\DrawDiagram\DrawDiagram\NeocortexApi.SdrDrawerLib2\obj\Debug\net8.0\NeocortexApi.SdrDrawerLib2.AssemblyInfoInputs.cache
+E:\MyProjects\Hassan Fiverr\DrawDiagram\DrawDiagram\NeocortexApi.SdrDrawerLib2\obj\Debug\net8.0\NeocortexApi.SdrDrawerLib2.AssemblyInfo.cs
+E:\MyProjects\Hassan Fiverr\DrawDiagram\DrawDiagram\NeocortexApi.SdrDrawerLib2\obj\Debug\net8.0\NeocortexApi.SdrDrawerLib2.csproj.CoreCompileInputs.cache
+E:\MyProjects\Hassan Fiverr\DrawDiagram\DrawDiagram\NeocortexApi.SdrDrawerLib2\obj\Debug\net8.0\NeocortexApi.SdrDrawerLib2.dll
+E:\MyProjects\Hassan Fiverr\DrawDiagram\DrawDiagram\NeocortexApi.SdrDrawerLib2\obj\Debug\net8.0\refint\NeocortexApi.SdrDrawerLib2.dll
+E:\MyProjects\Hassan Fiverr\DrawDiagram\DrawDiagram\NeocortexApi.SdrDrawerLib2\obj\Debug\net8.0\NeocortexApi.SdrDrawerLib2.pdb
+E:\MyProjects\Hassan Fiverr\DrawDiagram\DrawDiagram\NeocortexApi.SdrDrawerLib2\obj\Debug\net8.0\ref\NeocortexApi.SdrDrawerLib2.dll
