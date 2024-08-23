@@ -514,7 +514,9 @@ Steps to collect the SDR data:
 
 1. Selecting a File:
 
-- Users can select a text ot csv file using the provided file input component or can paste the SDR input data in the textbox.
+- Users can select a text or csv file using the provided file input component or can paste the SDR input data in the textbox.
+  
+- The SDR input data should consist of only values separated by commas and should not contain any other text.
 
 - The selected file's content is then processed and prepared for further actions.
 
